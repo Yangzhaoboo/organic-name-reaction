@@ -3,24 +3,45 @@
   "name_zh": "Gabriel 合成",
   "name_en": "Gabriel Synthesis",
   "title": "Gabriel 合成",
-  "aliases_zh": ["加布里埃尔合成", "邻苯二甲酰亚胺法", "伯胺的纯净合成"],
-  "aliases_en": ["Gabriel synthesis", "phthalimide synthesis"],
+  "aliases_zh": [
+    "加布里埃尔合成",
+    "邻苯二甲酰亚胺法",
+    "伯胺的纯净合成"
+  ],
+  "aliases_en": [
+    "Gabriel synthesis",
+    "phthalimide synthesis"
+  ],
   "category": "C–杂键构建",
-  "tags": ["伯胺", "邻苯二甲酰亚胺", "卤代烃", "SN2"],
+  "tags": [
+    "伯胺",
+    "邻苯二甲酰亚胺",
+    "卤代烃",
+    "SN2"
+  ],
   "difficulty": 2,
   "year": 1887,
   "discoverer": "Siegmund Gabriel",
   "overview": "邻苯二甲酰亚胺钾盐与卤代烃发生 SN2，再经肼解（或酸/碱水解）得到纯净的伯胺——避免氨的多重烷基化副产物。",
-  "scheme_simple": "邻苯二甲酰亚胺钾 + PhCH2Br → N-苄基邻苯二甲酰亚胺 →(NH2NH2) PhCH2NH2",
+  "scheme_simple": "邻苯二甲酰亚胺 + PhCH2Br →(K2CO3) N-苄基邻苯二甲酰亚胺 →(NH2NH2) PhCH2NH2",
   "scheme_above": "K2CO3 / KOH",
   "scheme_below": "DMF, 80 ℃",
   "scheme_image": "gabriel-synthesis",
-  "substrates": ["邻苯二甲酰亚胺", "伯卤代烃（或仲卤）"],
-  "products": ["伯胺（纯度高）", "N-取代邻苯二甲酰亚胺（中间体）"],
+  "substrates": [
+    "邻苯二甲酰亚胺",
+    "伯卤代烃（或仲卤）"
+  ],
+  "products": [
+    "伯胺（纯度高）",
+    "N-取代邻苯二甲酰亚胺（中间体）"
+  ],
   "catalyst": "—",
   "reagent": "肼（或酸/碱水解）",
   "base": "K2CO3 / KOH（成酰亚胺盐）",
-  "solvent": ["DMF", "EtOH"],
+  "solvent": [
+    "DMF",
+    "EtOH"
+  ],
   "temp": "80 ~ 150 ℃",
   "time": "待核对",
   "atmosphere": "无特殊要求",
@@ -43,7 +64,13 @@
     "忘记第二步脱保护（肼解/水解）"
   ],
   "mnemonics": "酰亚胺氮当「单次使用的氨」：只上一个烷基，再脱掉就是纯伯胺。",
-  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.2 节"],
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 4.2 节"
+  ],
   "status": "partial",
-  "todo_fields": ["time", "examples（产率）"]
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
 }

@@ -25,7 +25,7 @@
   "overview": "醛、胺、酸、异腈四组分一锅反应，生成 α-酰氨基酰胺——一步同时构建两个酰胺键，是组合化学的经典工具。",
   "scheme_simple": "PhCHO + MeNH2 + AcOH + MeNC → AcNH-CH(Ph)-CONHMe",
   "scheme_above": "MeOH / CH2Cl2, 25 ℃",
-  "scheme_below": "—",
+  "scheme_below": "",
   "scheme_image": "ugi-reaction",
   "substrates": [
     "醛",
