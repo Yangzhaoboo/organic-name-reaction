@@ -1,0 +1,78 @@
+{
+  "id": "ugi-reaction",
+  "name_zh": "Ugi 反应",
+  "name_en": "Ugi Reaction",
+  "title": "Ugi 反应",
+  "aliases_zh": [
+    "乌吉反应",
+    "四组分反应",
+    "Ugi 四组分"
+  ],
+  "aliases_en": [
+    "Ugi reaction",
+    "Ugi four-component"
+  ],
+  "category": "C–杂键构建",
+  "tags": [
+    "四组分",
+    "异腈",
+    "肽键",
+    "组合化学"
+  ],
+  "difficulty": 4,
+  "year": 1959,
+  "discoverer": "Ivar Ugi",
+  "overview": "醛、胺、酸、异腈四组分一锅反应，生成 α-酰氨基酰胺——一步同时构建两个酰胺键，是组合化学的经典工具。",
+  "scheme_simple": "PhCHO + MeNH2 + AcOH + MeNC → AcNH-CH(Ph)-CONHMe",
+  "scheme_above": "MeOH / CH2Cl2, 25 ℃",
+  "scheme_below": "—",
+  "scheme_image": "ugi-reaction",
+  "substrates": [
+    "醛",
+    "一级胺",
+    "羧酸",
+    "异腈"
+  ],
+  "products": [
+    "α-酰氨基酰胺（肽类骨架）"
+  ],
+  "catalyst": "—",
+  "reagent": "异腈（关键组分）",
+  "base": "—",
+  "solvent": [
+    "MeOH",
+    "CH2Cl2",
+    "THF"
+  ],
+  "temp": "25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "醛与胺缩合成亚胺",
+    "羧酸与异腈加成，形成活性中间体",
+    "亚胺被进攻，随后发生 Mumm 重排，得到 α-酰氨基酰胺"
+  ],
+  "regio_selectivity": "酰基最终接在酰胺氮上（Mumm 重排决定）",
+  "stereo_selectivity": "生成新手性中心，可得一对非对映体；用手性胺/手性酸可控制",
+  "selectivity_note": "四组分一步成两个酰胺键，是「多组分反应」的代表；产物类似二肽",
+  "scope": "组合化学库、肽类似物、药物先导化合物",
+  "limitations": "需异腈（有臭味、有毒）；副反应多；位阻大时收率低",
+  "examples": [
+    "苯甲醛 + 甲胺 + 乙酸 + 甲基异腈 → 相应二肽类似物（产率待核对）",
+    "固相 Ugi 建库（产率待核对）"
+  ],
+  "pitfalls": [
+    "把四个组分的作用搞混：酸提供酰基、异腈提供碳、胺与醛成亚胺",
+    "与 Passerini（醛 + 酸 + 异腈，三组分）混淆"
+  ],
+  "mnemonics": "醛 + 胺 + 酸 + 异腈「四合一」，一步做出两个酰胺键。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

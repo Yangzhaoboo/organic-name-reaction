@@ -1,0 +1,75 @@
+{
+  "id": "lindlar-hydrogenation",
+  "name_zh": "Lindlar 催化氢化",
+  "name_en": "Lindlar Hydrogenation",
+  "title": "Lindlar 催化氢化",
+  "aliases_zh": [
+    "林德拉催化",
+    "炔烃半氢化",
+    "顺式烯烃合成"
+  ],
+  "aliases_en": [
+    "Lindlar hydrogenation",
+    "Lindlar catalyst"
+  ],
+  "category": "还原",
+  "tags": [
+    "炔烃",
+    "顺式烯烃",
+    "毒化钯",
+    "半氢化"
+  ],
+  "difficulty": 2,
+  "year": 1952,
+  "discoverer": "Herbert Lindlar",
+  "overview": "炔烃在部分失活的钯催化剂（Pd/CaCO3 加醋酸铅/喹啉毒化）上催化氢化，停留在顺式烯烃。",
+  "scheme_simple": "2-己炔 + H2 →(Lindlar) 顺-2-己烯",
+  "scheme_above": "H2, Lindlar 催化剂",
+  "scheme_below": "EtOH / hexane, 25 ℃",
+  "scheme_image": "lindlar-hydrogenation",
+  "substrates": [
+    "炔烃（内炔、端炔）"
+  ],
+  "products": [
+    "顺式烯烃"
+  ],
+  "catalyst": "Pd/CaCO3-Pb（Lindlar 催化剂）",
+  "reagent": "H2",
+  "base": "—",
+  "solvent": [
+    "EtOH",
+    "hexane",
+    "EtOAc"
+  ],
+  "temp": "25 ℃",
+  "time": "待核对",
+  "atmosphere": "H2（常压）",
+  "mechanism_steps": [
+    "H2 在 Pd 表面解离，炔烃吸附",
+    "顺式加氢生成顺式烯烃",
+    "催化剂被毒化，烯烃不再继续被还原"
+  ],
+  "regio_selectivity": "加氢在原来的三键上",
+  "stereo_selectivity": "顺式加氢 → 顺式烯烃（syn 加成）",
+  "selectivity_note": "毒化是关键：不加毒化剂会一路还原成烷烃",
+  "scope": "合成顺式烯烃（天然产物、香料）",
+  "limitations": "可能过度还原或异构化为反式；铅毒",
+  "examples": [
+    "2-己炔 → 顺-2-己烯（产率待核对）",
+    "二苯乙炔 → 顺-二苯乙烯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Na/NH3 还原混淆：后者给反式烯烃",
+    "忘记毒化剂，导致过度还原"
+  ],
+  "mnemonics": "Lindlar = 「被毒过的钯」：只加一分子氢，停在被包住的顺式一侧。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

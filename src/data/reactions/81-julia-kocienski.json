@@ -1,0 +1,49 @@
+{
+  "id": "julia-kocienski",
+  "name_zh": "Julia–Kocienski 烯化",
+  "name_en": "Julia–Kocienski Olefination",
+  "title": "Julia–Kocienski 烯化",
+  "aliases_zh": ["朱利亚烯化", "砜基烯化", "Julia 反应"],
+  "aliases_en": ["Julia-Kocienski", "Julia olefination", "sulfone olefination"],
+  "category": "C=C 构建",
+  "tags": ["砜", "醛", "烯烃", "E 选择性"],
+  "difficulty": 4,
+  "year": 1973,
+  "discoverer": "Marc Julia（Kocienski 改良）",
+  "overview": "砜的碳负离子与醛加成，生成的 β-烷氧基砜经 Smiles 重排/消除，放出 SO2 得到烯烃；改良版（苯并噻唑砜）条件温和、E 选择性好。",
+  "scheme_simple": "PhCHO + RSO2CH2R' →(KHMDS) PhCH=CHR'",
+  "scheme_above": "KHMDS / LHMDS",
+  "scheme_below": "THF, -78 ℃ → rt",
+  "scheme_image": "julia-kocienski",
+  "substrates": ["醛（脂肪/芳香）", "砜（苯并噻唑-2-基砜、苯并噁唑砜）"],
+  "products": ["烯烃（常为 E 为主）"],
+  "catalyst": "—",
+  "reagent": "杂芳基砜",
+  "base": "KHMDS / LHMDS / NaH",
+  "solvent": ["THF", "DME"],
+  "temp": "-78 ℃ → 室温",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "强碱夺取砜的 α-H，生成砜的碳负离子",
+    "进攻醛，生成 β-烷氧基砜（中间体）",
+    "发生 Smiles 重排并消除 SO2，生成烯烃"
+  ],
+  "regio_selectivity": "新双键连接砜的 α-碳与醛羰基碳",
+  "stereo_selectivity": "改良的苯并噻唑砜通常给出 E 为主；可通过砜的结构调节",
+  "selectivity_note": "与 Wittig 相比不产生 Ph3PO，副产物为水溶性亚磺酸盐，易除去",
+  "scope": "合成多烯、天然产物（如大环内酯片段）；对碱稳定的底物友好",
+  "limitations": "需强碱、无水；砜需预先制备；对酸/碱敏底物受限",
+  "examples": [
+    "苯甲醛 + 甲基苯并噻唑砜 → 苯乙烯（产率待核对）",
+    "多烯合成中的反式双键构建（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Wittig/HWE 混淆：Julia 的中间体是 β-烷氧基砜，副产物是亚磺酸盐",
+    "忽略 Smiles 重排这一步"
+  ],
+  "mnemonics": "砜 + 醛 → β-烷氧基砜 → Smiles 重排赶走 SO2 → 烯烃。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（C=C 构建）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

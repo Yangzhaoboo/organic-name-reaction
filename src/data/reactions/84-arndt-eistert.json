@@ -1,0 +1,76 @@
+{
+  "id": "arndt-eistert",
+  "name_zh": "Arndt–Eistert 反应",
+  "name_en": "Arndt–Eistert Reaction",
+  "title": "Arndt–Eistert 反应",
+  "aliases_zh": [
+    "阿恩特-艾斯特尔特反应",
+    "增一碳羧酸合成",
+    "Wolff 重排"
+  ],
+  "aliases_en": [
+    "Arndt-Eistert",
+    "Wolff rearrangement"
+  ],
+  "category": "C–C 单键",
+  "tags": [
+    "酰氯",
+    "重氮甲烷",
+    "增碳",
+    "同系化"
+  ],
+  "difficulty": 3,
+  "year": 1935,
+  "discoverer": "Fritz Arndt & Bernd Eistert",
+  "overview": "酰氯与重氮甲烷反应生成重氮酮，经 Wolff 重排在银盐/水存在下转化为羧酸，得到比原料多一个碳的同系羧酸。",
+  "scheme_simple": "PhCOCl + CH2N2 → PhCOCHN2 →(Ag2O/H2O) PhCH2COOH",
+  "scheme_above": "1) CH2N2  2) Ag2O/H2O",
+  "scheme_below": "CH2Cl2/THF, 0 → 25 ℃",
+  "scheme_image": "arndt-eistert",
+  "substrates": [
+    "酰氯（脂肪/芳香）"
+  ],
+  "products": [
+    "多一个碳的羧酸（同系物）",
+    "重氮酮（中间体）"
+  ],
+  "catalyst": "—",
+  "reagent": "重氮甲烷（CH2N2）+ 银盐",
+  "base": "—",
+  "solvent": [
+    "CH2Cl2",
+    "THF",
+    "MeOH（得酯）"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "避光、通风（CH2N2 剧毒易爆）",
+  "mechanism_steps": [
+    "酰氯与重氮甲烷反应，生成重氮酮并放出 N2/HCl",
+    "银盐催化下重氮酮分解，发生 Wolff 重排，生成烯酮",
+    "水（或醇）捕获烯酮，得到羧酸（或酯）"
+  ],
+  "regio_selectivity": "新碳插入在羰基与烃基之间，链长增加一个碳",
+  "stereo_selectivity": "手性底物可保持构型（Wolff 重排构型保持）",
+  "selectivity_note": "是「羧酸 → 同系羧酸」的标准方法；用醇捕获则得到同系酯",
+  "scope": "多肽、天然产物中延长碳链",
+  "limitations": "重氮甲烷剧毒易爆，需专门装置；银盐成本",
+  "examples": [
+    "苯甲酰氯 → 苯乙酸（产率待核对）",
+    "Boc-氨基酸 → 同系氨基酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘记中间体是烯酮：水解/醇解是最后一步",
+    "重氮甲烷安全风险被忽略"
+  ],
+  "mnemonics": "酰氯 + CH2N2 → 重氮酮 → 银盐一推（Wolff）→ 多一个碳的酸。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

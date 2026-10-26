@@ -1,0 +1,75 @@
+{
+  "id": "hydroboration-oxidation",
+  "name_zh": "硼氢化-氧化",
+  "name_en": "Hydroboration–Oxidation",
+  "title": "Brown 硼氢化-氧化",
+  "aliases_zh": [
+    "硼氢化氧化",
+    "反马氏加水",
+    "Brown 反应"
+  ],
+  "aliases_en": [
+    "hydroboration-oxidation",
+    "Brown hydroboration"
+  ],
+  "category": "C–杂键构建",
+  "tags": [
+    "硼烷",
+    "反马氏",
+    "顺式加成",
+    "醇"
+  ],
+  "difficulty": 2,
+  "year": 1959,
+  "discoverer": "Herbert C. Brown（1979 年诺贝尔化学奖）",
+  "overview": "烯烃与硼烷发生顺式加成，再用碱性过氧化氢把 C–B 换成 C–OH，得到反马氏规则、顺式加成的醇。",
+  "scheme_simple": "1-己烯 →(1) BH3 2) H2O2/NaOH) 1-己醇",
+  "scheme_above": "1) BH3·THF  2) H2O2, NaOH",
+  "scheme_below": "THF, 0 → 25 ℃",
+  "scheme_image": "hydroboration-oxidation",
+  "substrates": [
+    "烯烃",
+    "炔烃（得醛/酮）"
+  ],
+  "products": [
+    "反马氏醇",
+    "顺式加成产物"
+  ],
+  "catalyst": "—",
+  "reagent": "BH3·THF / 9-BBN / 二异戊基硼烷，H2O2/NaOH",
+  "base": "—",
+  "solvent": [
+    "THF"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无水（BH3 与水反应）",
+  "mechanism_steps": [
+    "硼烷与烯烃顺式加成（四中心过渡态），硼加到取代较少的碳",
+    "氧化阶段：H2O2/OH⁻ 把 C–B 键替换为 C–OH（构型保持）",
+    "得到反马氏、顺式加成的醇"
+  ],
+  "regio_selectivity": "反马氏：羟基加在取代较少的碳上（与酸催化水合相反）",
+  "stereo_selectivity": "顺式加成（syn）；手性烯烃可给立体专一产物，9-BBN 选择性更好",
+  "selectivity_note": "与酸催化水合互补：一个给马氏，一个给反马氏；不涉及碳正离子，无重排",
+  "scope": "合成反马氏醇、伯醇；炔烃经硼氢化-氧化得醛（端炔）",
+  "limitations": "BH3 遇水/空气剧烈；官能团（–OH、–NH）需保护；对位阻敏感",
+  "examples": [
+    "1-己烯 → 1-己醇（产率待核对）",
+    "端炔 → 醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与酸催化水合混淆：区域选择性完全相反",
+    "记错氧化剂：必须是 H2O2/NaOH"
+  ],
+  "mnemonics": "硼烷「反着加」，过氧化氢「换成 OH」：反马氏、顺式。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

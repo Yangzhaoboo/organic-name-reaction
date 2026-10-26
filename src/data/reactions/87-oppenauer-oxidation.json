@@ -1,0 +1,75 @@
+{
+  "id": "oppenauer-oxidation",
+  "name_zh": "Oppenauer 氧化",
+  "name_en": "Oppenauer Oxidation",
+  "title": "Oppenauer 氧化",
+  "aliases_zh": [
+    "奥本诺尔氧化",
+    "铝醇盐氧化",
+    "选择性氧化仲醇"
+  ],
+  "aliases_en": [
+    "Oppenauer oxidation"
+  ],
+  "category": "氧化",
+  "tags": [
+    "仲醇",
+    "铝醇盐",
+    "丙酮",
+    "选择性"
+  ],
+  "difficulty": 3,
+  "year": 1937,
+  "discoverer": "Rupert Viktor Oppenauer",
+  "overview": "仲醇在异丙醇铝与丙酮（或环己酮）存在下被氧化为酮，是 MPV 还原的逆反应；对酸敏、含双键底物友好。",
+  "scheme_simple": "环己醇 + 丙酮 →(Al(OiPr)3) 环己酮 + 异丙醇",
+  "scheme_above": "Al(OiPr)3, 丙酮",
+  "scheme_below": "toluene, Δ",
+  "scheme_image": "oppenauer-oxidation",
+  "substrates": [
+    "仲醇",
+    "一级醇（可得醛，但易过度）"
+  ],
+  "products": [
+    "酮",
+    "异丙醇（副产物）"
+  ],
+  "catalyst": "Al(OiPr)3",
+  "reagent": "丙酮 / 环己酮（氢受体）",
+  "base": "—",
+  "solvent": [
+    "toluene",
+    "benzene"
+  ],
+  "temp": "80 ~ 110 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "铝与醇配位，形成醇铝",
+    "β-H 转移给丙酮的羰基，生成酮与异丙醇",
+    "（可逆，靠过量丙酮推动）"
+  ],
+  "regio_selectivity": "只氧化仲醇，双键与芳环通常保留",
+  "stereo_selectivity": "手性 α 位基本不消旋",
+  "selectivity_note": "最重要的用途：甾体中「保留双键」地氧化 3-OH 为酮（经典应用）",
+  "scope": "甾体、萜类中仲醇的选择性氧化",
+  "limitations": "需强碱/高温条件；一级醇易过度氧化；可逆反应",
+  "examples": [
+    "环己醇 → 环己酮（产率待核对）",
+    "甾体 3-醇 → 3-酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Jones/Swern 混淆：Oppenauer 是碱性的转移氧化，适合酸敏底物",
+    "忘记过量丙酮推动平衡"
+  ],
+  "mnemonics": "Oppenauer = MPV 倒着走：用丙酮把醇「抽」成酮。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

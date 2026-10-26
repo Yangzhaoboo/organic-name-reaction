@@ -1,0 +1,71 @@
+{
+  "id": "sommelet-hauser",
+  "name_zh": "Sommelet–Hauser 重排",
+  "name_en": "Sommelet–Hauser Rearrangement",
+  "title": "Sommelet–Hauser 重排",
+  "aliases_zh": [
+    "索姆莱-豪泽重排",
+    "苄基季铵盐重排",
+    "邻位烷基化"
+  ],
+  "aliases_en": [
+    "Sommelet-Hauser rearrangement"
+  ],
+  "category": "重排",
+  "tags": [
+    "苄基季铵盐",
+    "氮叶立德",
+    "邻位烷基化"
+  ],
+  "difficulty": 4,
+  "year": 1937,
+  "discoverer": "Marcel Sommelet & Charles Hauser",
+  "overview": "苄基季铵盐在强碱下生成氮叶立德，苄基从氮迁移到芳环邻位，得到邻甲基苄基胺（或邻取代苄胺）。",
+  "scheme_simple": "PhCH2N+(Me)3 OH− →(NaNH2) o-MeC6H4CH2NMe2",
+  "scheme_above": "NaNH2",
+  "scheme_below": "NH3(l) / THF, -33 ~ 25 ℃",
+  "scheme_image": "sommelet-hauser",
+  "substrates": [
+    "苄基季铵盐"
+  ],
+  "products": [
+    "邻位取代的苄胺"
+  ],
+  "catalyst": "—",
+  "base": "NaNH2 / KNH2",
+  "solvent": [
+    "液氨",
+    "THF"
+  ],
+  "temp": "-33 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取苄基质子，生成氮叶立德",
+    "苄基碳负离子进攻芳环邻位（[2,3] 型迁移）",
+    "恢复芳香性并去质子，得到邻甲基苄胺"
+  ],
+  "regio_selectivity": "迁移专一进入邻位（芳环邻位烷基化）",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "与 Stevens 是「竞争关系」：用强碱/液氨容易走 Sommelet–Hauser",
+  "scope": "芳环邻位官能团化，制备邻取代苄胺",
+  "limitations": "需强碱、液氨；底物范围窄",
+  "examples": [
+    "苄基三甲铵 → 邻甲基苄基二甲胺（产率待核对）",
+    "取代苄基季铵盐 → 邻位迁移产物（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Stevens 混淆：这是进芳环邻位，不是 1,2-迁移",
+    "碱强度不够时只得到 Stevens 产物"
+  ],
+  "mnemonics": "苄基季铵盐遇上强碱：基团「跳进邻位」，变成邻甲基苄胺。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

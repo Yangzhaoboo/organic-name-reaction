@@ -1,0 +1,75 @@
+{
+  "id": "ritter-reaction",
+  "name_zh": "Ritter 反应",
+  "name_en": "Ritter Reaction",
+  "title": "Ritter 反应",
+  "aliases_zh": [
+    "里特反应",
+    "腈与醇制酰胺",
+    "叔丁基酰胺"
+  ],
+  "aliases_en": [
+    "Ritter reaction"
+  ],
+  "category": "C–杂键构建",
+  "tags": [
+    "腈",
+    "碳正离子",
+    "酰胺",
+    "Boc 类似"
+  ],
+  "difficulty": 3,
+  "year": 1948,
+  "discoverer": "John J. Ritter",
+  "overview": "腈与醇（或烯烃）在强酸中反应，生成 N-取代酰胺；用叔丁醇可制备 Boc 保护的胺。",
+  "scheme_simple": "CH3CN + t-BuOH →(H2SO4) CH3CONH-t-Bu",
+  "scheme_above": "H2SO4（强酸）",
+  "scheme_below": "then H2O, 25 ℃",
+  "scheme_image": "ritter-reaction",
+  "substrates": [
+    "腈",
+    "叔醇/仲醇（或烯烃）"
+  ],
+  "products": [
+    "N-取代酰胺",
+    "Boc 保护胺（用 t-BuOH）"
+  ],
+  "catalyst": "H2SO4 / BF3",
+  "base": "—",
+  "solvent": [
+    "H2SO4",
+    "AcOH",
+    "CH2Cl2"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "醇在强酸中生成碳正离子（或烯烃质子化）",
+    "腈的氮进攻碳正离子，生成腈鎓离子",
+    "水加到腈碳上，互变异构得到酰胺"
+  ],
+  "regio_selectivity": "酰胺的 N 上接原来的烷基（来自醇/烯烃）",
+  "stereo_selectivity": "叔碳正离子可能消旋；手性醇需注意",
+  "selectivity_note": "与「酸 + 胺缩合」相反：Ritter 是把氮「装」到碳上，产物是 N-取代酰胺",
+  "scope": "制备叔丁基酰胺（Boc 类保护基）、金刚烷基酰胺",
+  "limitations": "强酸条件；只适合能生成稳定碳正离子的醇",
+  "examples": [
+    "乙腈 + 叔丁醇 → N-叔丁基乙酰胺（产率待核对）",
+    "腈 + 烯烃 → 酰胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "与普通酰胺化混淆：Ritter 用腈 + 醇/烯烃，不是酸 + 胺",
+    "忽略强酸条件"
+  ],
+  "mnemonics": "腈 + 碳正离子 → 酰胺；用叔丁醇就得到 Boc 类保护。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

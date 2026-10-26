@@ -1,0 +1,49 @@
+{
+  "id": "peterson-olefination",
+  "name_zh": "Peterson 烯化",
+  "name_en": "Peterson Olefination",
+  "title": "Peterson 烯化",
+  "aliases_zh": ["彼得森反应", "硅叶立德烯化", "硅基碳负离子烯化"],
+  "aliases_en": ["Peterson olefination", "Peterson reaction"],
+  "category": "C=C 构建",
+  "tags": ["硅叶立德", "羰基", "烯烃", "Wittig 替代"],
+  "difficulty": 3,
+  "year": 1968,
+  "discoverer": "Donald J. Peterson",
+  "overview": "α-硅基碳负离子与醛/酮加成，得到 β-羟基硅烷，再在酸碱条件下消除，生成烯烃——相当于「硅版的 Wittig」。",
+  "scheme_simple": "PhCHO + TMSCH2MgBr →(H3O+) PhCH=CH2",
+  "scheme_above": "(CH3)3SiCH2MgCl",
+  "scheme_below": "THF, -78 ℃ → rt; then H3O+",
+  "scheme_image": "peterson-olefination",
+  "substrates": ["醛", "酮", "α-硅基碳负离子（硅叶立德）"],
+  "products": ["烯烃（E/Z 可控）", "β-羟基硅烷（中间体）"],
+  "catalyst": "—",
+  "reagent": "TMSCH2MgCl / TMSCH2Li",
+  "base": "n-BuLi（制备硅碳负离子）",
+  "solvent": ["THF", "Et2O"],
+  "temp": "-78 ℃ → 室温",
+  "time": "待核对",
+  "atmosphere": "无水无氧",
+  "mechanism_steps": [
+    "α-硅基碳负离子进攻羰基，生成 β-羟基硅烷",
+    "酸碱处理（H3O+ 或碱）引发 1,2-消除，Si–C 与 C–O 断裂",
+    "生成烯烃（顺/反可用条件控制）"
+  ],
+  "regio_selectivity": "羰基碳与硅基碳成双键，位置固定",
+  "stereo_selectivity": "酸性条件偏 E，碱性条件偏 Z（取决于 β-羟基硅烷的立体化学）",
+  "selectivity_note": "副产物是硅氧烷/硅醇，比 Wittig 的 Ph3PO 更好除去；但需要制备硅试剂",
+  "scope": "合成烯烃（尤其对碱/酸敏感的底物）；天然产物中替代 Wittig",
+  "limitations": "需无水无氧；硅试剂与强碱；对某些官能团（如自由 OH）不兼容",
+  "examples": [
+    "苯甲醛 + TMSCH2MgCl → 苯乙烯（产率待核对）",
+    "酮 + 硅叶立德 → 三取代烯烃（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Wittig 混淆：Peterson 用硅，副产物不是 Ph3PO",
+    "忽略两步：加成得到 β-羟基硅烷，还需消除才成烯"
+  ],
+  "mnemonics": "硅版 Wittig：先加成出 β-羟基硅烷，再消除掉 TMS-OH。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（C=C 构建）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

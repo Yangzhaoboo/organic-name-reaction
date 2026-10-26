@@ -1,0 +1,74 @@
+{
+  "id": "bouveault-blanc",
+  "name_zh": "Bouveault–Blanc 还原",
+  "name_en": "Bouveault–Blanc Reduction",
+  "title": "Bouveault–Blanc 还原",
+  "aliases_zh": [
+    "布沃-布朗还原",
+    "酯还原成醇",
+    "钠/乙醇还原"
+  ],
+  "aliases_en": [
+    "Bouveault-Blanc reduction"
+  ],
+  "category": "还原",
+  "tags": [
+    "酯",
+    "金属钠",
+    "乙醇",
+    "伯醇"
+  ],
+  "difficulty": 3,
+  "year": 1903,
+  "discoverer": "Louis Bouveault & Gustave Blanc",
+  "overview": "脂肪酸酯在金属钠与乙醇中还原，生成一级醇；是大规模制脂肪醇的早期工业方法。",
+  "scheme_simple": "RCO2Et + 4Na + 4EtOH → RCH2OH + EtOH + 4NaOEt",
+  "scheme_above": "Na, EtOH",
+  "scheme_below": "reflux",
+  "scheme_image": "bouveault-blanc",
+  "substrates": [
+    "脂肪族酯",
+    "脂肪酸甘油酯"
+  ],
+  "products": [
+    "一级醇"
+  ],
+  "catalyst": "—",
+  "reagent": "金属钠 + 乙醇",
+  "base": "—",
+  "solvent": [
+    "EtOH",
+    "toluene"
+  ],
+  "temp": "回流（78 ~ 110 ℃）",
+  "time": "待核对",
+  "atmosphere": "无氧（钠易燃、遇水剧烈）",
+  "mechanism_steps": [
+    "钠给出电子，酯的羰基被还原为自由基负离子",
+    "两次单电子转移 + 质子化",
+    "酯的烷氧键断裂，得到醇"
+  ],
+  "regio_selectivity": "只把酯基还原为 CH2OH；双键可能被顺带还原（条件剧烈）",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "碱金属/醇体系，不适合酸敏或易还原基团",
+  "scope": "脂肪醇的制备（工业上曾大量使用）",
+  "limitations": "钠危险、条件剧烈；双键/芳环可能被还原；已被 LiAlH4、催化氢化取代",
+  "examples": [
+    "乙酸乙酯 → 乙醇（产率待核对）",
+    "月桂酸乙酯 → 月桂醇（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 LiAlH4 还原混淆：Bouveault–Blanc 是金属钠/醇体系",
+    "忽略双键可能被还原"
+  ],
+  "mnemonics": "钠 + 乙醇 = 老式「酯→伯醇」还原；危险的工业前辈。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "parikh-doering",
+  "name_zh": "Parikh–Doering 氧化",
+  "name_en": "Parikh–Doering Oxidation",
+  "title": "Parikh–Doering 氧化",
+  "aliases_zh": [
+    "SO3-吡啶氧化",
+    "吡啶三氧化硫氧化"
+  ],
+  "aliases_en": [
+    "Parikh-Doering oxidation"
+  ],
+  "category": "氧化",
+  "tags": [
+    "DMSO",
+    "SO3·吡啶",
+    "温和",
+    "醛酮"
+  ],
+  "difficulty": 2,
+  "year": 1967,
+  "discoverer": "V. Parikh & W. von E. Doering",
+  "overview": "用 SO3·吡啶络合物活化 DMSO 氧化醇，条件温和、副产物水溶性好，是 Swern 的「固体试剂替代版」。",
+  "scheme_simple": "PhCH2OH + DMSO →(SO3·py, Et3N) PhCHO",
+  "scheme_above": "SO3·pyridine, DMSO, Et3N",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "parikh-doering",
+  "substrates": [
+    "一级醇 → 醛",
+    "二级醇 → 酮"
+  ],
+  "products": [
+    "醛",
+    "酮"
+  ],
+  "catalyst": "—",
+  "reagent": "SO3·吡啶 + DMSO",
+  "base": "Et3N / DIPEA",
+  "solvent": [
+    "CH2Cl2",
+    "DMSO"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "SO3·吡啶活化 DMSO，生成活泼锍物种",
+    "醇加成形成烷氧基锍盐",
+    "碱夺取 α-H 消除，得到羰基；副产物为硫酸盐/吡啶盐（水溶）"
+  ],
+  "regio_selectivity": "只氧化羟基碳",
+  "stereo_selectivity": "温和、少消旋",
+  "selectivity_note": "相比 Swern：不用 -78 ℃、不用草酰氯（更安全），适合放大",
+  "scope": "多官能团分子的氧化，可放大",
+  "limitations": "SO3·吡啶吸湿、有刺激性；仍需无水",
+  "examples": [
+    "苄醇 → 苯甲醛（产率待核对）",
+    "糖类 6-OH → 醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Swern 混淆：这里用固体 SO3·吡啶，不是草酰氯",
+    "忽略碱的作用（Et3N 促消除）"
+  ],
+  "mnemonics": "Swern 的「常温安全版」：SO3·吡啶 + DMSO + 三乙胺。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "mpv-reduction",
+  "name_zh": "Meerwein–Ponndorf–Verley 还原",
+  "name_en": "Meerwein–Ponndorf–Verley Reduction",
+  "title": "MPV 还原",
+  "aliases_zh": [
+    "MPV 还原",
+    "铝醇盐还原",
+    "转移氢化"
+  ],
+  "aliases_en": [
+    "MPV reduction"
+  ],
+  "category": "还原",
+  "tags": [
+    "转移氢化",
+    "异丙醇铝",
+    "酮",
+    "选择性"
+  ],
+  "difficulty": 3,
+  "year": 1925,
+  "discoverer": "Hans Meerwein & Rudolf Ponndorf & Albert Verley",
+  "overview": "酮在异丙醇铝存在下被异丙醇还原为醇，同时异丙醇被氧化成丙酮；是 Oppenauer 氧化的逆反应。",
+  "scheme_simple": "PhCOCH3 + i-PrOH →(Al(OiPr)3) PhCH(OH)CH3 + 丙酮",
+  "scheme_above": "Al(OiPr)3",
+  "scheme_below": "i-PrOH, 80 ℃",
+  "scheme_image": "mpv-reduction",
+  "substrates": [
+    "酮",
+    "醛"
+  ],
+  "products": [
+    "对应的醇",
+    "丙酮（副产物）"
+  ],
+  "catalyst": "Al(OiPr)3",
+  "reagent": "异丙醇（氢源）",
+  "base": "—",
+  "solvent": [
+    "异丙醇",
+    "toluene"
+  ],
+  "temp": "80 ℃（回流）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "铝与酮羰基配位，异丙醇以氢负离子转移给羰基碳",
+    "形成醇铝与丙酮",
+    "水解（或酸处理）释放醇"
+  ],
+  "regio_selectivity": "只还原羰基，不还原双键（选择性优于催化氢化）",
+  "stereo_selectivity": "可给出 1,3-或 1,2-立体选择性，取决于铝配位方式",
+  "selectivity_note": "碱性/中性条件，对酸敏底物友好；C=C、硝基、卤素通常保留",
+  "scope": "选择性还原酮（含双键、卤素的底物）",
+  "limitations": "需过量铝盐；反应可逆（丙酮要移除）；只适用醛酮",
+  "examples": [
+    "苯乙酮 → 1-苯乙醇（产率待核对）",
+    "含双键的酮 → 只还原羰基（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Clemmensen/WK 混淆：MPV 停在醇，不脱氧到亚甲基",
+    "忘记移除丙酮推动平衡"
+  ],
+  "mnemonics": "异丙醇当「氢源」，铝当「搬运工」；逆反应就是 Oppenauer。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

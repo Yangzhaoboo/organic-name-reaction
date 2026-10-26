@@ -1,0 +1,49 @@
+{
+  "id": "gabriel-synthesis",
+  "name_zh": "Gabriel 合成",
+  "name_en": "Gabriel Synthesis",
+  "title": "Gabriel 合成",
+  "aliases_zh": ["加布里埃尔合成", "邻苯二甲酰亚胺法", "伯胺的纯净合成"],
+  "aliases_en": ["Gabriel synthesis", "phthalimide synthesis"],
+  "category": "C–杂键构建",
+  "tags": ["伯胺", "邻苯二甲酰亚胺", "卤代烃", "SN2"],
+  "difficulty": 2,
+  "year": 1887,
+  "discoverer": "Siegmund Gabriel",
+  "overview": "邻苯二甲酰亚胺钾盐与卤代烃发生 SN2，再经肼解（或酸/碱水解）得到纯净的伯胺——避免氨的多重烷基化副产物。",
+  "scheme_simple": "邻苯二甲酰亚胺钾 + PhCH2Br → N-苄基邻苯二甲酰亚胺 →(NH2NH2) PhCH2NH2",
+  "scheme_above": "K2CO3 / KOH",
+  "scheme_below": "DMF, 80 ℃",
+  "scheme_image": "gabriel-synthesis",
+  "substrates": ["邻苯二甲酰亚胺", "伯卤代烃（或仲卤）"],
+  "products": ["伯胺（纯度高）", "N-取代邻苯二甲酰亚胺（中间体）"],
+  "catalyst": "—",
+  "reagent": "肼（或酸/碱水解）",
+  "base": "K2CO3 / KOH（成酰亚胺盐）",
+  "solvent": ["DMF", "EtOH"],
+  "temp": "80 ~ 150 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "邻苯二甲酰亚胺在碱中生成酰亚胺负离子（亲核体）",
+    "对卤代烃做 SN2，得到 N-烷基邻苯二甲酰亚胺",
+    "肼解（Ing-Manske 法）或强酸/碱水解，释放伯胺"
+  ],
+  "regio_selectivity": "烷基接在氮上（酰亚胺 N），位置由卤代烃决定",
+  "stereo_selectivity": "SN2 导致构型翻转；手性卤代烃会得到翻转的胺",
+  "selectivity_note": "核心价值：只上一次烷基，因此能得到纯伯胺；这是它相对「NH3 + RX」的最大优势",
+  "scope": "合成一级胺，尤其是氨基酸、手性胺的前体",
+  "limitations": "卤代烃需活泼（伯/仲）；芳基卤不反应；肼有毒；水解条件较强",
+  "examples": [
+    "苄溴 → 苄胺（产率待核对）",
+    "邻苯二甲酰亚胺 + 溴代乙酸乙酯 → 甘氨酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为能用于芳基卤：SN2 不适用于 sp² 碳",
+    "忘记第二步脱保护（肼解/水解）"
+  ],
+  "mnemonics": "酰亚胺氮当「单次使用的氨」：只上一个烷基，再脱掉就是纯伯胺。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

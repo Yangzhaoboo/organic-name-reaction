@@ -1,0 +1,73 @@
+{
+  "id": "benzilic-acid-rearrangement",
+  "name_zh": "Benzilic 酸重排",
+  "name_en": "Benzilic Acid Rearrangement",
+  "title": "Benzilic 酸重排",
+  "aliases_zh": [
+    "二苯乙醇酸重排",
+    "α-二酮重排",
+    "芳基迁移"
+  ],
+  "aliases_en": [
+    "benzilic acid rearrangement"
+  ],
+  "category": "重排",
+  "tags": [
+    "α-二酮",
+    "强碱",
+    "芳基迁移",
+    "羟基酸"
+  ],
+  "difficulty": 3,
+  "year": 1838,
+  "discoverer": "Justus von Liebig（待核对）",
+  "overview": "α-二酮在强碱中发生芳基 1,2-迁移，生成 α-羟基酸（二苯乙醇酸）；是经典的「无碳正离子」重排。",
+  "scheme_simple": "PhCOCOPh →(KOH) Ph2C(OH)COOH",
+  "scheme_above": "KOH (conc.)",
+  "scheme_below": "EtOH, Δ",
+  "scheme_image": "benzilic-acid-rearrangement",
+  "substrates": [
+    "α-二酮",
+    "α-酮醛"
+  ],
+  "products": [
+    "α-羟基酸"
+  ],
+  "catalyst": "—",
+  "base": "KOH / NaOH（浓）",
+  "solvent": [
+    "EtOH",
+    "H2O"
+  ],
+  "temp": "25 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "氢氧离子加成到羰基，形成四面体醇盐",
+    "芳基带着电子对 1,2-迁移到相邻羰基碳",
+    "质子化得到 α-羟基酸盐，酸化得游离酸"
+  ],
+  "regio_selectivity": "迁移能力：给电子芳基 > 吸电子芳基；不对称二酮可给两种产物",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "关键：迁移的是「芳基」而不是氢，因此产物是 α-羟基酸",
+  "scope": "制备二苯乙醇酸类、环状 α-羟基酸（缩环/扩环）",
+  "limitations": "强碱条件；底物限于 α-二酮",
+  "examples": [
+    "联苯甲酰 → 二苯乙醇酸（产率待核对）",
+    "环状 α-二酮 → 缩环羟基酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Pinacol 重排混淆：Benzilic 是 α-二酮 + 碱，产物是羟基酸",
+    "迁移基团写成 H"
+  ],
+  "mnemonics": "两个 C=O 挨着，碱一来：芳基搬家，变成 α-羟基酸。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

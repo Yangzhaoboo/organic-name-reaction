@@ -1,0 +1,72 @@
+{
+  "id": "meyer-schuster",
+  "name_zh": "Meyer–Schuster 重排",
+  "name_en": "Meyer–Schuster Rearrangement",
+  "title": "Meyer–Schuster 重排",
+  "aliases_zh": [
+    "迈耶-舒斯特重排",
+    "炔丙醇变烯酮",
+    "Rupe 重排相关"
+  ],
+  "aliases_en": [
+    "Meyer-Schuster rearrangement"
+  ],
+  "category": "重排",
+  "tags": [
+    "炔丙醇",
+    "α,β-不饱和羰基",
+    "酸催化"
+  ],
+  "difficulty": 3,
+  "year": 1922,
+  "discoverer": "Kurt H. Meyer & Karl Schuster",
+  "overview": "炔丙醇在酸催化下重排为 α,β-不饱和羰基化合物（烯酮/烯醛）——羟基与炔键「换位」。",
+  "scheme_simple": "PhC≡CCH2OH →(H+) PhCOCH=CH2",
+  "scheme_above": "H2SO4 (cat.) / Au 催化",
+  "scheme_below": "Et2O / H2O, 25 ℃",
+  "scheme_image": "meyer-schuster",
+  "substrates": [
+    "炔丙醇（端炔、内炔）"
+  ],
+  "products": [
+    "α,β-不饱和酮/醛"
+  ],
+  "catalyst": "H2SO4 / 对甲苯磺酸 / Au(I) 催化剂",
+  "base": "—",
+  "solvent": [
+    "Et2O",
+    "H2O",
+    "CH2Cl2"
+  ],
+  "temp": "25 ~ 60 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "羟基被质子化并离去，生成炔丙基正离子",
+    "水进攻炔碳，形成烯醇",
+    "互变异构为 α,β-不饱和羰基化合物"
+  ],
+  "regio_selectivity": "羰基出现在原炔碳上，双键移到原羟基侧",
+  "stereo_selectivity": "可得 E/Z 混合；内炔通常选择性地给 E",
+  "selectivity_note": "与 Rupe 重排竞争（后者给 α,β-不饱和酮但骨架不同）；金催化可提高选择性",
+  "scope": "合成烯酮、烯醛（香料、药物中间体）",
+  "limitations": "强酸条件；易副反应（水合、聚合）",
+  "examples": [
+    "1-苯基-2-丙炔-1-醇 → 苯基乙烯基酮（产率待核对）",
+    "炔丙醇 → 烯醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Rupe 重排混淆：两者都从炔丙醇出发，但迁移方式不同",
+    "忽略互变异构这一步"
+  ],
+  "mnemonics": "炔丙醇「挪个位」：OH 变 C=O，三键变双键（烯酮）。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

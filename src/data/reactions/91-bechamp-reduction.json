@@ -1,0 +1,73 @@
+{
+  "id": "bechamp-reduction",
+  "name_zh": "Béchamp 还原",
+  "name_en": "Béchamp Reduction",
+  "title": "Béchamp 还原",
+  "aliases_zh": [
+    "贝尚还原",
+    "铁粉还原硝基",
+    "硝基苯制苯胺"
+  ],
+  "aliases_en": [
+    "Béchamp reduction",
+    "iron-acid reduction"
+  ],
+  "category": "还原",
+  "tags": [
+    "硝基",
+    "铁粉",
+    "苯胺",
+    "工业"
+  ],
+  "difficulty": 1,
+  "year": 1854,
+  "discoverer": "Antoine Béchamp",
+  "overview": "芳香硝基化合物用铁粉与盐酸（或醋酸）还原为芳香胺；原料便宜、后处理简单，是工业制苯胺的经典方法。",
+  "scheme_simple": "PhNO2 + 3Fe + 6HCl → PhNH2 + 3FeCl2 + 2H2O",
+  "scheme_above": "Fe, HCl",
+  "scheme_below": "H2O, 25 ~ 100 ℃",
+  "scheme_image": "bechamp-reduction",
+  "substrates": [
+    "芳香硝基化合物"
+  ],
+  "products": [
+    "芳香胺"
+  ],
+  "catalyst": "—",
+  "reagent": "铁粉 + 稀盐酸",
+  "base": "—",
+  "solvent": [
+    "H2O"
+  ],
+  "temp": "25 ~ 100 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "铁在酸中产生亚铁/氢，硝基被逐步还原",
+    "经亚硝基、羟胺等中间体",
+    "最终得到苯胺（胺）"
+  ],
+  "regio_selectivity": "只还原硝基，位置不变",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "与催化氢化相比更温和、便宜，但会产生大量铁泥废渣",
+  "scope": "苯胺类染料中间体的工业生产",
+  "limitations": "铁泥污染大；对卤素、羰基可能有副反应",
+  "examples": [
+    "硝基苯 → 苯胺（产率待核对）",
+    "邻硝基甲苯 → 邻甲苯胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Birch/催化氢化混淆：这是铁/酸体系",
+    "忽略铁泥废水的处理"
+  ],
+  "mnemonics": "铁粉 + 盐酸：最便宜的「硝基→氨基」开关。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

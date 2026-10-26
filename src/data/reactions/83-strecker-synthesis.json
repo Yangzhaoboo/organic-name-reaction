@@ -1,0 +1,75 @@
+{
+  "id": "strecker-synthesis",
+  "name_zh": "Strecker 氨基酸合成",
+  "name_en": "Strecker Synthesis",
+  "title": "Strecker 合成",
+  "aliases_zh": [
+    "施特雷克合成",
+    "α-氨基腈法",
+    "氨基酸合成"
+  ],
+  "aliases_en": [
+    "Strecker synthesis"
+  ],
+  "category": "C–杂键构建",
+  "tags": [
+    "α-氨基腈",
+    "HCN",
+    "氨",
+    "氨基酸"
+  ],
+  "difficulty": 2,
+  "year": 1850,
+  "discoverer": "Adolph Strecker",
+  "overview": "醛或酮与氨、氰化氢（或氰化物）缩合，生成 α-氨基腈，水解后得到 α-氨基酸——最经典的氨基酸合成路线。",
+  "scheme_simple": "PhCHO + NH3 + HCN → PhCH(NH2)CN →(H3O+) PhCH(NH2)COOH",
+  "scheme_above": "NH3, HCN（或 KCN）",
+  "scheme_below": "H2O/EtOH, 25 ℃",
+  "scheme_image": "strecker-synthesis",
+  "substrates": [
+    "醛（脂肪/芳香）",
+    "酮（得 α-氨基酸）"
+  ],
+  "products": [
+    "α-氨基腈",
+    "α-氨基酸（水解后）"
+  ],
+  "catalyst": "—",
+  "reagent": "HCN / KCN + NH3",
+  "base": "—",
+  "solvent": [
+    "H2O",
+    "EtOH"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "氨与醛缩合，生成亚胺",
+    "氰离子对亚胺做亲核加成，得到 α-氨基腈",
+    "强酸/强碱水解腈基，得到 α-氨基酸"
+  ],
+  "regio_selectivity": "氨基与氰基加在同一个碳上（原羰基碳）",
+  "stereo_selectivity": "生成外消旋的 α-氨基酸；手性辅基/酶法可实现不对称",
+  "selectivity_note": "是合成非天然氨基酸最直接的方法；氰化物剧毒，操作需谨慎",
+  "scope": "α-氨基酸、氨基腈中间体",
+  "limitations": "氰化物剧毒；产物外消旋；酮底物位阻大时收率低",
+  "examples": [
+    "苯甲醛 → 苯甘氨酸（产率待核对）",
+    "环己酮 → 1-氨基环己烷甲酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "把水解写成一步：腈要先变成羧酸，条件较强",
+    "忽略产物是外消旋体"
+  ],
+  "mnemonics": "醛 + 氨 + 氰 → 氨基腈 → 水解 → 氨基酸。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

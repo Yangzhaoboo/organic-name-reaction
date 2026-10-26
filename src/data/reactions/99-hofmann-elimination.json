@@ -1,0 +1,73 @@
+{
+  "id": "hofmann-elimination",
+  "name_zh": "Hofmann 消除",
+  "name_en": "Hofmann Elimination",
+  "title": "Hofmann 消除",
+  "aliases_zh": [
+    "霍夫曼消除",
+    "季铵碱热消除",
+    "反扎伊采夫消除"
+  ],
+  "aliases_en": [
+    "Hofmann elimination"
+  ],
+  "category": "C=C 构建",
+  "tags": [
+    "季铵碱",
+    "反扎伊采夫",
+    "E2",
+    "烯烃"
+  ],
+  "difficulty": 2,
+  "year": 1851,
+  "discoverer": "August Wilhelm von Hofmann",
+  "overview": "季铵碱加热发生 E2 消除，生成烯烃与叔胺；由于离去基团体积大且带正电，产物以「取代最少」的烯烃为主（反 Zaitsev）。",
+  "scheme_simple": "PhCH2CH2N+(Me)3 OH− →(Δ) PhCH=CH2 + NMe3",
+  "scheme_above": "Ag2O/H2O（先成季铵碱）",
+  "scheme_below": "Δ, 100 ~ 150 ℃",
+  "scheme_image": "hofmann-elimination",
+  "substrates": [
+    "季铵碱（由胺彻底甲基化得到）"
+  ],
+  "products": [
+    "端烯（反 Zaitsev 为主）",
+    "叔胺"
+  ],
+  "catalyst": "—",
+  "reagent": "Ag2O / 强碱（生成氢氧化物）",
+  "base": "OH⁻",
+  "solvent": [
+    "H2O"
+  ],
+  "temp": "100 ~ 150 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "季铵碱在加热下发生 E2 消除",
+    "碱夺取 β-H，C–N 键断裂，放出叔胺",
+    "生成取代最少的烯烃（Hofmann 规则）"
+  ],
+  "regio_selectivity": "反 Zaitsev：优先给取代最少的烯烃（与普通 E2 相反）",
+  "stereo_selectivity": "E2 要求反式共平面，立体专一",
+  "selectivity_note": "原因是 –NMe3+ 体积大、β-H 酸性差异与过渡态位阻共同作用；可用于测定胺的结构",
+  "scope": "合成端烯；经典用于胺的结构测定（彻底甲基化 + 消除）",
+  "limitations": "需先彻底甲基化；强碱高温",
+  "examples": [
+    "2-苯乙基三甲铵氢氧化物 → 苯乙烯（产率待核对）",
+    "仲丁胺衍生物 → 1-丁烯为主（产率待核对）"
+  ],
+  "pitfalls": [
+    "与普通 E2 混淆：Hofmann 给「取代最少」的烯烃",
+    "与 Hofmann 重排（酰胺→胺）混淆，两者不是一个反应"
+  ],
+  "mnemonics": "季铵碱一热：大基团「不好待」，走取代最少的那个 β-H。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

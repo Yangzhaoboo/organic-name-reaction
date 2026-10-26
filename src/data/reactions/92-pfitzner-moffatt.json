@@ -1,0 +1,77 @@
+{
+  "id": "pfitzner-moffatt",
+  "name_zh": "Pfitzner–Moffatt 氧化",
+  "name_en": "Pfitzner–Moffatt Oxidation",
+  "title": "Pfitzner–Moffatt 氧化",
+  "aliases_zh": [
+    "DCC/DMSO 氧化",
+    "莫法特氧化",
+    "核苷氧化"
+  ],
+  "aliases_en": [
+    "Pfitzner-Moffatt oxidation",
+    "Moffatt oxidation"
+  ],
+  "category": "氧化",
+  "tags": [
+    "DMSO",
+    "DCC",
+    "醇",
+    "无金属"
+  ],
+  "difficulty": 3,
+  "year": 1963,
+  "discoverer": "K. E. Pfitzner & J. G. Moffatt",
+  "overview": "用 DCC 活化 DMSO 氧化醇，得到醛或酮；是 Swern 氧化之前最常用的「无金属 DMSO 氧化」。",
+  "scheme_simple": "PhCH2OH + DMSO →(DCC, H3PO4) PhCHO",
+  "scheme_above": "DCC, DMSO, H3PO4",
+  "scheme_below": "pyridine, 25 ℃",
+  "scheme_image": "pfitzner-moffatt",
+  "substrates": [
+    "一级醇 → 醛",
+    "二级醇 → 酮"
+  ],
+  "products": [
+    "醛",
+    "酮"
+  ],
+  "catalyst": "—",
+  "reagent": "DCC + DMSO（+ 质子酸）",
+  "base": "—",
+  "solvent": [
+    "DMSO",
+    "pyridine",
+    "benzene"
+  ],
+  "temp": "25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "DCC 与 DMSO 反应，生成活泼的锍/氧锍物种",
+    "醇进攻锍盐生成烷氧基锍盐",
+    "碱（或吡啶）夺取 α-H，消除得到羰基"
+  ],
+  "regio_selectivity": "只氧化羟基碳",
+  "stereo_selectivity": "手性 α 位基本不消旋",
+  "selectivity_note": "副产物二环己基脲（DCU）难溶，需过滤；后被 Swern（草酰氯）取代，因为更便宜、副产物易洗掉",
+  "scope": "核苷、糖类等敏感分子的氧化",
+  "limitations": "DCC 致敏、副产物难除；只适合中小企业或特定底物",
+  "examples": [
+    "苄醇 → 苯甲醛（产率待核对）",
+    "核苷 5-OH → 醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Swern 混淆：Pfitzner–Moffatt 用 DCC，Swern 用草酰氯",
+    "忘记 DCU 后处理"
+  ],
+  "mnemonics": "DCC 叫醒 DMSO，DMSO 再搬氢：Swern 的「老版本」。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}

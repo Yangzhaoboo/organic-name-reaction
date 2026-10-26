@@ -991,5 +991,273 @@
       "Fc1ccccc1"
     ],
     "layout": "vertical"
+  },
+  {
+    "id": "strecker-synthesis",
+    "reactants": [
+      "O=Cc1ccccc1",
+      "C#N",
+      "N"
+    ],
+    "above": "NH4Cl",
+    "below": "H2O/EtOH, 25 ℃",
+    "products": [
+      "NC(C#N)c1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "arndt-eistert",
+    "reactants": [
+      "O=C(Cl)c1ccccc1",
+      "C=[N+]=[N-]"
+    ],
+    "above": "1) CH2N2  2) Ag2O/H2O",
+    "below": "CH2Cl2, 0 ~ 25 ℃",
+    "products": [
+      "OC(=O)Cc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "lindlar-hydrogenation",
+    "reactants": [
+      "CCC#CCC"
+    ],
+    "above": "H2, Lindlar 催化剂",
+    "below": "EtOH, 25 ℃",
+    "products": [
+      "CC/C=C\\CC"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "mpv-reduction",
+    "reactants": [
+      "CC(=O)c1ccccc1",
+      "CC(C)O"
+    ],
+    "above": "Al(OiPr)3",
+    "below": "iPrOH, 80 ℃",
+    "products": [
+      "CC(O)c1ccccc1",
+      "CC(C)=O"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "oppenauer-oxidation",
+    "reactants": [
+      "OC1CCCCC1",
+      "CC(C)=O"
+    ],
+    "above": "Al(OiPr)3",
+    "below": "toluene, Δ",
+    "products": [
+      "O=C1CCCCC1",
+      "CC(C)O"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "criegee-cleavage",
+    "reactants": [
+      "OC1CCCCC1O"
+    ],
+    "above": "HIO4 / Pb(OAc)4",
+    "below": "H2O, 25 ℃",
+    "products": [
+      "O=CCCCCC=O"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "hydroboration-oxidation",
+    "reactants": [
+      "C=CCCCC"
+    ],
+    "above": "1) BH3·THF  2) H2O2, NaOH",
+    "below": "THF, 0 ~ 25 ℃",
+    "products": [
+      "CCCCCCO"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "bouveault-blanc",
+    "reactants": [
+      "CCCCCC(=O)OCC"
+    ],
+    "above": "Na, EtOH",
+    "below": "reflux",
+    "products": [
+      "CCCCCCO",
+      "CCO"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "bechamp-reduction",
+    "reactants": [
+      "O=[N+]([O-])c1ccccc1"
+    ],
+    "above": "Fe, HCl",
+    "below": "H2O, 25 ~ 100 ℃",
+    "products": [
+      "Nc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "pfitzner-moffatt",
+    "reactants": [
+      "OCc1ccccc1"
+    ],
+    "above": "DCC, DMSO, H3PO4",
+    "below": "pyridine, 25 ℃",
+    "products": [
+      "O=Cc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "parikh-doering",
+    "reactants": [
+      "OCc1ccccc1"
+    ],
+    "above": "SO3·pyridine, DMSO, Et3N",
+    "below": "CH2Cl2, 0 ~ 25 ℃",
+    "products": [
+      "O=Cc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "stevens-rearrangement",
+    "reactants": [
+      "C[N+](C)(Cc1ccccc1)CC(=O)c1ccccc1"
+    ],
+    "above": "NaOH",
+    "below": "H2O/CH2Cl2, 25 ℃",
+    "products": [
+      "CN(C)C(Cc1ccccc1)C(=O)c1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "sommelet-hauser",
+    "reactants": [
+      "C[N+](C)(C)Cc1ccccc1"
+    ],
+    "above": "NaNH2",
+    "below": "NH3(l), -33 ~ 25 ℃",
+    "products": [
+      "CNCc1ccccc1C"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "meyer-schuster",
+    "reactants": [
+      "OCC#Cc1ccccc1"
+    ],
+    "above": "H2SO4 (cat.)",
+    "below": "Et2O, 25 ℃",
+    "products": [
+      "O=C(C=C)c1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "benzilic-acid-rearrangement",
+    "reactants": [
+      "O=C(c1ccccc1)C(=O)c1ccccc1"
+    ],
+    "above": "KOH (conc.)",
+    "below": "EtOH, Δ",
+    "products": [
+      "OC(=O)C(O)(c1ccccc1)c1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "ritter-reaction",
+    "reactants": [
+      "CC#N",
+      "CC(C)(C)O"
+    ],
+    "above": "H2SO4",
+    "below": "then H2O, 25 ℃",
+    "products": [
+      "CC(=O)NC(C)(C)C"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "hofmann-elimination",
+    "reactants": [
+      "C[N+](C)(C)CCc1ccccc1"
+    ],
+    "above": "Ag2O/H2O",
+    "below": "Δ, 100 ~ 150 ℃",
+    "products": [
+      "C=Cc1ccccc1",
+      "CN(C)C"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "ugi-reaction",
+    "reactants": [
+      "O=Cc1ccccc1",
+      "CN",
+      "OC(C)=O",
+      "C[N+]#[C-]"
+    ],
+    "above": "MeOH, 25 ℃",
+    "below": "—",
+    "products": [
+      "CC(=O)NC(c1ccccc1)C(=O)NC"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "peterson-olefination",
+    "reactants": [
+      "O=Cc1ccccc1",
+      "C[Si](C)(C)C[Mg]Cl"
+    ],
+    "above": "(CH3)3SiCH2MgCl",
+    "below": "THF, -78 → rt; then H3O+",
+    "products": [
+      "C=Cc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "julia-kocienski",
+    "reactants": [
+      "O=Cc1ccccc1",
+      "CS(=O)(=O)c1ccccc1"
+    ],
+    "above": "KHMDS",
+    "below": "THF, -78 → rt",
+    "products": [
+      "C=Cc1ccccc1"
+    ],
+    "layout": "vertical"
+  },
+  {
+    "id": "gabriel-synthesis",
+    "reactants": [
+      "O=C1NC(=O)c2ccccc12",
+      "BrCc1ccccc1"
+    ],
+    "above": "K2CO3",
+    "below": "DMF, 80 ℃",
+    "products": [
+      "O=C1N(Cc2ccccc2)C(=O)c2ccccc12"
+    ],
+    "layout": "vertical"
   }
 ]

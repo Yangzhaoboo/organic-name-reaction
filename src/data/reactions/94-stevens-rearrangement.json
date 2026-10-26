@@ -1,0 +1,74 @@
+{
+  "id": "stevens-rearrangement",
+  "name_zh": "Stevens 重排",
+  "name_en": "Stevens Rearrangement",
+  "title": "Stevens 重排",
+  "aliases_zh": [
+    "史蒂文斯重排",
+    "季铵盐重排",
+    "氮叶立德重排"
+  ],
+  "aliases_en": [
+    "Stevens rearrangement"
+  ],
+  "category": "重排",
+  "tags": [
+    "季铵盐",
+    "氮叶立德",
+    "1,2-迁移",
+    "胺"
+  ],
+  "difficulty": 4,
+  "year": 1928,
+  "discoverer": "Thomas Stevens",
+  "overview": "季铵盐在碱作用下生成氮叶立德，随后一个基团从氮迁移到相邻碳上，得到叔胺。",
+  "scheme_simple": "PhCH2N+(Me)2CH2COPh →(NaOH) PhCH2CH(COPh)NMe2",
+  "scheme_above": "NaOH（或 NaH）",
+  "scheme_below": "H2O/CH2Cl2, 25 ℃",
+  "scheme_image": "stevens-rearrangement",
+  "substrates": [
+    "含 α-H 的季铵盐"
+  ],
+  "products": [
+    "重排后的叔胺"
+  ],
+  "catalyst": "—",
+  "reagent": "碱（生成叶立德）",
+  "base": "NaOH / NaH / KOtBu",
+  "solvent": [
+    "H2O",
+    "CH2Cl2",
+    "THF"
+  ],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取季铵盐 α-H，生成氮叶立德（N+-C−）",
+    "一个取代基带着电子对从氮 1,2-迁移到碳上",
+    "得到叔胺（氮上少一个基团，碳上多一个）"
+  ],
+  "regio_selectivity": "迁移能力：苄基 ≈ 烯丙基 > 芳基 > 烷基；迁移方向由稳定化效应决定",
+  "stereo_selectivity": "迁移碳的构型可能保持或翻转，取决于过渡态",
+  "selectivity_note": "与 Sommelet–Hauser 的区别：Stevens 迁移到碳上是「1,2-型」，Sommelet–Hauser 迁到芳环邻位",
+  "scope": "合成叔胺、特殊取代的胺",
+  "limitations": "需季铵盐；竞争反应多（Hofmann 消除）",
+  "examples": [
+    "苄基季铵盐 → 重排胺（产率待核对）",
+    "含羰基的季铵盐 → α-氨基酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Sommelet–Hauser 混淆：一个 1,2-迁移，一个到芳环邻位",
+    "忽略竞争消除"
+  ],
+  "mnemonics": "季铵盐 + 碱 → 氮叶立德 → 基团「搬到隔壁碳」。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章"
+  ],
+  "status": "partial",
+  "todo_fields": [
+    "time",
+    "examples（产率）"
+  ]
+}
