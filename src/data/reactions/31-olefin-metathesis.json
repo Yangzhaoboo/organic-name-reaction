@@ -1,0 +1,50 @@
+{
+  "id": "olefin-metathesis",
+  "name_zh": "烯烃复分解",
+  "name_en": "Olefin Metathesis",
+  "title": "烯烃复分解",
+  "aliases_zh": ["烯烃换位反应", "RCM 关环复分解", "Grubbs 反应"],
+  "aliases_en": ["olefin metathesis", "ring-closing metathesis", "RCM"],
+  "category": "C=C 构建",
+  "tags": ["Grubbs 催化剂", "关环", "碳碳双键", "诺贝尔奖"],
+  "difficulty": 3,
+  "year": 2005,
+  "discoverer": "Chauvin / Grubbs / Schrock（2005 年诺贝尔化学奖）",
+  "overview": "在金属卡宾（Ru、Mo）催化下，两个烯烃的亚烷基片段互换，生成新的烯烃；分子内版本（RCM）是构建环状骨架最有力的工具之一。",
+  "scheme_simple": "二烯丙基丙二酸二乙酯 →(Grubbs II) 环戊烯衍生物 + 乙烯",
+  "scheme_above": "Grubbs II (5 mol%)",
+  "scheme_below": "CH2Cl2, 40 ℃",
+  "scheme_image": "olefin-metathesis",
+  "substrates": ["端烯（双烯用于关环）", "烯丙基/高烯丙基连接的二烯"],
+  "products": ["环状烯烃（RCM）", "交叉复分解产物（CM）", "聚合物（ROMP）"],
+  "catalyst": "Grubbs I/II、Hoveyda–Grubbs、Schrock 催化剂",
+  "reagent": "烯烃底物",
+  "base": "—",
+  "solvent": ["CH2Cl2", "toluene", "THF"],
+  "temp": "25 ~ 45 ℃",
+  "time": "待核对",
+  "atmosphere": "惰性气体（催化剂对氧/水敏感）",
+  "mechanism_steps": [
+    "金属卡宾与烯烃配位，形成金属杂环丁烷",
+    "环化断裂，交换亚烷基片段（[2+2] 环加成–逆环加成）",
+    "放出乙烯（气体逸出推动关环），生成新的金属卡宾",
+    "催化剂循环使用"
+  ],
+  "regio_selectivity": "关环优先形成五、六元环；大环需高稀释条件",
+  "stereo_selectivity": "产物双键常以 E 为主；可用催化剂结构调控 Z/E",
+  "selectivity_note": "驱动力：生成更稳定的取代烯烃 + 乙烯逸出；大环靠环张力/模板效应",
+  "scope": "天然产物全合成、药物中间体、自修复高分子、香料",
+  "limitations": "催化剂昂贵；底物需端烯或活性内烯；对某些官能团（如自由羧酸、硫化物）敏感",
+  "examples": [
+    "二烯丙基丙二酸二乙酯 → 环戊烯-1,1-二羧酸二乙酯（产率待核对）",
+    "大环内酯的 RCM 关环（具体底物待核对）"
+  ],
+  "pitfalls": [
+    "把 RCM 与 ROMP（开环聚合）混淆：一个是关环，一个是聚合",
+    "忽略乙烯逸出这一驱动力，导致不理解为什么反应能进行"
+  ],
+  "mnemonics": "卡宾「换手」：两个双键交换另一半，放出乙烯就关环了。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.8 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）", "year（诺贝尔奖年份，非发现年份）"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kolbe-schmitt",
+  "name_zh": "Kolbe–Schmitt 反应",
+  "name_en": "Kolbe–Schmitt Reaction",
+  "title": "Kolbe–Schmitt 反应",
+  "aliases_zh": ["科尔贝-施密特反应", "酚的羧化", "水杨酸合成"],
+  "aliases_en": ["Kolbe-Schmitt", "phenol carboxylation"],
+  "category": "C–C 单键",
+  "tags": ["酚", "CO2", "羧化", "水杨酸"],
+  "difficulty": 2,
+  "year": 1860,
+  "discoverer": "Hermann Kolbe（Rudolf Schmitt 改良加压法）",
+  "overview": "酚钠在高温高压下与 CO2 反应，在羟基邻位引入羧基，酸化后得到水杨酸（或对羟基苯甲酸），是工业制水杨酸的经典方法。",
+  "scheme_simple": "PhONa + CO2 →(125 ℃, 加压) 邻羟基苯甲酸钠 →(H+) 水杨酸",
+  "scheme_above": "CO2, NaOH",
+  "scheme_below": "125 ~ 150 ℃, 4 ~ 7 atm",
+  "scheme_image": "kolbe-schmitt",
+  "substrates": ["酚（先成酚钠）"],
+  "products": ["邻羟基苯甲酸（水杨酸）", "对羟基苯甲酸（高温时）"],
+  "catalyst": "—",
+  "reagent": "CO2",
+  "base": "NaOH / KOH（成酚盐）",
+  "solvent": ["无溶剂（熔融/加压）"],
+  "temp": "125 ~ 150 ℃（钠盐，得邻位）；更高温得对位",
+  "time": "待核对",
+  "atmosphere": "CO2 加压",
+  "mechanism_steps": [
+    "酚与 NaOH 生成酚钠（酚氧负离子亲核性增强）",
+    "酚氧负离子的邻位碳进攻 CO2，形成羧酸盐",
+    "酸化，得到邻羟基苯甲酸"
+  ],
+  "regio_selectivity": "钠盐、较低温（125 ℃）得邻位（水杨酸）；钾盐、更高温（200 ℃）得对位",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "温度与阳离子决定邻/对位，这是本反应最容易被考的点",
+  "scope": "工业制水杨酸（→阿司匹林）；β-萘酚的羧化也常用",
+  "limitations": "需加压设备、能耗高；只适用于活泼酚类；强钝化酚不反应",
+  "examples": [
+    "苯酚钠 + CO2（125 ℃，加压）→ 水杨酸（产率待核对）",
+    "苯酚钾 + CO2（200 ℃）→ 对羟基苯甲酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "邻/对位条件记反：钠盐低温给邻位，钾盐高温给对位",
+    "忘记最后要酸化，否则拿到的是钠盐"
+  ],
+  "mnemonics": "酚钠 + CO2 加压：低温邻位（水杨酸），高温对位。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（C–C 构建）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

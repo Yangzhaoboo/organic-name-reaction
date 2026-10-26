@@ -1,0 +1,53 @@
+{
+  "id": "baeyer-villiger-oxidation",
+  "name_zh": "拜耳-维立格氧化",
+  "name_en": "Baeyer–Villiger Oxidation",
+  "title": "Baeyer–Villiger 氧化",
+  "aliases_zh": ["拜耳-维利格氧化", "BV 氧化", "Baeyer-Villiger 重排"],
+  "aliases_en": ["Baeyer-Villiger", "BV oxidation", "Baeyer–Villiger oxidation"],
+  "category": "氧化",
+  "tags": ["酮", "过氧酸", "酯", "内酯", "扩环"],
+  "difficulty": 2,
+  "year": 1899,
+  "discoverer": "Adolf Baeyer & Victor Villiger",
+  "overview": "酮被过氧酸氧化，在羰基与相邻碳之间插入一个氧，生成酯或内酯（环酮扩环成内酯）。",
+  "scheme_simple": "环己酮 + mCPBA → ε-己内酯",
+  "scheme_above": "mCPBA",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "baeyer-villiger-oxidation",
+  "substrates": ["酮", "环酮", "醛（得羧酸或酯）"],
+  "products": ["酯", "内酯（环酮）"],
+  "catalyst": "—",
+  "reagent": "过氧酸（mCPBA、过氧乙酸、过氧三氟乙酸）",
+  "base": "可选（缓冲剂防止酸催化副反应）",
+  "solvent": ["CH2Cl2", "CHCl3"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求；过氧酸需避热避光",
+  "mechanism_steps": [
+    "过氧酸加成到羰基碳，形成 Criegee 中间体（四面体加合物）",
+    "基团迁移到氧上，同时 O–O 键断裂（迁移与断裂协同）",
+    "羧酸离去，得到酯或内酯"
+  ],
+  "regio_selectivity": "迁移能力大致为：叔烷基 > 仲烷基 > 芳基 > 伯烷基 > 甲基（顺序待核对）",
+  "stereo_selectivity": "迁移的碳原子构型保持（构型不变）",
+  "selectivity_note": "不对称酮的产物由哪一侧迁移决定，故需记住迁移顺序；环酮则表现为扩环",
+  "scope": "工业上制 ε-己内酯（可聚合）；甾体、萜类等复杂酮的氧化常用",
+  "limitations": "过氧酸有分解/爆炸风险，需控制温度与浓度；易被氧化的底物（双键、硫醚）会竞争反应",
+  "examples": [
+    "环己酮 → ε-己内酯（产率待核对）",
+    "苯乙酮 → 乙酸苯酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "迁移顺序记错导致预测错产物（叔 > 仲 > 芳基 > 伯）",
+    "以为是插入在任意一侧：只有迁移的那一侧才会插氧",
+    "与过氧酸的其他氧化（环氧化、氧化硫醚）混淆"
+  ],
+  "mnemonics": "酮插一个氧：谁迁移谁插氧，环酮就扩一环成内酯。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 4.7 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "迁移能力顺序（待核对）", "examples（产率）"]
+}

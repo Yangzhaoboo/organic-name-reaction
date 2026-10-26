@@ -1,0 +1,49 @@
+{
+  "id": "nazarov-cyclization",
+  "name_zh": "Nazarov 环化",
+  "name_en": "Nazarov Cyclization",
+  "title": "Nazarov 环化",
+  "aliases_zh": ["纳扎罗夫环化", "二乙烯基酮环化", "环戊烯酮合成"],
+  "aliases_en": ["Nazarov cyclization", "divinyl ketone cyclization"],
+  "category": "周环",
+  "tags": ["二乙烯基酮", "环戊烯酮", "阳离子环化", "4π"],
+  "difficulty": 4,
+  "year": 1941,
+  "discoverer": "Ivan Nikolaevich Nazarov",
+  "overview": "二乙烯基酮在 Lewis 酸或质子酸作用下发生 4π 电环化（阳离子型），关环生成环戊烯酮。",
+  "scheme_simple": "二乙烯基酮 →(酸) 环戊-2-烯酮",
+  "scheme_above": "Lewis 酸 / H+（如 TiCl4、H2SO4）",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "nazarov-cyclization",
+  "substrates": ["二乙烯基酮（交叉共轭二烯酮）"],
+  "products": ["环戊烯酮"],
+  "catalyst": "TiCl4 / BF3·OEt2 / H2SO4 / 手性 Lewis 酸",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["CH2Cl2", "HFIP", "TFA"],
+  "temp": "-20 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无水（Lewis 酸）",
+  "mechanism_steps": [
+    "羰基氧被活化，形成戊二烯基阳离子（4π 体系）",
+    "发生顺旋/对旋 4π 电环化，关成五元环",
+    "去质子，恢复共轭得到环戊烯酮"
+  ],
+  "regio_selectivity": "取代基位置决定关环方向；不对称底物可给出区域异构体",
+  "stereo_selectivity": "4π 电环化按顺旋（conrotatory）方式进行，可控制顺反关系；手性 Lewis 酸可实现不对称",
+  "selectivity_note": "属阳离子型电环化，与 Diels–Alder 的协同中性机理不同",
+  "scope": "合成环戊烯酮（前列腺素、萜类常见骨架）；不对称 Nazarov 是方法学热点",
+  "limitations": "易发生副反应（聚合、脱烷基）；底物制备较繁；强酸/Lewis 酸限制官能团",
+  "examples": [
+    "二乙烯基酮 → 环戊-2-烯酮（产率待核对）",
+    "取代二乙烯基酮 → 2,3-二取代环戊烯酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Diels–Alder 混淆：Nazarov 是 4π 电环化（关五元环），DA 是 [4+2]（关六元环）",
+    "记错旋转方式：4π 体系是顺旋"
+  ],
+  "mnemonics": "二乙烯基酮「卷起来」成五元环：4π 顺旋，产物是环戊烯酮。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（周环反应）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

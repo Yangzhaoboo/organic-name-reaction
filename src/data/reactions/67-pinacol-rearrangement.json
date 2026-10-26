@@ -1,0 +1,49 @@
+{
+  "id": "pinacol-rearrangement",
+  "name_zh": "Pinacol 重排",
+  "name_en": "Pinacol Rearrangement",
+  "title": "Pinacol 重排",
+  "aliases_zh": ["频哪醇重排", "邻二醇重排", "频哪酮重排"],
+  "aliases_en": ["pinacol rearrangement", "pinacol-pinacolone rearrangement"],
+  "category": "重排",
+  "tags": ["邻二醇", "酸催化", "碳正离子", "迁移"],
+  "difficulty": 3,
+  "year": 1860,
+  "discoverer": "Wilhelm Rudolph Fittig（待核对）",
+  "overview": "邻二醇在酸催化下脱水重排，一个羟基变成羰基，另一个碳上的基团迁移过去，生成酮（频哪酮）。",
+  "scheme_simple": "频哪醇 →(H2SO4) 频哪酮",
+  "scheme_above": "H2SO4 (cat.)",
+  "scheme_below": "H2O, Δ",
+  "scheme_image": "pinacol-rearrangement",
+  "substrates": ["邻二醇（尤其是对称或含季碳的）"],
+  "products": ["酮（频哪酮型）"],
+  "catalyst": "H2SO4 / H3PO4 / Lewis 酸",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["H2O", "Et2O", "AcOH"],
+  "temp": "25 ~ 100 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "一个羟基被质子化并离去，形成碳正离子",
+    "相邻碳上的基团（含氢）带着电子对迁移到碳正离子中心",
+    "氧 lone pair 下来形成 C=O，去质子得到酮"
+  ],
+  "regio_selectivity": "迁移能力：芳基 > 叔烷基 > 仲烷基 > 伯烷基 > H；哪一侧形成更稳定碳正离子，就在哪一侧离去",
+  "stereo_selectivity": "迁移基团构型保持；环状底物可发生扩环/缩环",
+  "selectivity_note": "不对称邻二醇的产物由「哪个羟基先走 + 哪个基团迁移」共同决定，是常考点",
+  "scope": "合成季碳酮、环状酮（扩环）；天然产物骨架重排",
+  "limitations": "强酸条件；易发生副反应（脱水成二烯）；只适用于邻二醇",
+  "examples": [
+    "频哪醇 → 频哪酮（产率待核对）",
+    "1,2-环己二醇 → 环戊基甲醛（缩环，产率待核对）"
+  ],
+  "pitfalls": [
+    "迁移能力顺序记错：芳基最强，H 最弱",
+    "与 McMurry/Pinacol 偶联混淆：偶联是两分子成二醇，重排是二醇成酮"
+  ],
+  "mnemonics": "邻二醇遇到酸：一个 OH 走人，隔壁基团搬家，剩下的氧变 C=O。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "year/discoverer（待核对）", "examples（产率）"]
+}

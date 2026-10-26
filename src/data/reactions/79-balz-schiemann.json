@@ -1,0 +1,49 @@
+{
+  "id": "balz-schiemann",
+  "name_zh": "Balz–Schiemann 反应",
+  "name_en": "Balz–Schiemann Reaction",
+  "title": "Balz–Schiemann 反应",
+  "aliases_zh": ["巴尔茨-席曼反应", "重氮氟硼酸盐热解", "芳基氟合成"],
+  "aliases_en": ["Balz-Schiemann", "Schiemann reaction"],
+  "category": "C–杂键构建",
+  "tags": ["重氮盐", "氟硼酸盐", "芳基氟", "热解"],
+  "difficulty": 2,
+  "year": 1927,
+  "discoverer": "Günther Balz & Günther Schiemann",
+  "overview": "芳香重氮盐与氟硼酸（HBF4）生成重氮氟硼酸盐，加热分解放出 N2 与 BF3，得到芳基氟——制备芳基氟的经典方法。",
+  "scheme_simple": "PhN2+BF4− →(Δ) PhF + N2 + BF3",
+  "scheme_above": "NaNO2, HBF4",
+  "scheme_below": "0 ℃ 成盐，然后 Δ（分解）",
+  "scheme_image": "balz-schiemann",
+  "substrates": ["芳香一级胺（经重氮化）"],
+  "products": ["芳基氟"],
+  "catalyst": "—",
+  "reagent": "HBF4（生成氟硼酸盐）",
+  "base": "—（酸性）",
+  "solvent": ["H2O（成盐）", "无溶剂加热分解"],
+  "temp": "0 ℃（成盐）；100 ~ 160 ℃（分解）",
+  "time": "待核对",
+  "atmosphere": "成盐低温；分解时放出有毒 BF3/N2，需通风",
+  "mechanism_steps": [
+    "胺重氮化，加入 HBF4 沉淀出重氮氟硼酸盐",
+    "固体加热分解，放出 N2 生成芳基正离子/自由基",
+    "氟离子（来自 BF4−）捕获，得到芳基氟"
+  ],
+  "regio_selectivity": "氟取代原氨基位置，位置固定",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "氟代不能直接用 Sandmeyer（CuF 不稳定），所以芳基氟主要靠这条路；也可用 Selectfluor 等现代试剂",
+  "scope": "合成含氟药物、含氟材料单体（氟苯、含氟芳环）",
+  "limitations": "重氮氟硼酸盐干燥时易爆；BF3 有毒；强酸条件",
+  "examples": [
+    "苯胺 → 氟苯（产率待核对）",
+    "2,4-二硝基苯胺 → 2,4-二硝基氟苯（Sanger 试剂，产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Sandmeyer 混淆：制氟用 HBF4 + 加热，不用 CuF",
+    "忽略干燥重氮盐的爆炸风险"
+  ],
+  "mnemonics": "重氮盐 + HBF4 先沉出来，再一加热：N2 跑掉、F 留下。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

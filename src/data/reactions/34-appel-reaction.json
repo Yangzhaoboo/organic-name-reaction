@@ -1,0 +1,50 @@
+{
+  "id": "appel-reaction",
+  "name_zh": "Appel 反应",
+  "name_en": "Appel Reaction",
+  "title": "Appel 反应",
+  "aliases_zh": ["阿佩尔反应", "醇变氯代烃", "PPh3/CCl4 卤化"],
+  "aliases_en": ["Appel reaction", "Appel halogenation"],
+  "category": "C–杂键构建",
+  "tags": ["卤代烃", "三苯基膦", "四氯化碳", "构型翻转"],
+  "difficulty": 2,
+  "year": 1975,
+  "discoverer": "Rolf Appel",
+  "overview": "醇在 PPh3 与 CCl4（或 CBr4）作用下转化为氯代（溴代）烃，条件温和，是引入卤素的常用方法，构型完全翻转。",
+  "scheme_simple": "PhCH2OH →(PPh3, CCl4) PhCH2Cl",
+  "scheme_above": "PPh3, CCl4",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "appel-reaction",
+  "substrates": ["伯醇", "仲醇", "多数叔醇"],
+  "products": ["氯代烃", "溴代烃（用 CBr4）", "碘代烃（用 I2/咪唑）"],
+  "catalyst": "—（PPh3 当量使用，可催化量+再生）",
+  "reagent": "PPh3 + CCl4 / CBr4",
+  "base": "—",
+  "solvent": ["CH2Cl2", "CHCl3", "CCl4"],
+  "temp": "0 ~ 25 ℃（溴化）；加热（氯化）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "PPh3 进攻 CCl4，生成膦盐（Ph3P–CCl3）+ Cl⁻",
+    "醇进攻磷，形成烷氧基膦盐，把 –OH 变成好的离去基团",
+    "Cl⁻ 从背面 SN2 进攻碳，构型翻转",
+    "副产物为 Ph3PO"
+  ],
+  "regio_selectivity": "取代发生在原羟基碳上",
+  "stereo_selectivity": "构型完全翻转（SN2）",
+  "selectivity_note": "与 Mitsunobu 的区别：Appel 用 CCl4/CBr4 提供卤素；Mitsunobu 用 DEAD + 外部亲核体",
+  "scope": "糖类、核苷的卤代；香叶基氯等萜类卤代物的合成",
+  "limitations": "CCl4 有毒且破坏臭氧层（现多用 CBr4 或 Appel 变体）；副产物 Ph3PO 需分离；碱性条件下易消除",
+  "examples": [
+    "苄醇 → 苄基氯（产率待核对）",
+    "香叶醇 → 香叶基氯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Mitsunobu 混淆：Appel 引入的是卤素，不需要额外亲核体",
+    "忽略构型翻转：手性醇会得到翻转的卤代烃"
+  ],
+  "mnemonics": "PPh3 + CCl4 把 –OH 变 –Cl；和 Mitsunobu 是「同门兄弟」，只是亲核体不同。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.6 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

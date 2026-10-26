@@ -1,0 +1,50 @@
+{
+  "id": "rosenmund-reduction",
+  "name_zh": "Rosenmund 还原",
+  "name_en": "Rosenmund Reduction",
+  "title": "Rosenmund 还原",
+  "aliases_zh": ["罗森蒙德还原", "酰氯还原成醛", "Pd/BaSO4 氢化"],
+  "aliases_en": ["Rosenmund reduction", "Rosenmund reaction"],
+  "category": "还原",
+  "tags": ["酰氯", "醛", "部分失活钯", "催化氢化"],
+  "difficulty": 3,
+  "year": 1918,
+  "discoverer": "Karl Wilhelm Rosenmund",
+  "overview": "酰氯在部分失活的钯催化剂（Pd/BaSO₄，常加喹啉-硫毒化）上催化氢化，得到醛；是「羧酸 → 醛」的重要路线。",
+  "scheme_simple": "PhCOCl + H2 →(Pd/BaSO4) PhCHO + HCl",
+  "scheme_above": "Pd/BaSO4, H2",
+  "scheme_below": "xylene, Δ",
+  "scheme_image": "rosenmund-reduction",
+  "substrates": ["酰氯（脂肪族、芳香族）"],
+  "products": ["醛"],
+  "catalyst": "Pd/BaSO₄（用喹啉-硫毒化，降低活性）",
+  "reagent": "H2",
+  "base": "—",
+  "solvent": ["xylene", "toluene"],
+  "temp": "回流（约 140 ℃）",
+  "time": "待核对",
+  "atmosphere": "H2",
+  "mechanism_steps": [
+    "H2 在 Pd 表面解离，酰氯吸附",
+    "发生还原脱卤（C–Cl 断裂），生成酰基-钯物种",
+    "氢转移，得到醛并释放 HCl",
+    "催化剂被「毒化」以避免醛进一步还原成醇"
+  ],
+  "regio_selectivity": "只还原酰氯，双键/芳环通常保留（视条件）",
+  "stereo_selectivity": "一般不涉及",
+  "selectivity_note": "关键在「部分失活」：全活性 Pd/C 会把醛一路还原成醇",
+  "scope": "制备脂肪醛、芳香醛；工业上有应用（如由酰氯制醛）",
+  "limitations": "催化剂制备讲究（毒化程度影响选择性）；高温操作；对酸敏底物不友好",
+  "examples": [
+    "苯甲酰氯 → 苯甲醛（产率待核对）",
+    "棕榈酰氯 → 棕榈醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "用普通 Pd/C 代替：会直接得到醇，得不到醛",
+    "忘记毒化剂（喹啉-硫）的作用"
+  ],
+  "mnemonics": "「把钯弄钝一点」，让它只拆 C–Cl、不碰 C=O。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.9 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

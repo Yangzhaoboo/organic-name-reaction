@@ -1,0 +1,49 @@
+{
+  "id": "luche-reduction",
+  "name_zh": "Luche 还原",
+  "name_en": "Luche Reduction",
+  "title": "Luche 还原",
+  "aliases_zh": ["吕什还原", "CeCl3/NaBH4 还原", "共轭酮的 1,2-还原"],
+  "aliases_en": ["Luche reduction", "CeCl3-mediated reduction"],
+  "category": "还原",
+  "tags": ["NaBH4", "CeCl3", "烯丙醇", "1,2-还原"],
+  "difficulty": 3,
+  "year": 1978,
+  "discoverer": "Jean-Louis Luche",
+  "overview": "在 CeCl3 存在下用 NaBH4 还原 α,β-不饱和酮，专一得到烯丙醇（1,2-还原），而不是通常的 1,4-还原产物。",
+  "scheme_simple": "环己-2-烯酮 →(NaBH4, CeCl3) 环己-2-烯醇",
+  "scheme_above": "NaBH4, CeCl3",
+  "scheme_below": "MeOH, 0 ℃",
+  "scheme_image": "luche-reduction",
+  "substrates": ["α,β-不饱和酮（烯酮）"],
+  "products": ["烯丙醇（1,2-还原产物）"],
+  "catalyst": "—",
+  "reagent": "NaBH4 + CeCl3·7H2O",
+  "base": "—",
+  "solvent": ["MeOH", "EtOH"],
+  "temp": "0 ℃（甚至 -20 ℃）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "Ce(III) 与酮的羰基配位，增强羰基亲电性并屏蔽 1,4-途径",
+    "NaBH4 从羰基面把氢负离子送到羰基碳（1,2-加成）",
+    "水解得到烯丙醇，双键保留"
+  ],
+  "regio_selectivity": "1,2-还原（只还原羰基），双键保留",
+  "stereo_selectivity": "可从位阻较小的一面进攻，得到 1,3-顺式/反式选择性；常与 CBS 等方法配合做不对称",
+  "selectivity_note": "无 CeCl3 时 NaBH4 常给 1,4-还原（饱和酮）或混合物；CeCl3 是关键",
+  "scope": "合成烯丙醇（后续可做 Claisen 重排、环氧化）；天然产物中常见",
+  "limitations": "需严格无水 CeCl3（否则效果差）；只对酮有效；低温操作",
+  "examples": [
+    "环己-2-烯酮 → 环己-2-烯醇（产率待核对）",
+    "甾体烯酮 → 烯丙醇（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为 NaBH4 只能 1,4-还原：加 CeCl3 后专走 1,2",
+    "漏掉双键保留这一特征"
+  ],
+  "mnemonics": "CeCl3 把羰基「护住」，硼氢只打 C=O，不动双键。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（还原）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mcmurry-coupling",
+  "name_zh": "McMurry 偶联",
+  "name_en": "McMurry Coupling",
+  "title": "McMurry 偶联",
+  "aliases_zh": ["麦克默里偶联", "低价钛偶联", "酮变烯烃"],
+  "aliases_en": ["McMurry coupling", "low-valent titanium coupling"],
+  "category": "偶联",
+  "tags": ["低价钛", "酮", "烯烃", "还原偶联"],
+  "difficulty": 3,
+  "year": 1974,
+  "discoverer": "John E. McMurry",
+  "overview": "醛或酮在低价钛（TiCl3/LiAlH4 或 TiCl4/Zn）作用下发生还原偶联，两个羰基「脱氧」并连成烯烃；分子内版本可关环成大环。",
+  "scheme_simple": "2 环己酮 →(低价钛) 环己亚基环己烷",
+  "scheme_above": "TiCl3 / LiAlH4（低价钛）",
+  "scheme_below": "THF, reflux",
+  "scheme_image": "mcmurry-coupling",
+  "substrates": ["醛", "酮（分子内/分子间）"],
+  "products": ["烯烃（对称或不对称）", "环状烯烃（分子内）"],
+  "catalyst": "—（Ti 试剂按化学计量）",
+  "reagent": "TiCl3/LiAlH4 或 TiCl4/Zn",
+  "base": "—",
+  "solvent": ["THF", "DME"],
+  "temp": "回流（约 66 ℃）",
+  "time": "待核对",
+  "atmosphere": "严格无水无氧、惰性气体",
+  "mechanism_steps": [
+    "低价钛与羰基配位，形成钛氧杂环丙烷（pinacol 型）中间体",
+    "两分子（或分子内两个）羰基偶联，形成 C–C 键",
+    "脱氧（钛带走氧），得到烯烃"
+  ],
+  "regio_selectivity": "分子内偶联优先成五、六元环；大环需高稀释",
+  "stereo_selectivity": "产物双键常以 E 构型为主；可形成大环的顺/反异构",
+  "selectivity_note": "与 Wittig 的区别：McMurry 是「两个羰基偶联」，不需要磷叶立德，适合对称烯烃与大环",
+  "scope": "对称烯烃、环状烯烃、大环（如环十四碳烯）；天然产物合成中偶见",
+  "limitations": "钛试剂用量大、条件苛刻（无水无氧）、重现性一般；对敏感官能团不友好",
+  "examples": [
+    "环己酮 → 环己亚基环己烷（产率待核对）",
+    "二酮 → 大环烯烃（分子内偶联，产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Pinacol 偶联混淆：Pinacol 得到 1,2-二醇，McMurry 是脱氧成烯",
+    "以为能用催化量钛：通常需化学计量低价钛"
+  ],
+  "mnemonics": "低价钛把两个 C=O「拉在一起」，把氧带走，剩下一根 C=C。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（偶联）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

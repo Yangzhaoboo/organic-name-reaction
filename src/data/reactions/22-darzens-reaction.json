@@ -1,0 +1,50 @@
+{
+  "id": "darzens-reaction",
+  "name_zh": "达参反应",
+  "name_en": "Darzens Reaction",
+  "title": "Darzens 反应",
+  "aliases_zh": ["达参反应", "达金反应", "缩水甘油酸酯合成"],
+  "aliases_en": ["Darzens reaction", "Darzens condensation", "glycidic ester synthesis"],
+  "category": "C–C 单键",
+  "tags": ["α-卤代酸酯", "环氧酸酯", "醛酮", "增碳"],
+  "difficulty": 3,
+  "year": 1904,
+  "discoverer": "Auguste Georges Darzens",
+  "overview": "醛或酮在强碱下与 α-卤代酸酯反应，生成 α,β-环氧酸酯（缩水甘油酸酯）；水解脱羧后得到多一个碳的醛或酮。",
+  "scheme_simple": "PhCHO + ClCH2CO2Et →(NaOEt) 环氧酸酯",
+  "scheme_above": "NaOEt / NaNH2",
+  "scheme_below": "Et2O, 0 ℃",
+  "scheme_image": "darzens-reaction",
+  "substrates": ["醛", "酮", "α-卤代酸酯"],
+  "products": ["α,β-环氧酸酯（缩水甘油酸酯）", "醛/酮（脱羧后）"],
+  "catalyst": "—",
+  "reagent": "α-卤代酸酯",
+  "base": "NaOEt / NaNH2 / t-BuOK",
+  "solvent": ["Et2O", "THF", "toluene"],
+  "temp": "-10 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "碱夺取 α-卤代酸酯的 α-H，生成碳负离子",
+    "碳负离子进攻羰基碳，形成醇盐",
+    "醇盐氧对相邻碳做分子内 SN2，取代卤素，成环氧",
+    "得到 α,β-环氧酸酯"
+  ],
+  "regio_selectivity": "环氧在羰基碳与 α-碳之间形成；不对称酮时羰基碳成新立体中心",
+  "stereo_selectivity": "环氧构型由进攻面决定，通常得顺式选择性；可用于不对称合成",
+  "selectivity_note": "环氧酸酯水解后脱羧，可把醛酮变成「多一个碳」的醛酮，是常用的增碳手段",
+  "scope": "合成缩水甘油酸酯、环氧酮；布洛芬等药物的路线中见其应用",
+  "limitations": "强碱条件下易发生副反应（如酯交换、缩合）；α-卤代酸酯有毒/催泪",
+  "examples": [
+    "苯甲醛 + 氯乙酸乙酯 → 3-苯基缩水甘油酸乙酯（产率待核对）",
+    "缩水甘油酸酯水解脱羧 → 苯乙醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘记最后一步：环氧酸酯要水解+脱羧才能得到增碳的醛酮",
+    "把产物写成 β-羟基酸：Darzens 得到的是环氧"
+  ],
+  "mnemonics": "α-卤代酯 + 醛 → 环氧酯 →（水解脱羧）多一个碳的醛。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.12 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "benzoin-condensation",
+  "name_zh": "安息香缩合",
+  "name_en": "Benzoin Condensation",
+  "title": "安息香缩合",
+  "aliases_zh": ["安息香缩合反应", "苯偶姻缩合", "Benzoin 缩合"],
+  "aliases_en": ["Benzoin condensation", "benzoin reaction"],
+  "category": "C–C 单键",
+  "tags": ["芳香醛", "极性反转", "NHC", "氰化物"],
+  "difficulty": 3,
+  "year": 1832,
+  "discoverer": "Justus von Liebig & Friedrich Wöhler（待核对）",
+  "overview": "芳香醛在氰负离子或氮杂环卡宾（NHC）催化下发生极性反转（umpolung），自身缩合成 α-羟基酮（安息香）。",
+  "scheme_simple": "2 PhCHO →(cat. KCN / NHC) PhCH(OH)C(O)Ph",
+  "scheme_above": "KCN (cat.) 或 NHC",
+  "scheme_below": "EtOH, 0 ~ 25 ℃",
+  "scheme_image": "benzoin-condensation",
+  "substrates": ["芳香醛（苯甲醛等）", "部分脂肪醛（易自身缩合，选择性差）"],
+  "products": ["α-羟基酮（安息香 / 偶姻）"],
+  "catalyst": "氰化钠/钾，或噻唑鎓盐（NHC 前体，如维生素 B1）",
+  "reagent": "—",
+  "base": "NHC 路线需碱（如 DBU）",
+  "solvent": ["EtOH", "THF", "CH2Cl2"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "催化剂（CN⁻ 或 NHC）加成到醛羰基碳，形成亲核性中间体（Breslow 中间体）",
+    "该中间体进攻第二分子醛的羰基",
+    "质子转移，释放催化剂",
+    "得到 α-羟基酮（安息香）"
+  ],
+  "regio_selectivity": "交叉安息香缩合可得到两种产物，需一方不具反应活性或用不对称催化控制",
+  "stereo_selectivity": "产物含一个新手性中心；NHC 不对称催化可高对映选择性合成",
+  "selectivity_note": "关键是「极性反转」：本来亲电的羰基碳变成亲核碳",
+  "scope": "合成偶姻（acyloins）；NHC 路线避免使用剧毒氰化物（维生素 B1 亦可催化）",
+  "limitations": "脂肪醛自缩合严重；交叉反应选择性差；氰化物有毒",
+  "examples": [
+    "苯甲醛 → 安息香（产率待核对）",
+    "苯甲醛 + 呋喃甲醛 → 交叉安息香（产率待核对）"
+  ],
+  "pitfalls": [
+    "与羟醛缩合混淆：安息香是「醛 + 醛」且羰基碳极性反转，产物是 α-羟基酮",
+    "忘记催化剂是先加成到羰基上的（不是拔 α-H）"
+  ],
+  "mnemonics": "催化剂先「骑」到羰基碳上 → 碳变亲核 → 打第二个醛：极性反转。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.8 节"],
+  "status": "partial",
+  "todo_fields": ["time", "year/discoverer（待核对）", "examples（产率）"]
+}

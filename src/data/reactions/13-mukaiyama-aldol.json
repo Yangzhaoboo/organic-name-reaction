@@ -1,0 +1,50 @@
+{
+  "id": "mukaiyama-aldol",
+  "name_zh": "向山羟醛反应",
+  "name_en": "Mukaiyama Aldol Reaction",
+  "title": "Mukaiyama 羟醛反应",
+  "aliases_zh": ["向山羟醛反应", "Mukaiyama 反应", "硅烯醇醚羟醛"],
+  "aliases_en": ["Mukaiyama aldol", "silyl enol ether aldol"],
+  "category": "C–C 单键",
+  "tags": ["烯醇硅醚", "Lewis 酸", "β-羟基羰基", "交叉羟醛"],
+  "difficulty": 3,
+  "year": 1974,
+  "discoverer": "Teruaki Mukaiyama（向山 光昭）",
+  "overview": "用可分离、可保存的烯醇硅醚作亲核体，在 Lewis 酸催化下与醛加成，得到 β-羟基羰基化合物——解决了经典羟醛反应可逆、易得混合物的问题。",
+  "scheme_simple": "CH3C(OTMS)=CH2 + PhCHO →(TiCl4) PhCH(OH)CH2COCH3",
+  "scheme_above": "TiCl4 / BF3·OEt2",
+  "scheme_below": "CH2Cl2, -78 ℃",
+  "scheme_image": "mukaiyama-aldol",
+  "substrates": ["烯醇硅醚（或硅基烯酮缩醛）", "醛", "酮（活性较低）"],
+  "products": ["β-羟基羰基化合物", "α,β-不饱和羰基（脱水后）"],
+  "catalyst": "TiCl4 / BF3·OEt2 / TMSOTf",
+  "reagent": "烯醇硅醚",
+  "base": "—（Lewis 酸条件）",
+  "solvent": ["CH2Cl2", "THF"],
+  "temp": "-78 ℃ ~ 0 ℃",
+  "time": "待核对",
+  "atmosphere": "无水（Lewis 酸）",
+  "mechanism_steps": [
+    "Lewis 酸活化醛的羰基，增强亲电性",
+    "烯醇硅醚的 β-碳（亲核端）进攻羰基碳",
+    "形成氧鎓/硅基氧中间体",
+    "水解，得到 β-羟基羰基化合物"
+  ],
+  "regio_selectivity": "加成在羰基碳上；烯醇硅醚以 β-碳进攻",
+  "stereo_selectivity": "可通过 Lewis 酸与位阻控制 syn/anti；手性 Lewis 酸或手性硅醚可做不对称版本",
+  "selectivity_note": "经典羟醛可逆、易平衡，Mukaiyama 版本条件温和且不可逆，交叉选择性好",
+  "scope": "天然产物合成常用（如紫杉醇片段）；可与不对称催化结合",
+  "limitations": "需预先制备烯醇硅醚；Lewis 酸对水敏感；酮反应活性低",
+  "examples": [
+    "苯甲醛 + 丙酮烯醇硅醚 → 4-羟基-4-苯基-2-丁酮（产率待核对）",
+    "向山组用于紫杉醇片段合成（具体步骤待核对）"
+  ],
+  "pitfalls": [
+    "与经典羟醛混淆：亲核体是预先做好的烯醇硅醚，不是现场生成的烯醇负离子",
+    "Lewis 酸用量与温度控制不好会得到脱水产物"
+  ],
+  "mnemonics": "把「烯醇负离子」换成「烯醇硅醚」，反应就变干净了。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

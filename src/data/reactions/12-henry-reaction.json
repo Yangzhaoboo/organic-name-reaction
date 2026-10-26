@@ -1,0 +1,50 @@
+{
+  "id": "henry-reaction",
+  "name_zh": "Henry 反应",
+  "name_en": "Henry Reaction",
+  "title": "Henry 反应",
+  "aliases_zh": ["硝基羟醛缩合", "Nitroaldol 反应", "亨利反应"],
+  "aliases_en": ["Henry reaction", "nitroaldol reaction"],
+  "category": "C–C 单键",
+  "tags": ["硝基甲烷", "醛", "β-硝基醇", "羟醛"],
+  "difficulty": 2,
+  "year": 1895,
+  "discoverer": "Louis Henry",
+  "overview": "硝基烷烃的 α-H 在碱作用下与醛/酮加成，得到 β-硝基醇；是羟醛缩合的「氮版本」，产物可还原成氨基醇。",
+  "scheme_simple": "CH3NO2 + PhCHO →(cat. NaOH) PhCH(OH)CH2NO2",
+  "scheme_above": "NaOH (cat.)",
+  "scheme_below": "EtOH, 0 ~ 25 ℃",
+  "scheme_image": "henry-reaction",
+  "substrates": ["硝基甲烷 / 一级硝基烷烃", "醛", "酮（反应较慢）"],
+  "products": ["β-硝基醇", "β-氨基醇（还原后）"],
+  "catalyst": "NaOH / K2CO3 / 胺",
+  "reagent": "硝基烷烃",
+  "base": "NaOH（催化量）",
+  "solvent": ["EtOH", "H2O", "THF"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取硝基烷烃 α-H，生成硝基碳负离子",
+    "碳负离子进攻羰基碳，形成醇盐",
+    "质子化，得到 β-硝基醇",
+    "（可选）脱水得共轭硝基烯烃"
+  ],
+  "regio_selectivity": "加成发生在羰基碳上，属 1,2-加成",
+  "stereo_selectivity": "手性醛可得两种非对映体；不对称催化版本可对映选择性合成",
+  "selectivity_note": "产物 β-硝基醇在碱性条件下易脱水成硝基烯烃，需控制碱量与温度",
+  "scope": "硝基甲烷最常用；产物是合成 β-氨基醇（如药物中间体）的重要前体",
+  "limitations": "酮的反应活性低；易脱水、易发生副反应（Nef 反应）",
+  "examples": [
+    "硝基甲烷 + 苯甲醛 → 2-硝基-1-苯基乙醇（产率待核对）",
+    "硝基甲烷 + 甲醛 → 2-硝基乙醇（产率待核对）"
+  ],
+  "pitfalls": [
+    "与羟醛缩合混淆：Henry 的碳负离子来自硝基烷烃，不是羰基 α-H",
+    "碱性过强/温度过高会脱水成硝基烯烃"
+  ],
+  "mnemonics": "硝基的 α-H 也能拔 → 打醛，得 β-硝基醇（羟醛的氮版本）。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

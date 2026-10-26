@@ -1,0 +1,50 @@
+{
+  "id": "jones-oxidation",
+  "name_zh": "Jones 氧化",
+  "name_en": "Jones Oxidation",
+  "title": "Jones 氧化",
+  "aliases_zh": ["琼斯氧化", "铬酸氧化", "Jones 试剂"],
+  "aliases_en": ["Jones oxidation", "Jones reagent"],
+  "category": "氧化",
+  "tags": ["CrO3", "醇", "酮", "羧酸"],
+  "difficulty": 1,
+  "year": 1946,
+  "discoverer": "E. R. H. Jones",
+  "overview": "Jones 试剂（CrO3 的硫酸水溶液/丙酮）把一级醇氧化成羧酸、二级醇氧化成酮；反应快、放热，双键通常不受影响。",
+  "scheme_simple": "环己醇 →(CrO3/H2SO4) 环己酮",
+  "scheme_above": "CrO3, H2SO4",
+  "scheme_below": "acetone, 0 ~ 25 ℃",
+  "scheme_image": "jones-oxidation",
+  "substrates": ["一级醇 → 羧酸", "二级醇 → 酮"],
+  "products": ["酮", "羧酸"],
+  "catalyst": "—",
+  "reagent": "CrO3 / H2SO4（Jones 试剂）",
+  "base": "—（强酸性）",
+  "solvent": ["acetone", "H2O"],
+  "temp": "0 ~ 25 ℃",
+  "time": "几分钟（反应快）",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "醇与铬酸酯化，生成铬酸酯",
+    "发生 E2 型消除（C–H 与 Cr–O 断裂），生成 C=O",
+    "Cr(VI) 被还原为 Cr(IV)/Cr(III)",
+    "一级醇生成的醛在水存在下继续水合成偕二醇，再被氧化成羧酸"
+  ],
+  "regio_selectivity": "只氧化羟基所在碳；双键通常保留",
+  "stereo_selectivity": "不涉及；手性醇的 α 位可能部分消旋",
+  "selectivity_note": "若想停在一级醇的醛，要改用 PCC/PDC 或 Swern/DMP（无水条件）",
+  "scope": "二级醇 → 酮的常规方法；工业与实验室均常用",
+  "limitations": "Cr(VI) 剧毒、致癌，废液处理麻烦（现多用 TEMPO/次氯酸钠或 DMP 替代）；强酸条件不适合酸敏底物",
+  "examples": [
+    "环己醇 → 环己酮（产率待核对）",
+    "1-辛醇 → 辛酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "用 Jones 想得到醛：一级醇会一路氧化到羧酸",
+    "忽略毒性：Cr(VI) 必须按危废处理"
+  ],
+  "mnemonics": "Jones = 铬酸 + 丙酮：二级醇停酮，一级醇跑到酸。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.1 节"],
+  "status": "partial",
+  "todo_fields": ["examples（产率）"]
+}

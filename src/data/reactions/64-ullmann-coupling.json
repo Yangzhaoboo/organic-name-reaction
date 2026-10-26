@@ -1,0 +1,49 @@
+{
+  "id": "ullmann-coupling",
+  "name_zh": "Ullmann 偶联",
+  "name_en": "Ullmann Coupling",
+  "title": "Ullmann 偶联",
+  "aliases_zh": ["乌尔曼偶联", "铜催化芳基偶联", "联芳烃合成"],
+  "aliases_en": ["Ullmann coupling", "Ullmann reaction", "copper-mediated coupling"],
+  "category": "偶联",
+  "tags": ["铜催化", "芳基卤", "联芳烃", "C–N 键"],
+  "difficulty": 3,
+  "year": 1901,
+  "discoverer": "Fritz Ullmann",
+  "overview": "芳基卤在铜（或铜盐）作用下发生自身或交叉偶联，生成联芳烃；同一体系也可用于 C–N、C–O 偶联（Ullmann 型反应）。",
+  "scheme_simple": "2 PhI →(Cu, Δ) Ph–Ph + CuI2",
+  "scheme_above": "Cu (化学计量，或 CuI + 配体)",
+  "scheme_below": "180 ℃（无溶剂）",
+  "scheme_image": "ullmann-coupling",
+  "substrates": ["芳基卤（碘、溴；氯较难）", "芳胺/酚（C–N、C–O 版本）"],
+  "products": ["联芳烃", "二芳胺", "二芳醚"],
+  "catalyst": "Cu 粉 / CuI / Cu2O（可加配体实现催化量）",
+  "reagent": "芳基卤",
+  "base": "K2CO3 / Cs2CO3 / NaOH（改善时）",
+  "solvent": ["无溶剂", "DMF", "DMSO", "toluene"],
+  "temp": "150 ~ 200 ℃（经典）；催化版可 100 ℃ 左右",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（无氧更好）",
+  "mechanism_steps": [
+    "铜对芳基卤氧化加成，生成 Ar–Cu(III) 物种",
+    "第二分子芳基卤（或胺/酚）配位并偶联",
+    "还原消除，放出偶联产物并再生铜物种"
+  ],
+  "regio_selectivity": "偶联在芳基卤的连接碳上",
+  "stereo_selectivity": "一般不涉及",
+  "selectivity_note": "经典条件需化学计量铜、非常高温；近代用配体 + 催化量铜（如 Buchwald 的 Cu 催化体系）更温和",
+  "scope": "联芳烃、二芳胺、二芳醚的制备；工业上做颜料、药物中间体",
+  "limitations": "经典条件温度高、铜用量大、副产物多；氯代芳烃反应困难",
+  "examples": [
+    "碘苯 → 联苯（产率待核对）",
+    "芳基溴 + 苯胺 → 二芳胺（Ullmann 胺化，产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Buchwald–Hartwig 混淆：Ullmann 用铜、条件更苛刻，Buchwald 用钯、更温和",
+    "以为只需要催化量铜：经典 Ullmann 要化学计量"
+  ],
+  "mnemonics": "铜版偶联：温度高、铜量大；能连芳基-芳基，也能连 C–N/C–O。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节（偶联）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

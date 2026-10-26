@@ -1,0 +1,50 @@
+{
+  "id": "sonogashira-coupling",
+  "name_zh": "Sonogashira 偶联",
+  "name_en": "Sonogashira Coupling",
+  "title": "Sonogashira 偶联",
+  "aliases_zh": ["薗头偶联", "Sonogashira-Hagihara 反应", "炔基化偶联"],
+  "aliases_en": ["Sonogashira coupling", "Sonogashira-Hagihara"],
+  "category": "偶联",
+  "tags": ["钯催化", "端炔", "铜共催化", "芳基炔"],
+  "difficulty": 3,
+  "year": 1975,
+  "discoverer": "Kenkichi Sonogashira（薗头 健吉）等",
+  "overview": "芳基/烯基卤与端炔在钯-铜共催化下交叉偶联，生成芳基炔（内部炔），是构建 C(sp)–C(sp²) 键的标准方法。",
+  "scheme_simple": "PhI + HC≡CPh →(Pd/CuI) PhC≡CPh",
+  "scheme_above": "Pd(PPh3)2Cl2, CuI",
+  "scheme_below": "Et3N, THF, 25 ~ 60 ℃",
+  "scheme_image": "sonogashira-coupling",
+  "substrates": ["芳基/烯基卤（碘、溴、OTf）", "端炔（末端炔氢）"],
+  "products": ["芳基/烯基取代的内部炔"],
+  "catalyst": "Pd(PPh3)2Cl2 / Pd(OAc)2 + 配体；CuI 共催化",
+  "reagent": "端炔",
+  "base": "Et3N / i-Pr2NH / K2CO3（兼作溶剂）",
+  "solvent": ["THF", "Et3N", "DMF"],
+  "temp": "25 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "惰性气体（Cu 存在时需除氧，防炔偶联副反应）",
+  "mechanism_steps": [
+    "Pd(0) 对 Ar–X 氧化加成",
+    "Cu 与端炔、碱生成炔铜，与 Pd 转金属化",
+    "还原消除，得到芳基炔并再生 Pd(0)",
+    "（无铜版本：直接用 Pd 催化 C–H 活化炔）"
+  ],
+  "regio_selectivity": "偶联在芳基卤的连接碳与原端炔末端碳之间",
+  "stereo_selectivity": "适用于任何构型；烯基卤通常构型保持",
+  "selectivity_note": "Cu(I) 促进炔活化，但也会引起 Glaser 型炔-炔自偶联副产物；可用无铜（Cu-free）条件避免",
+  "scope": "合成芳基炔、炔基天然产物、材料分子（分子导线、荧光染料）",
+  "limitations": "需端炔（内部炔不反应）；铜存在时易自偶联；Pd/Cu 残留难除",
+  "examples": [
+    "碘苯 + 苯乙炔 → 二苯乙炔（产率待核对）",
+    "芳基溴 + 三甲基硅乙炔 → 硅保护的芳基炔（产率待核对）"
+  ],
+  "pitfalls": [
+    "用内部炔做底物：Sonogashira 需要端炔（有炔氢）",
+    "忽略铜引起的炔-炔偶联副产物"
+  ],
+  "mnemonics": "Pd/Cu 一起干活：一个咬芳卤，一个拉炔氢，最后拼成芳基炔。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节（偶联）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

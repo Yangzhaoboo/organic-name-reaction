@@ -1,0 +1,54 @@
+{
+  "id": "mitsunobu-reaction",
+  "name_zh": "光延反应",
+  "name_en": "Mitsunobu Reaction",
+  "title": "Mitsunobu 反应",
+  "aliases_zh": ["光延反应", "三苯基膦-偶氮试剂反应", "Mitsunobu 取代"],
+  "aliases_en": ["Mitsunobu", "Mitsunobu substitution", "PPh3/DEAD"],
+  "category": "C–杂键构建",
+  "tags": ["醇", "构型翻转", "SN2", "醚", "酯"],
+  "difficulty": 3,
+  "year": 1967,
+  "discoverer": "Oyo Mitsunobu（光延 洋）",
+  "overview": "醇在 PPh3 与偶氮试剂作用下与酸性亲核试剂发生 SN2 取代，醇羟基被替换且构型完全翻转。",
+  "scheme_simple": "PhCH2OH + PhOH →(PPh3, DEAD) PhCH2OPh",
+  "scheme_above": "PPh3, DEAD",
+  "scheme_below": "THF, 0 ℃ ~ rt",
+  "scheme_image": "mitsunobu-reaction",
+  "substrates": ["伯醇", "仲醇", "酸性亲核体（pKa ≲ 11）：酚、羧酸、酰亚胺、硫醇"],
+  "products": ["醚", "酯", "胺", "硫醚（构型翻转）"],
+  "catalyst": "—",
+  "reagent": "PPh3 + DEAD / DIAD（偶氮二羧酸酯）",
+  "base": "亲核体自身或体系中的弱碱",
+  "solvent": ["THF", "toluene"],
+  "temp": "0 ℃ ~ 室温",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（偶氮试剂需避光）",
+  "mechanism_steps": [
+    "PPh3 与 DEAD 发生加成，生成膦-偶氮活性物种",
+    "醇进攻磷，形成烷氧基膦盐（把 –OH 变成好的离去基团）",
+    "亲核体从背面 SN2 进攻碳，构型完全翻转",
+    "副产物为 Ph3PO 与肼二羧酸酯（需色谱分离）"
+  ],
+  "regio_selectivity": "亲核取代发生在原来带羟基的碳上",
+  "stereo_selectivity": "完全构型翻转（SN2）；用羧酸作亲核体可得构型反转的酯，皂化后得反转的醇",
+  "selectivity_note": "常用 DIAD 替代 DEAD，反应性相近、更易操作；ZnCl2 等添加剂可扩大适用范围",
+  "scope": "伯醇、仲醇效果好；可做分子内成醚（大环）；是「醇 → 其它官能团」的通用工具",
+  "limitations": "叔醇差；亲核体酸性太弱（pKa > 11）反应慢；试剂当量较大，Ph3PO 与肼副产物难除（可用聚合物负载试剂）",
+  "examples": [
+    "苄醇 + 苯酚 → 苄基苯基醚（产率待核对）",
+    "手性仲醇 + 苯甲酸 → 构型翻转的苯甲酸酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "写成构型保持：Mitsunobu 是 SN2，必然翻转",
+    "亲核体酸性不够时反应几乎不走，别照搬条件",
+    "与 Appel 反应混淆：Appel 用 CCl4/CBr4 引入卤素，不引入外部亲核体"
+  ],
+  "mnemonics": "醇的「翻转工具」：PPh3 + 偶氮试剂把 –OH 变离去基团，亲核体背面进攻。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 4.3 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

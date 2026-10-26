@@ -1,0 +1,50 @@
+{
+  "id": "birch-reduction",
+  "name_zh": "Birch 还原",
+  "name_en": "Birch Reduction",
+  "title": "Birch 还原",
+  "aliases_zh": ["伯奇还原", "液氨钠还原", "芳环还原成二烯"],
+  "aliases_en": ["Birch reduction", "dissolving metal reduction"],
+  "category": "还原",
+  "tags": ["液氨", "钠", "芳环", "1,4-环己二烯"],
+  "difficulty": 3,
+  "year": 1944,
+  "discoverer": "Arthur John Birch",
+  "overview": "碱金属（Na、Li）在液氨中用醇作质子源，把芳香环还原为 1,4-环己二烯；供电子基导向 2,5-位，吸电子基导向 1,4-位。",
+  "scheme_simple": "苯 →(Na/NH3, EtOH) 1,4-环己二烯",
+  "scheme_above": "Na, NH3(l)",
+  "scheme_below": "EtOH, -78 ℃",
+  "scheme_image": "birch-reduction",
+  "substrates": ["苯环（含取代基的芳环）", "萘（部分还原）"],
+  "products": ["1,4-环己二烯"],
+  "catalyst": "—",
+  "reagent": "Na / Li（碱金属）",
+  "base": "—（液氨中生成溶剂化电子）",
+  "solvent": ["液氨", "醇（作质子源）"],
+  "temp": "-78 ~ -33 ℃",
+  "time": "待核对",
+  "atmosphere": "无水、惰性（液氨操作）",
+  "mechanism_steps": [
+    "碱金属溶于液氨，放出溶剂化电子",
+    "电子加到芳环上，生成自由基负离子",
+    "醇提供质子，生成环己二烯基自由基",
+    "再加一个电子、再质子化，得到 1,4-环己二烯"
+  ],
+  "regio_selectivity": "给电子基（–OMe、–NR₂）导向 2,5-位（保留共轭）；吸电子基（–CO₂H）导向 1,4-位",
+  "stereo_selectivity": "生成的非共轭双键通常为顺式关系（取决于底物）",
+  "selectivity_note": "还原「停」在二烯而不继续：因为剩下的双键虽更活泼，但需要更强的还原条件才继续",
+  "scope": "构建环己二烯骨架；甾体、萜类合成中的去芳构化；也可还原炔烃到反式烯烃",
+  "limitations": "液氨、碱金属操作危险；对含活泼氢/易还原基团的底物不适用",
+  "examples": [
+    "苯 → 1,4-环己二烯（产率待核对）",
+    "苯甲醚 → 1-甲氧基-1,4-环己二烯（产率待核对）"
+  ],
+  "pitfalls": [
+    "区域选择性记反：给电子基 → 2,5-位（不是 1,4）",
+    "以为会一路还原到环己烷：Birch 停在二烯"
+  ],
+  "mnemonics": "给电子基留共轭（2,5-位），吸电子基走 1,4-位；只还原到二烯为止。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6 节（Birch 还原）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

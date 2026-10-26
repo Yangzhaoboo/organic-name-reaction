@@ -1,0 +1,50 @@
+{
+  "id": "dieckmann-condensation",
+  "name_zh": "狄克曼缩合",
+  "name_en": "Dieckmann Condensation",
+  "title": "Dieckmann 缩合",
+  "aliases_zh": ["狄克曼反应", "分子内克莱森缩合", "Dieckmann 反应"],
+  "aliases_en": ["Dieckmann condensation", "intramolecular Claisen"],
+  "category": "C–C 单键",
+  "tags": ["二酯", "分子内缩合", "环状 β-酮酸酯"],
+  "difficulty": 3,
+  "year": 1894,
+  "discoverer": "Walter Dieckmann",
+  "overview": "二元酸二酯在强碱作用下发生分子内 Claisen 缩合，生成五元或六元环的 β-酮酸酯。",
+  "scheme_simple": "己二酸二乙酯 →(NaOEt) 2-氧代环戊烷甲酸乙酯",
+  "scheme_above": "NaOEt",
+  "scheme_below": "EtOH, Δ",
+  "scheme_image": "dieckmann-condensation",
+  "substrates": ["两个酯基之间隔 4–5 个碳的二酯（如己二酸二乙酯、庚二酸二乙酯）"],
+  "products": ["五元或六元环 β-酮酸酯"],
+  "catalyst": "—",
+  "reagent": "—",
+  "base": "NaOEt / NaH / t-BuOK",
+  "solvent": ["EtOH", "THF", "toluene"],
+  "temp": "室温 ~ 回流",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "碱夺取一个酯基的 α-H，生成烯醇负离子",
+    "进攻另一个酯的羰基碳（分子内）",
+    "消除烷氧基，闭环得到 β-酮酸酯",
+    "产物成烯醇盐，酸化后得游离产物"
+  ],
+  "regio_selectivity": "链长决定环大小：己二酸二乙酯（两酯基间 4 个碳）成五元环，庚二酸二乙酯（5 个碳）成六元环；再长则分子间缩合占优",
+  "stereo_selectivity": "环上取代基可产生顺反异构，取决于底物构象",
+  "selectivity_note": "五、六元环成环最快，因此这是「用二酯做环」的常用方法",
+  "scope": "合成环戊酮、环己酮类骨架；是 Robinson 环化的补充手段",
+  "limitations": "链太长则分子内反应竞争不过分子间；需强碱且至少 1 当量",
+  "examples": [
+    "己二酸二乙酯 → 2-氧代环戊烷甲酸乙酯（产率待核对）",
+    "庚二酸二乙酯 → 2-氧代环己烷甲酸乙酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "环大小记错：己二酸二乙酯（6 个碳）成的是五元环",
+    "与 Claisen 混淆：Dieckmann 是同一个分子里的两个酯"
+  ],
+  "mnemonics": "分子内 Claisen = Dieckmann；3–4 个碳隔开最好关五、六元环。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.4 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

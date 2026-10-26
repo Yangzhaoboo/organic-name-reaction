@@ -1,0 +1,49 @@
+{
+  "id": "kumada-coupling",
+  "name_zh": "Kumada 偶联",
+  "name_en": "Kumada Coupling",
+  "title": "Kumada 偶联",
+  "aliases_zh": ["熊田偶联", "Kumada-Corriu 反应", "格氏试剂偶联"],
+  "aliases_en": ["Kumada coupling", "Kumada-Corriu coupling"],
+  "category": "偶联",
+  "tags": ["镍催化", "格氏试剂", "芳基卤", "交叉偶联"],
+  "difficulty": 3,
+  "year": 1972,
+  "discoverer": "Makoto Kumada（熊田 誠）& Robert Corriu",
+  "overview": "芳基/烯基卤与格氏试剂在镍或钯催化下交叉偶联，生成联芳烃或取代烯烃；是最早的交叉偶联之一。",
+  "scheme_simple": "PhBr + PhMgBr →(Ni 催化) Ph–Ph",
+  "scheme_above": "Ni(dppp)Cl2 (cat.)",
+  "scheme_below": "Et2O, 25 ℃",
+  "scheme_image": "kumada-coupling",
+  "substrates": ["芳基/烯基卤（氯、溴、碘）", "格氏试剂（RMgX）"],
+  "products": ["联芳烃 / 取代烯烃 / 烷基化产物"],
+  "catalyst": "Ni(dppp)Cl2 / Pd(PPh3)4",
+  "reagent": "格氏试剂",
+  "base": "—（格氏试剂本身强碱）",
+  "solvent": ["Et2O", "THF"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无水无氧（格氏试剂）",
+  "mechanism_steps": [
+    "Ni(0)/Pd(0) 对 Ar–X 氧化加成",
+    "与格氏试剂转金属化（生成 Ar–M–Ar'）",
+    "还原消除，得到偶联产物并再生催化剂"
+  ],
+  "regio_selectivity": "偶联在芳基卤的连接碳上；氯代物也能反应（镍催化是它的优势）",
+  "stereo_selectivity": "烯基卤/烯基格氏试剂通常构型保持",
+  "selectivity_note": "镍催化对氯代芳烃特别有效，且比钯便宜；但格氏试剂官能团容忍度差（不能有 –OH、–NH 等）",
+  "scope": "联芳烃、烷基芳烃；工业上（液晶、药物）有应用",
+  "limitations": "格氏试剂对活泼氢敏感，底物范围受限；需无水无氧；易发生自身偶联",
+  "examples": [
+    "溴苯 + 苯基溴化镁 → 联苯（产率待核对）",
+    "氯苯 + 苯基溴化镁 → 联苯（Ni 催化，产率待核对）"
+  ],
+  "pitfalls": [
+    "忽略格氏试剂的「强碱」属性：底物有活泼氢就用不了",
+    "与 Negishi 混淆：Kumada 用镁，Negishi 用锌（后者官能团容忍度更好）"
+  ],
+  "mnemonics": "镍 + 镁：最早的交叉偶联之一，氯代芳烃也能上。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节（偶联）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

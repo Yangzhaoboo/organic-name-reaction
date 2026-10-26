@@ -1,0 +1,50 @@
+{
+  "id": "wacker-oxidation",
+  "name_zh": "Wacker 氧化",
+  "name_en": "Wacker Oxidation",
+  "title": "Wacker 氧化",
+  "aliases_zh": ["瓦克氧化", "乙烯制乙醛", "钯催化烯烃氧化"],
+  "aliases_en": ["Wacker oxidation", "Wacker process"],
+  "category": "氧化",
+  "tags": ["钯催化", "烯烃", "羰基化", "工业"],
+  "difficulty": 3,
+  "year": 1959,
+  "discoverer": "Wacker 公司（Jürgen Smidt 团队）",
+  "overview": "端烯在 PdCl2/CuCl2 催化下被氧气氧化，遵循 Markovnikov 规则生成甲基酮；工业上由乙烯制乙醛。",
+  "scheme_simple": "CH2=CH2 + 1/2 O2 →(PdCl2/CuCl2) CH3CHO",
+  "scheme_above": "PdCl2, CuCl2 (cat.)",
+  "scheme_below": "H2O, O2, 25 ~ 80 ℃",
+  "scheme_image": "wacker-oxidation",
+  "substrates": ["端烯（乙烯、1-烯烃）", "部分内烯（反应慢）"],
+  "products": ["甲基酮（Markovnikov 产物）", "醛（乙烯→乙醛）"],
+  "catalyst": "PdCl2 + CuCl2",
+  "reagent": "O2（氧化剂）",
+  "base": "—",
+  "solvent": ["H2O", "DMF/H2O"],
+  "temp": "25 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "O2 或空气",
+  "mechanism_steps": [
+    "Pd(II) 与烯烃配位，水分子进攻取代较多的碳（Markovnikov）",
+    "生成 β-羟基烷基-Pd 中间体",
+    "β-H 消除，得到烯醇并互变异构为甲基酮，Pd(0) 析出",
+    "CuCl2 把 Pd(0) 重新氧化为 Pd(II)，Cu(I) 再被 O2 氧化"
+  ],
+  "regio_selectivity": "Markovnikov：氧化发生在取代较多的碳上，端烯 → 甲基酮",
+  "stereo_selectivity": "一般不涉及；抗 Markovnikov 版本需特殊配体（如 Tsuji–Wacker 改良）",
+  "selectivity_note": "反 Markovnikov（端烯→醛）要靠特殊催化体系；经典的 Wacker 给甲基酮",
+  "scope": "工业制乙醛；有机合成中把端烯氧化成甲基酮",
+  "limitations": "水/氧体系，官能团受限；内烯反应慢；Pd 残留；易过氧化",
+  "examples": [
+    "乙烯 → 乙醛（工业，产率待核对）",
+    "1-辛烯 → 2-辛酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "区域选择性记反：Wacker 是 Markovnikov，端烯给甲基酮而不是醛",
+    "忽略 CuCl2 的作用：它负责把 Pd(0) 重新氧化，使 Pd 只需催化量"
+  ],
+  "mnemonics": "Pd 拉水打「取代多的那头」，Cu/O2 负责把 Pd 复活。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（氧化）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

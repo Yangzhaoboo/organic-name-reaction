@@ -1,0 +1,53 @@
+{
+  "id": "grignard-reaction",
+  "name_zh": "格氏反应",
+  "name_en": "Grignard Reaction",
+  "title": "Grignard 反应",
+  "aliases_zh": ["格利雅反应", "格氏试剂加成", "格林尼亚反应"],
+  "aliases_en": ["Grignard", "Grignard addition", "organomagnesium"],
+  "category": "C–C 单键",
+  "tags": ["有机镁", "羰基加成", "醇", "无水"],
+  "difficulty": 2,
+  "year": 1900,
+  "discoverer": "Victor Grignard（1912 年诺贝尔化学奖）",
+  "overview": "格氏试剂（R–MgX）对羰基化合物加成，水解后得到醇；与 CO2 反应得羧酸。",
+  "scheme_simple": "PhMgBr + PhCHO →(Et2O) Ph2CHOH",
+  "scheme_above": "Et2O / THF",
+  "scheme_below": "then H3O+",
+  "scheme_image": "grignard-reaction",
+  "substrates": ["醛", "酮", "酯", "CO2", "环氧乙烷"],
+  "products": ["伯醇（甲醛）", "仲醇（醛）", "叔醇（酮、酯）", "羧酸（CO2）"],
+  "catalyst": "—（可用 I2 或 1,2-二溴乙烷引发）",
+  "reagent": "R–MgX（格氏试剂）",
+  "base": "—（试剂本身即强碱）",
+  "solvent": ["无水 Et2O", "无水 THF"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "严格无水无氧（N2 / Ar）",
+  "mechanism_steps": [
+    "镁插入 C–X 键，生成 R–MgX（格氏试剂）",
+    "碳负离子进攻羰基碳，形成醇镁盐",
+    "酸性水解，释放醇并生成 Mg(OH)X"
+  ],
+  "regio_selectivity": "与环氧乙烷加成时进攻位阻较小的碳",
+  "stereo_selectivity": "加成到手性醛酮可得两种非对映体，可用 Cram/Felkin-Anh 规则预测",
+  "selectivity_note": "含 α-H 的格氏试剂易作碱而非亲核体，会给出还原产物",
+  "scope": "构建 C–C 键最通用的方法之一；也可制备醛（甲酸酯）、酮（腈/Weinreb 酰胺）",
+  "limitations": "对水、氧、活泼氢极敏感；底物含 –OH/–NH/–COOH 必须先保护；与酯反应常过度加成得叔醇",
+  "examples": [
+    "PhMgBr + 苯甲醛 → 二苯甲醇（产率待核对）",
+    "PhMgBr + CO2 → 苯甲酸（产率待核对）"
+  ],
+  "pitfalls": [
+    "底物有活泼氢会消耗试剂，必须先保护",
+    "溶剂必须无水（乙醚/THF），否则试剂分解",
+    "与酯反应通常会加两次得叔醇，想停在中途要用 Weinreb 酰胺或腈"
+  ],
+  "mnemonics": "格氏试剂 = 强碱 + 强亲核；先检查底物有没有活泼氢。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 2.5 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

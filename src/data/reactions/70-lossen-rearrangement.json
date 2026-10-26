@@ -1,0 +1,50 @@
+{
+  "id": "lossen-rearrangement",
+  "name_zh": "Lossen 重排",
+  "name_en": "Lossen Rearrangement",
+  "title": "Lossen 重排",
+  "aliases_zh": ["洛森重排", "异羟肟酸重排", "脱羧成胺"],
+  "aliases_en": ["Lossen rearrangement"],
+  "category": "重排",
+  "tags": ["异羟肟酸", "异氰酸酯", "伯胺"],
+  "difficulty": 3,
+  "year": 1872,
+  "discoverer": "Wilhelm Lossen",
+  "overview": "异羟肟酸的 O-酰基衍生物（或磺酸酯）受热重排，经异氰酸酯生成少一个碳的伯胺——与 Hofmann、Curtius 同属「脱羧成胺」家族。",
+  "scheme_simple": "PhCONHOH →(TsCl, 碱; Δ) PhNH2 + CO2",
+  "scheme_above": "TsCl / 酰氯, 碱",
+  "scheme_below": "then H2O, Δ",
+  "scheme_image": "lossen-rearrangement",
+  "substrates": ["异羟肟酸（RCONHOH）及其 O-酰基/磺酰基衍生物"],
+  "products": ["伯胺（少一个碳）", "异氰酸酯（中间体）"],
+  "catalyst": "—",
+  "reagent": "TsCl、酰氯（活化羟基）",
+  "base": "NaOH / Et3N",
+  "solvent": ["H2O", "THF", "dioxane"],
+  "temp": "80 ~ 120 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "异羟肟酸的 –OH 被磺酰化/酰化，变成好的离去基团",
+    "碱夺取氮上氢，离去基团离开并同时发生烷基迁移",
+    "生成异氰酸酯",
+    "水解，放出 CO2，得到伯胺"
+  ],
+  "regio_selectivity": "迁移基团带着构型转移",
+  "stereo_selectivity": "迁移碳构型保持",
+  "selectivity_note": "与 Curtius 的区别：Lossen 用异羟肟酸（不涉及叠氮），安全性更好",
+  "scope": "合成伯胺、异氰酸酯；可用于氨基酸、手性胺的制备",
+  "limitations": "异羟肟酸需预先制备；需活化羟基；高温",
+  "examples": [
+    "苯甲异羟肟酸 → 苯胺（产率待核对）",
+    "O-对甲苯磺酰基异羟肟酸 → 伯胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Curtius/Hofmann 混淆：三者中间体都是异氰酸酯，区别在「怎么生成」",
+    "忘记羟基需要先活化，否则不反应"
+  ],
+  "mnemonics": "异羟肟酸 + TsCl → 异氰酸酯 → 伯胺；同样少一个碳。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

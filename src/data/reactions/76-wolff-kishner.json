@@ -1,0 +1,49 @@
+{
+  "id": "wolff-kishner",
+  "name_zh": "Wolff–Kishner 还原",
+  "name_en": "Wolff–Kishner Reduction",
+  "title": "Wolff–Kishner 还原",
+  "aliases_zh": ["沃尔夫-凯惜纳还原", "黄鸣龙改良法", "水合肼还原"],
+  "aliases_en": ["Wolff-Kishner reduction", "Huang Minlon modification"],
+  "category": "还原",
+  "tags": ["水合肼", "强碱", "羰基", "碱性条件"],
+  "difficulty": 2,
+  "year": 1912,
+  "discoverer": "Ludwig Wolff & Nikolai Kishner（黄鸣龙改良 1946）",
+  "overview": "醛或酮先与水合肼生成腙，再在强碱（KOH）高温下分解，羰基被还原为亚甲基；碱性条件，适合耐碱底物。",
+  "scheme_simple": "PhCOCH3 + NH2NH2 →(KOH, 200 ℃) PhCH2CH3",
+  "scheme_above": "NH2NH2·H2O, KOH",
+  "scheme_below": "二甘醇, 200 ℃",
+  "scheme_image": "wolff-kishner",
+  "substrates": ["醛", "酮（耐碱的）"],
+  "products": ["亚甲基化合物"],
+  "catalyst": "—",
+  "reagent": "水合肼",
+  "base": "KOH / NaOH（过量）",
+  "solvent": ["二甘醇", "三甘醇"],
+  "temp": "180 ~ 220 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（放出 N2）",
+  "mechanism_steps": [
+    "羰基与水合肼缩合，生成腙",
+    "碱夺取腙的 N–H，形成碳负离子",
+    "质子转移并放出 N2，生成烃"
+  ],
+  "regio_selectivity": "只还原羰基；双键一般保留（比 Clemmensen 温和）",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "高温高压是经典条件；黄鸣龙改良法（高沸点溶剂 + 常压）使操作更安全",
+  "scope": "芳基酮脱氧；对酸敏底物（如含缩醛、酯）比 Clemmensen 更安全",
+  "limitations": "强碱高温；水合肼剧毒、致癌；对碱敏底物不适用",
+  "examples": [
+    "苯乙酮 → 乙苯（产率待核对）",
+    "黄鸣龙改良条件下甾体酮的脱氧（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Clemmensen 选错：这是碱性条件，酸性底物（如酯）会被水解",
+    "以为室温就能做：经典条件需要 200 ℃"
+  ],
+  "mnemonics": "肼先做腙，碱一推就跑氮气 → C=O 变 CH2（碱性版）。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（还原）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

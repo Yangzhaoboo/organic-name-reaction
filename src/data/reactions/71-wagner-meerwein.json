@@ -1,0 +1,49 @@
+{
+  "id": "wagner-meerwein",
+  "name_zh": "Wagner–Meerwein 重排",
+  "name_en": "Wagner–Meerwein Rearrangement",
+  "title": "Wagner–Meerwein 重排",
+  "aliases_zh": ["瓦格纳-梅尔魏因重排", "碳正离子重排", "扩环重排"],
+  "aliases_en": ["Wagner-Meerwein rearrangement", "carbocation rearrangement"],
+  "category": "重排",
+  "tags": ["碳正离子", "1,2-迁移", "扩环", "桥环"],
+  "difficulty": 3,
+  "year": 1899,
+  "discoverer": "Georg Wagner & Hans Meerwein",
+  "overview": "碳正离子发生 1,2-烷基/氢迁移，使正电荷转移到更稳定的位置；常伴随扩环、缩环或桥环骨架重排。",
+  "scheme_simple": "3,3-二甲基-2-丁醇 →(H+) 2,3-二甲基-2-丁烯",
+  "scheme_above": "H2SO4 (cat.)",
+  "scheme_below": "H2O, Δ",
+  "scheme_image": "wagner-meerwein",
+  "substrates": ["能生成碳正离子的醇、卤代烃、烯烃"],
+  "products": ["重排后的烯烃/醇/卤代烃（骨架改变）"],
+  "catalyst": "酸（H2SO4、H3PO4）或 Lewis 酸",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["H2O", "AcOH", "CH2Cl2"],
+  "temp": "0 ~ 100 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "质子化/离去基团离开，生成碳正离子",
+    "相邻碳上的烷基或氢带着电子对做 1,2-迁移，正电荷转移",
+    "重排后得到更稳定的碳正离子，再被亲核体捕获或消除成烯"
+  ],
+  "regio_selectivity": "迁移方向是「让正电荷更稳定」：叔 > 仲 > 伯；环状体系常伴随扩环或缩环",
+  "stereo_selectivity": "迁移要求反式共平面，立体专一；产物构型由迁移方式决定",
+  "selectivity_note": "这是所有碳正离子反应的「底层机制」：重排、扩环、频哪醇重排、Beckmann 迁移都可用它解释",
+  "scope": "萜类（蒎烯→冰片）、甾体骨架重排；解释 Friedel–Crafts 烷基化中的重排副产物",
+  "limitations": "条件控制难（易得多组分混合物）；过度重排可能得到更稳定但非目标产物",
+  "examples": [
+    "新戊醇在酸中重排（产率待核对）",
+    "蒎烯 → 冰片/莰烯（酸催化重排，产率待核对）"
+  ],
+  "pitfalls": [
+    "只背「会重排」却不判断方向：要比较迁移后的碳正离子稳定性",
+    "把氢迁移与烷基迁移混为一谈：两者都算，但产物不同"
+  ],
+  "mnemonics": "碳正离子「哪里更稳往哪里搬」：1,2-迁移，常带扩环。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

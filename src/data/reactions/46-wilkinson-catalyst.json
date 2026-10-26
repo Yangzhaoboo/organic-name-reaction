@@ -1,0 +1,50 @@
+{
+  "id": "wilkinson-catalyst",
+  "name_zh": "Wilkinson 催化氢化",
+  "name_en": "Wilkinson's Catalyst Hydrogenation",
+  "title": "Wilkinson 催化氢化",
+  "aliases_zh": ["威尔金森催化剂", "RhCl(PPh3)3 氢化", "均相催化氢化"],
+  "aliases_en": ["Wilkinson's catalyst", "homogeneous hydrogenation"],
+  "category": "还原",
+  "tags": ["铑", "均相催化", "烯烃", "选择性"],
+  "difficulty": 3,
+  "year": 1965,
+  "discoverer": "Geoffrey Wilkinson（1973 年诺贝尔化学奖）",
+  "overview": "RhCl(PPh₃)₃ 在均相条件下催化烯烃加氢；可选择性还原位阻小的双键，并保留硝基等可被非均相催化还原的基团。",
+  "scheme_simple": "1-己烯 + H2 →(RhCl(PPh3)3) 己烷",
+  "scheme_above": "RhCl(PPh3)3 (cat.)",
+  "scheme_below": "H2 (1 atm), benzene, 25 ℃",
+  "scheme_image": "wilkinson-catalyst",
+  "substrates": ["烯烃（单取代、双取代优先）", "炔烃（可停在烯烃，取决于条件）"],
+  "products": ["烷烃", "部分还原的烯烃"],
+  "catalyst": "RhCl(PPh3)3",
+  "reagent": "H2",
+  "base": "—",
+  "solvent": ["benzene", "toluene", "EtOH"],
+  "temp": "25 ℃",
+  "time": "待核对",
+  "atmosphere": "H2（常压或低压）",
+  "mechanism_steps": [
+    "Rh(I) 发生氧化加成，H2 加到金属上形成二氢化物",
+    "烯烃与 Rh 配位",
+    "氢迁移到烯烃（逐步），形成 Rh–烷基",
+    "还原消除，放出烷烃并再生催化剂"
+  ],
+  "regio_selectivity": "优先还原位阻小的双键：单取代 > 双取代 > 三取代 > 四取代",
+  "stereo_selectivity": "顺式加氢（syn-addition），两个氢从同一面加成",
+  "selectivity_note": "可选择性还原烯烃而保留硝基、芳环；这是它相对 Pd/C 的优势",
+  "scope": "选择性氢化、同位素标记（D2）；也用于醛的脱羰（等当量时）",
+  "limitations": "催化剂昂贵、对氧敏感；对四取代烯烃与位阻大底物活性低；均相体系难以回收",
+  "examples": [
+    "1-己烯 → 己烷（产率待核对）",
+    "含硝基的烯烃 → 只还原双键（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Pd/C 催化氢化混淆：Wilkinson 是均相、可选择性保留硝基",
+    "忽略位阻效应：四取代双键很难被还原"
+  ],
+  "mnemonics": "Wilkinson 挑「好欺负」的双键：取代越少越快，硝基它不碰。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.8 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

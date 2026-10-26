@@ -1,0 +1,50 @@
+{
+  "id": "stork-enamine",
+  "name_zh": "Stork 烯胺合成",
+  "name_en": "Stork Enamine Synthesis",
+  "title": "Stork 烯胺合成",
+  "aliases_zh": ["烯胺烷基化", "Stork 反应", "烯胺合成"],
+  "aliases_en": ["Stork enamine", "enamine alkylation"],
+  "category": "C–C 单键",
+  "tags": ["酮", "烯胺", "α-烷基化", "吡咯烷"],
+  "difficulty": 3,
+  "year": 1954,
+  "discoverer": "Gilbert Stork",
+  "overview": "酮先与二级胺缩合成烯胺，再烷基化或酰基化，水解后得到 α-烷基/α-酰基酮——绕开碱性条件的一条 α-官能团化路线。",
+  "scheme_simple": "环己酮 + 吡咯烷 →(cat. TsOH) 1-吡咯烷基环己烯",
+  "scheme_above": "cat. TsOH",
+  "scheme_below": "toluene, Δ, -H2O",
+  "scheme_image": "stork-enamine",
+  "substrates": ["酮（含 α-H）", "二级胺（吡咯烷、吗啉）"],
+  "products": ["烯胺", "α-烷基酮 / α-酰基酮（水解后）"],
+  "catalyst": "TsOH（催化量）",
+  "reagent": "吡咯烷 / 吗啉",
+  "base": "—",
+  "solvent": ["toluene", "苯"],
+  "temp": "加热回流（除水）",
+  "time": "待核对",
+  "atmosphere": "需除水（用分水器）",
+  "mechanism_steps": [
+    "胺对羰基加成，失水生成亚胺离子",
+    "失去 α-H，形成 C=C–N 共轭的烯胺（亲核性烯醇等价物）",
+    "烯胺 α-碳进攻卤代烃或酰卤，生成亚胺盐",
+    "酸性水解，恢复羰基，得到 α-取代酮"
+  ],
+  "regio_selectivity": "不对称酮优先在取代较少的一侧成烯胺，因此烷基化发生在取代较少的 α 位",
+  "stereo_selectivity": "一般不涉及；用酰卤可得 α-酰基化合物",
+  "selectivity_note": "烯胺稳定性由空间位阻决定，双键偏向取代少的一侧（与烯醇的电子效应相反）",
+  "scope": "避免强碱条件的 α-官能团化；适合对碱敏感的底物",
+  "limitations": "需要除水、两步操作；烯胺易水解，需现制现用",
+  "examples": [
+    "环己酮 → 烯胺 → α-甲基环己酮（产率待核对）",
+    "环己酮 → 烯胺 → α-酰基环己酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "烯胺的双键位置与烯醇相反：烯胺偏向取代少的一侧",
+    "水解这一步不能漏，否则拿到的是亚胺盐"
+  ],
+  "mnemonics": "烯胺 = 被「保护」的烯醇：先成烯胺，再上取代基，最后水解。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.1 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

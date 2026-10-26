@@ -1,0 +1,49 @@
+{
+  "id": "mannich-reaction",
+  "name_zh": "曼尼希反应",
+  "name_en": "Mannich Reaction",
+  "title": "Mannich 反应",
+  "aliases_zh": ["曼尼希反应", "曼尼赫反应", "Mannich 缩合"],
+  "aliases_en": ["Mannich reaction", "Mannich condensation"],
+  "category": "C–C 单键",
+  "tags": ["亚胺离子", "烯醇", "β-氨基羰基", "多组分"],
+  "difficulty": 3,
+  "year": 1912,
+  "discoverer": "Carl Mannich",
+  "overview": "醛、胺与含 α-H 的羰基化合物三组分缩合，生成 β-氨基羰基化合物（Mannich 碱）——氨基甲基化反应。",
+  "scheme_simple": "PhCOCH3 + PhCHO + HNMe2 →(H+) PhCOCH2CH(NMe2)Ph",
+  "scheme_above": "cat. HCl / AcOH",
+  "scheme_below": "EtOH, 25 ~ 80 ℃",
+  "scheme_image": "mannich-reaction",
+  "substrates": ["含 α-H 的酮/醛/酯", "甲醛（或其它醛）", "一级/二级胺"],
+  "products": ["β-氨基羰基化合物（Mannich 碱）"],
+  "catalyst": "酸（HCl、AcOH）或 Lewis 酸",
+  "reagent": "胺 + 醛（现场生成亚胺离子）",
+  "base": "—（酸性条件）",
+  "solvent": ["EtOH", "H2O", "THF"],
+  "temp": "25 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "胺与醛缩合，失水生成亚胺离子（亲电体）",
+    "羰基化合物烯醇化，以 α-碳进攻亚胺离子",
+    "去质子，得到 β-氨基羰基化合物"
+  ],
+  "regio_selectivity": "含两种 α-H 时，反应主要发生在取代较少的 α 碳上（位阻小）",
+  "stereo_selectivity": "生成新手性中心；脯氨酸催化的不对称 Mannich 是经典有机催化反应",
+  "selectivity_note": "与羟醛缩合类似，但亲电体是亚胺离子而不是羰基",
+  "scope": "合成 β-氨基酮/酯；Mannich 碱可经 Hofmann 消除得 α,β-不饱和酮",
+  "limitations": "多组分体系副反应多；产物易发生逆 Mannich 分解；需控制 pH",
+  "examples": [
+    "苯乙酮 + 甲醛 + 二甲胺 → 3-二甲氨基-1-苯基-1-丙酮（产率待核对）",
+    "脯氨酸催化不对称 Mannich（产率/ee 待核对）"
+  ],
+  "pitfalls": [
+    "与羟醛缩合混淆：Mannich 的「新碳」来自亚胺离子，产物含氮",
+    "忘了它是三组分反应，机理里必须先生成亚胺离子"
+  ],
+  "mnemonics": "醛 + 胺先变亚胺离子 → 再被烯醇打；得到 β-氨基羰基。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.11 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

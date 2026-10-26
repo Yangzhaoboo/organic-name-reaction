@@ -1,0 +1,50 @@
+{
+  "id": "sharpless-epoxidation",
+  "name_zh": "Sharpless 不对称环氧化",
+  "name_en": "Sharpless Asymmetric Epoxidation",
+  "title": "Sharpless 不对称环氧化",
+  "aliases_zh": ["Sharpless 环氧化", "SAE", "酒石酸二乙酯环氧化"],
+  "aliases_en": ["Sharpless asymmetric epoxidation", "SAE", "Sharpless epoxidation"],
+  "category": "氧化",
+  "tags": ["烯丙醇", "钛", "手性环氧化", "诺贝尔奖"],
+  "difficulty": 4,
+  "year": 1980,
+  "discoverer": "K. Barry Sharpless（2001 年诺贝尔化学奖）",
+  "overview": "烯丙醇在 Ti(OiPr)4、(+)- 或 (–)-酒石酸二乙酯与 TBHP 体系中环氧化，以极高的对映选择性得到手性环氧化合物。",
+  "scheme_simple": "反式-2-己烯-1-醇 →(Ti(OiPr)4/(+)-DET, TBHP) 手性环氧醇",
+  "scheme_above": "Ti(OiPr)4, (+)-DET, TBHP",
+  "scheme_below": "CH2Cl2, -20 ℃",
+  "scheme_image": "sharpless-epoxidation",
+  "substrates": ["烯丙醇（一级/二级）"],
+  "products": ["手性环氧醇（ee 常 > 90%）"],
+  "catalyst": "Ti(OiPr)4 + 酒石酸二乙酯（手性配体）",
+  "reagent": "TBHP（过氧叔丁醇）",
+  "base": "—",
+  "solvent": ["CH2Cl2", "toluene"],
+  "temp": "-20 ℃（-78 ~ 0 ℃）",
+  "time": "待核对",
+  "atmosphere": "无水、惰性气体（Ti 试剂遇水失活）",
+  "mechanism_steps": [
+    "Ti(OiPr)4 与酒石酸二乙酯络合，形成手性钛催化剂",
+    "烯丙醇的羟基与钛配位，把双键固定在一个特定方向",
+    "TBHP 经钛传递氧，从固定面环氧化",
+    "得到高对映选择性的环氧醇"
+  ],
+  "regio_selectivity": "环氧化发生在双键上；羟基作为「锚点」决定选择性",
+  "stereo_selectivity": "(+)-DET 与 (–)-DET 给出相反的对映体；顺/反烯丙醇的立体化学可用模型预测",
+  "selectivity_note": "必须是烯丙醇：羟基配位是手性控制的来源，普通烯烃不适用",
+  "scope": "合成手性环氧醇（天然产物、药物中间体，如缩水甘油衍生物）",
+  "limitations": "仅限烯丙醇；需低温、无水；Ti 试剂当量较大；工业放大受限",
+  "examples": [
+    "反式-2-己烯-1-醇 → (2R,3R)-环氧醇（产率/ee 待核对）",
+    "香叶醇 → 手性环氧（产率/ee 待核对）"
+  ],
+  "pitfalls": [
+    "拿普通烯烃做：没有烯丙醇羟基就无法配位，选择性消失",
+    "忘记 (+)/(–)-DET 决定构型：换配体就是换对映体"
+  ],
+  "mnemonics": "烯丙醇的 –OH 先「锚」到钛上，再把氧从固定一面递过去。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（氧化）"],
+  "status": "partial",
+  "todo_fields": ["time", "scheme_simple（写法待核对）", "examples（产率）"]
+}

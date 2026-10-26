@@ -1,0 +1,50 @@
+{
+  "id": "corey-winter",
+  "name_zh": "Corey–Winter 烯化",
+  "name_en": "Corey–Winter Olefination",
+  "title": "Corey–Winter 烯化",
+  "aliases_zh": ["科里-温特反应", "Corey-Winter 反应", "邻二醇脱水成烯"],
+  "aliases_en": ["Corey-Winter", "Corey-Winter olefination"],
+  "category": "C=C 构建",
+  "tags": ["邻二醇", "硫代碳酸酯", "烯烃", "亚磷酸酯"],
+  "difficulty": 3,
+  "year": 1963,
+  "discoverer": "Elias J. Corey & R. A. E. Winter",
+  "overview": "邻二醇先与硫羰基二咪唑生成环状硫代碳酸酯，再用亚磷酸三烷基酯处理，发生顺式还原消除，得到烯烃——「二醇 → 烯烃」的经典方法。",
+  "scheme_simple": "1,2-环己二醇 →(CSIm2, 然后 P(OEt)3) 环己烯",
+  "scheme_above": "thiocarbonyldiimidazole",
+  "scheme_below": "then (EtO)3P, Δ",
+  "scheme_image": "corey-winter",
+  "substrates": ["顺式/反式邻二醇（糖类、环状二醇）"],
+  "products": ["烯烃（构型保持）"],
+  "catalyst": "—",
+  "reagent": "硫羰基二咪唑（或硫光气）；亚磷酸三乙酯",
+  "base": "—",
+  "solvent": ["THF", "toluene", "CH2Cl2"],
+  "temp": "室温（成酯）；加热（消除）",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "二醇与硫羰基二咪唑反应，生成五元环状硫代碳酸酯",
+    "亚磷酸酯对硫原子做亲核进攻，形成氧磷鎓中间体",
+    "顺式还原消除，C–O 键断裂并成 C=C",
+    "放出 COS / 磷酸酯副产物，得到烯烃"
+  ],
+  "regio_selectivity": "消除发生在原来的两个羟基碳之间，位置固定",
+  "stereo_selectivity": "顺式消除（syn-elimination）：反式二醇给反式烯烃，顺式二醇给顺式烯烃",
+  "selectivity_note": "是「烯烃 → 二醇」的逆操作，糖化学和复杂分子中常用；比直接脱水温和、选择性好",
+  "scope": "糖类、大环、天然产物中把邻二醇转化为烯烃；耐多种官能团",
+  "limitations": "需要两步；硫试剂有味/不稳定；会产生 COS 气体（需通风）",
+  "examples": [
+    "反式-1,2-环己二醇 → 环己烯（产率待核对）",
+    "糖类邻二醇 → 相应烯烃（具体底物待核对）"
+  ],
+  "pitfalls": [
+    "与普通酸催化脱水混淆：Corey–Winter 经环状硫代碳酸酯，是顺式消除，构型关系保持",
+    "以为一步完成：必须先成硫代碳酸酯"
+  ],
+  "mnemonics": "二醇 → 硫代碳酸酯 → 亚磷酸酯一推，顺式消除成烯。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.4 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

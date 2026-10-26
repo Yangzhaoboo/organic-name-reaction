@@ -1,0 +1,50 @@
+{
+  "id": "perkin-reaction",
+  "name_zh": "Perkin 反应",
+  "name_en": "Perkin Reaction",
+  "title": "Perkin 反应",
+  "aliases_zh": ["珀金反应", "肉桂酸合成", "芳香醛与酸酐缩合"],
+  "aliases_en": ["Perkin reaction", "Perkin condensation"],
+  "category": "C=C 构建",
+  "tags": ["芳香醛", "酸酐", "肉桂酸", "羧酸盐"],
+  "difficulty": 2,
+  "year": 1868,
+  "discoverer": "William Henry Perkin",
+  "overview": "芳香醛与脂肪酸酐在相应羧酸盐（如乙酸钠）存在下加热缩合，得到 α,β-不饱和羧酸（肉桂酸类）。",
+  "scheme_simple": "PhCHO + (CH3CO)2O →(AcONa) PhCH=CHCOOH",
+  "scheme_above": "AcONa",
+  "scheme_below": "Ac2O, 180 ℃",
+  "scheme_image": "perkin-reaction",
+  "substrates": ["芳香醛（无 α-H）", "脂肪酸酐"],
+  "products": ["α,β-不饱和羧酸（肉桂酸类）"],
+  "catalyst": "—",
+  "reagent": "酸酐 + 羧酸盐",
+  "base": "乙酸钠 / 碳酸钾（弱碱）",
+  "solvent": ["乙酸酐（兼溶剂）"],
+  "temp": "170 ~ 180 ℃",
+  "time": "待核对",
+  "atmosphere": "无水（酸酐水解会失效）",
+  "mechanism_steps": [
+    "羧酸盐与酸酐作用，生成酸酐的烯醇盐（碳负离子）",
+    "碳负离子进攻芳香醛的羰基，形成 β-羟基中间体",
+    "分子内酰化形成环状中间体（β-内酯型），随后开环",
+    "脱水/脱羧，得到 α,β-不饱和羧酸"
+  ],
+  "regio_selectivity": "缩合发生在醛羰基碳与酸酐 α-碳之间",
+  "stereo_selectivity": "主要得反式（E）肉桂酸型产物",
+  "selectivity_note": "与 Knoevenagel 的区别：Perkin 用酸酐 + 羧酸盐（强条件），Knoevenagel 用活泼亚甲基 + 弱碱（温和）",
+  "scope": "合成取代肉桂酸、芳香丙烯酸类；Perkin 最初用此法合成香豆素",
+  "limitations": "需高温（170–180 ℃）；脂肪醛易自身缩合；酸酐用量大",
+  "examples": [
+    "苯甲醛 + 乙酸酐 → 肉桂酸（产率待核对）",
+    "水杨醛 + 乙酸酐 → 香豆素（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Knoevenagel / Claisen 混淆：Perkin 的碱是羧酸盐、底物是酸酐，条件最剧烈",
+    "忘记产物是「酸」而不是酯：后处理需要水解/酸化"
+  ],
+  "mnemonics": "芳醛 + 乙酸酐 + 乙酸钠，180 ℃：一步做出肉桂酸。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.5 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

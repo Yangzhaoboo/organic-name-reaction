@@ -1,0 +1,49 @@
+{
+  "id": "curtius-rearrangement",
+  "name_zh": "Curtius 重排",
+  "name_en": "Curtius Rearrangement",
+  "title": "Curtius 重排",
+  "aliases_zh": ["库尔提斯重排", "酰基叠氮重排", "羧酸变胺"],
+  "aliases_en": ["Curtius rearrangement", "acyl azide rearrangement"],
+  "category": "重排",
+  "tags": ["酰基叠氮", "异氰酸酯", "胺", "脱羧"],
+  "difficulty": 3,
+  "year": 1890,
+  "discoverer": "Theodor Curtius",
+  "overview": "酰基叠氮受热分解，放出氮气并重排成异氰酸酯，水解后得到少一个碳的伯胺——「羧酸 → 胺」的标准方法。",
+  "scheme_simple": "PhCON3 →(Δ) PhNCO →(H2O) PhNH2 + CO2",
+  "scheme_above": "Δ (toluene, 80 ~ 110 ℃)",
+  "scheme_below": "then H2O",
+  "scheme_image": "curtius-rearrangement",
+  "substrates": ["酰基叠氮（由酰氯 + NaN3 或 DPPA 制得）", "羧酸（可一锅经 DPPA 转化）"],
+  "products": ["异氰酸酯", "伯胺（水解后）", "氨基甲酸酯（醇解后）", "脲（与胺反应）"],
+  "catalyst": "—",
+  "reagent": "NaN3 / DPPA（叠氮磷酸二苯酯）",
+  "base": "Et3N",
+  "solvent": ["toluene", "THF", "t-BuOH"],
+  "temp": "80 ~ 110 ℃（分解）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（注意叠氮化物易爆）",
+  "mechanism_steps": [
+    "酰基叠氮受热失去 N2，生成酰基氮宾",
+    "烷基（或芳基）迁移到氮上，同时 C=O 保留，生成异氰酸酯",
+    "异氰酸酯水解，放出 CO2，得到伯胺"
+  ],
+  "regio_selectivity": "迁移基团带着构型转移；手性底物可保持构型",
+  "stereo_selectivity": "迁移碳的构型保持，因此可用于手性胺的合成",
+  "selectivity_note": "异氰酸酯是「枢纽中间体」：水解得胺、醇解得 Boc 保护的胺、与胺反应得脲",
+  "scope": "多肽/药物中把羧酸转化为胺；Boc 保护胺的常用制法（t-BuOH 捕获异氰酸酯）",
+  "limitations": "叠氮化物剧毒且易爆（尤其重金属盐）；需注意安全操作",
+  "examples": [
+    "苯甲酰叠氮 → 苯异氰酸酯 → 苯胺（产率待核对）",
+    "羧酸 + DPPA + t-BuOH → Boc 保护的胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Hofmann 重排混淆：Curtius 的底物是酰基叠氮，Hofmann 是一级酰胺 + 次卤酸盐",
+    "漏掉 CO2：整条反应碳数减一，画机理时容易忘记"
+  ],
+  "mnemonics": "酰基叠氮一加热就「氮气跑掉 + 迁移」→ 异氰酸酯 → 水解得胺。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 5.3 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

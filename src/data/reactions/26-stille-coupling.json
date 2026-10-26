@@ -1,0 +1,49 @@
+{
+  "id": "stille-coupling",
+  "name_zh": "Stille 偶联",
+  "name_en": "Stille Coupling",
+  "title": "Stille 偶联",
+  "aliases_zh": ["Stille 反应", "有机锡偶联", "施蒂勒偶联"],
+  "aliases_en": ["Stille coupling", "Stille cross-coupling"],
+  "category": "偶联",
+  "tags": ["钯催化", "有机锡", "交叉偶联", "联芳烃"],
+  "difficulty": 3,
+  "year": 1978,
+  "discoverer": "John K. Stille",
+  "overview": "有机锡试剂与芳基/烯基卤在钯催化下交叉偶联；有机锡稳定、官能团容忍度好，但毒性大。",
+  "scheme_simple": "PhBr + Bu3SnPh →(Pd) Ph–Ph",
+  "scheme_above": "Pd(PPh3)4 (cat.)",
+  "scheme_below": "toluene, 100 ℃",
+  "scheme_image": "stille-coupling",
+  "substrates": ["芳基/烯基卤（碘、溴、OTf）", "有机锡试剂（R3SnR'）"],
+  "products": ["联芳烃 / 共轭二烯 / 烯基化合物"],
+  "catalyst": "Pd(PPh3)4 / Pd2(dba)3 + 配体",
+  "reagent": "有机锡（三丁基锡、三甲基锡）",
+  "base": "—（一般不需要）",
+  "solvent": ["toluene", "THF", "DMF"],
+  "temp": "60 ~ 110 ℃",
+  "time": "待核对",
+  "atmosphere": "惰性气体",
+  "mechanism_steps": [
+    "Pd(0) 对 R–X 氧化加成",
+    "与有机锡转金属化（锡卤化物离去）",
+    "还原消除，得到偶联产物"
+  ],
+  "regio_selectivity": "偶联在选择的位置专一；可做分子内偶联成环",
+  "stereo_selectivity": "烯基锡试剂通常构型保持",
+  "selectivity_note": "有机锡对水和空气较稳定，官能团容忍度好；缺点是锡化合物毒性大、难除净",
+  "scope": "天然产物全合成中常用（大环内酯等）；也用于材料",
+  "limitations": "有机锡有毒（尤其三丁基锡），废液处理麻烦；原子经济性差（锡当量）",
+  "examples": [
+    "溴苯 + 三丁基苯基锡 → 联苯（产率待核对）",
+    "烯基锡 + 芳基卤 → 共轭二烯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Suzuki 混淆：Stille 用有机锡，需要按危险品处理废液",
+    "以为需要加碱：Stille 一般不需要外加碱"
+  ],
+  "mnemonics": "Stille = 钯 + 锡；好用但有毒，能换 Suzuki 就换。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

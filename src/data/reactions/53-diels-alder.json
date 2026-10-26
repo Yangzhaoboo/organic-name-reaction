@@ -1,0 +1,49 @@
+{
+  "id": "diels-alder",
+  "name_zh": "狄尔斯-阿尔德反应",
+  "name_en": "Diels–Alder Reaction",
+  "title": "Diels–Alder 反应",
+  "aliases_zh": ["双烯合成", "Diels-Alder 反应", "DA 反应", "环己烯合成"],
+  "aliases_en": ["Diels-Alder", "DA reaction", "diene synthesis"],
+  "category": "周环",
+  "tags": ["共轭双烯", "亲双烯体", "六元环", "协同反应"],
+  "difficulty": 2,
+  "year": 1928,
+  "discoverer": "Otto Diels & Kurt Alder（1950 年诺贝尔化学奖）",
+  "overview": "共轭双烯与亲双烯体（烯烃/炔烃）发生 [4+2] 环加成，一步构建六元环，是合成环己烯骨架最有力的协同反应。",
+  "scheme_simple": "丁二烯 + 顺丁烯二酸酐 → 环己烯二甲酸酐",
+  "scheme_above": "Δ 或 Lewis 酸",
+  "scheme_below": "toluene, 25 ~ 110 ℃",
+  "scheme_image": "diels-alder",
+  "substrates": ["共轭双烯（s-cis 构象）", "亲双烯体：缺电子烯烃/炔烃、醛、亚胺"],
+  "products": ["环己烯衍生物（[4+2] 加合物）"],
+  "catalyst": "Lewis 酸（AlCl3、BF3）可加速并提高选择性",
+  "reagent": "亲双烯体",
+  "base": "—",
+  "solvent": ["toluene", "xylene", "无溶剂"],
+  "temp": "25 ~ 110 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "双烯与亲双烯体以 s-cis 构象接近，形成协同的环状过渡态",
+    "两对新 π 电子重排，同时形成两根 σ 键、一根 π 键转移到环内",
+    "一步得到环己烯骨架（无中间体）"
+  ],
+  "regio_selectivity": "双烯上有给电子基、亲双烯体上有吸电子基时称「正常型」，1-位与邻位成键；反之称「反常型」",
+  "stereo_selectivity": "立体专一：cis-亲双烯体给 cis-产物（构型保持）；内型（endo）产物通常动力学占优",
+  "selectivity_note": "endo/exo 由次级轨道作用决定，endo 常为主；环戊二烯与马来酸酐是经典例子",
+  "scope": "构建六元环、桥环；天然产物（甾体、紫杉醇片段）合成核心步骤",
+  "limitations": "双烯必须能取 s-cis 构象（环内双烯反应慢）；亲双烯体位阻大时需高温或 Lewis 酸",
+  "examples": [
+    "环戊二烯 + 马来酸酐 → 内型加合物（产率待核对）",
+    "丁二烯 + 丙烯醛 → 环己烯-3-甲醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "把 endo/exo 与 cis/trans 混为一谈：前者是加合物相对取向，后者是取代基构型",
+    "忽略双烯必须 s-cis：两个双键不在同一平面就无法环加成"
+  ],
+  "mnemonics": "[4+2] 一步成六元环；「cis 给 cis」，endo 常为主。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（周环反应）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

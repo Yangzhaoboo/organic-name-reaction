@@ -1,0 +1,49 @@
+{
+  "id": "knoevenagel-condensation",
+  "name_zh": "Knoevenagel 缩合",
+  "name_en": "Knoevenagel Condensation",
+  "title": "Knoevenagel 缩合",
+  "aliases_zh": ["克脑文盖尔缩合", "Knoevenagel 反应", "活泼亚甲基与醛缩合"],
+  "aliases_en": ["Knoevenagel condensation", "Knoevenagel reaction"],
+  "category": "C=C 构建",
+  "tags": ["活泼亚甲基", "醛", "烯烃", "哌啶"],
+  "difficulty": 2,
+  "year": 1894,
+  "discoverer": "Emil Knoevenagel",
+  "overview": "活泼亚甲基化合物（丙二酸酯、氰乙酸酯、丙二腈）与醛或酮在弱碱催化下脱水缩合，生成 α,β-不饱和化合物。",
+  "scheme_simple": "PhCHO + CH2(CN)2 →(哌啶) PhCH=C(CN)2",
+  "scheme_above": "piperidine (cat.)",
+  "scheme_below": "EtOH, Δ",
+  "scheme_image": "knoevenagel-condensation",
+  "substrates": ["活泼亚甲基化合物（丙二酸酯、丙二腈、β-酮酸酯）", "醛", "酮（较慢）"],
+  "products": ["α,β-不饱和羰基/腈"],
+  "catalyst": "哌啶 / 吡啶 / 醋酸铵",
+  "reagent": "活泼亚甲基化合物",
+  "base": "哌啶（弱碱催化）",
+  "solvent": ["EtOH", "benzene", "无溶剂"],
+  "temp": "室温 ~ 回流",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（常用分水器除水）",
+  "mechanism_steps": [
+    "碱夺取活泼亚甲基的 α-H，生成碳负离子",
+    "进攻醛的羰基碳，形成 β-羟基中间体",
+    "脱水，生成 α,β-不饱和化合物"
+  ],
+  "regio_selectivity": "缩合发生在活泼亚甲基碳与羰基碳之间",
+  "stereo_selectivity": "通常得 E 构型（热力学更稳定）",
+  "selectivity_note": "与羟醛缩合的区别：亲核体是「被两个吸电子基活化的亚甲基」，因此用弱碱即可",
+  "scope": "合成 α,β-不饱和酸、腈、酯；Doebner 改良法（丙二酸 + 醛 + 哌啶）可制取代丙烯酸，并常伴随脱羧",
+  "limitations": "底物需有足够酸性的亚甲基（pKa 约 10–13）；酮反应慢；易得多聚副产物",
+  "examples": [
+    "苯甲醛 + 丙二腈 → 亚苄基丙二腈（产率待核对）",
+    "苯甲醛 + 丙二酸 → 肉桂酸（Doebner 改良，产率待核对）"
+  ],
+  "pitfalls": [
+    "与羟醛缩合混淆：Knoevenagel 的碳负离子来自活泼亚甲基，不是羰基 α-H",
+    "与 Perkin 反应混淆：Perkin 用酸酐 + 羧酸盐，Knoevenagel 用活泼亚甲基 + 弱碱"
+  ],
+  "mnemonics": "亚甲基被两个吸电子基「喂酸」→ 弱碱就能拔 → 缩合脱水成烯。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.5 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

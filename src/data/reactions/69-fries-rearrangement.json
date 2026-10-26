@@ -1,0 +1,49 @@
+{
+  "id": "fries-rearrangement",
+  "name_zh": "Fries 重排",
+  "name_en": "Fries Rearrangement",
+  "title": "Fries 重排",
+  "aliases_zh": ["弗里斯重排", "酚酯重排", "邻羟基芳香酮合成"],
+  "aliases_en": ["Fries rearrangement"],
+  "category": "重排",
+  "tags": ["酚酯", "Lewis 酸", "邻/对位", "羟基芳香酮"],
+  "difficulty": 3,
+  "year": 1908,
+  "discoverer": "Karl Theophil Fries",
+  "overview": "酚酯在 Lewis 酸（AlCl3）或热作用下，酰基迁移到芳环的邻位或对位，生成羟基芳香酮。",
+  "scheme_simple": "乙酸苯酯 →(AlCl3) 邻羟基苯乙酮",
+  "scheme_above": "AlCl3",
+  "scheme_below": "CS2 或硝基苯，25 ~ 120 ℃",
+  "scheme_image": "fries-rearrangement",
+  "substrates": ["酚酯（乙酸苯酯、苯甲酸苯酯等）"],
+  "products": ["邻羟基芳香酮", "对羟基芳香酮"],
+  "catalyst": "AlCl3 / BF3 / TiCl4",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["CS2（低温，偏邻位）", "硝基苯（高温，偏对位）"],
+  "temp": "25 ℃（邻位）/ 120 ℃（对位）",
+  "time": "待核对",
+  "atmosphere": "无水（Lewis 酸）",
+  "mechanism_steps": [
+    "AlCl3 与酯羰基配位，C–O 键断裂，生成酰基正离子与酚铝",
+    "酰基正离子对芳环做分子内/分子间亲电取代",
+    "水解，释放羟基芳香酮"
+  ],
+  "regio_selectivity": "低温（CS2）、短时间 → 邻位为主（动力学）；高温（硝基苯）→ 对位为主（热力学）",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "邻/对位由溶剂与温度控制，是常考点；两个邻位都被占时只能进对位",
+  "scope": "合成邻/对羟基芳香酮（药物、香料中间体）",
+  "limitations": "需 >1 当量 Lewis 酸；强钝化环不反应；易多酰化",
+  "examples": [
+    "乙酸苯酯 → 邻羟基苯乙酮（CS2，产率待核对）",
+    "乙酸苯酯 → 对羟基苯乙酮（硝基苯，产率待核对）"
+  ],
+  "pitfalls": [
+    "邻/对位条件记反：低温 CS2 给邻位，高温硝基苯给对位",
+    "以为只是普通 Friedel–Crafts：Fries 是分子内酰基迁移，起始物是酚酯"
+  ],
+  "mnemonics": "酚酯「酰基搬家」：冷冷邻位，热热对位。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "buchwald-hartwig",
+  "name_zh": "Buchwald–Hartwig 胺化",
+  "name_en": "Buchwald–Hartwig Amination",
+  "title": "Buchwald–Hartwig 胺化",
+  "aliases_zh": ["Buchwald-Hartwig 偶联", "钯催化 C–N 偶联", "芳香胺化"],
+  "aliases_en": ["Buchwald-Hartwig", "Pd-catalyzed amination", "C-N coupling"],
+  "category": "偶联",
+  "tags": ["钯催化", "C–N 键", "芳胺", "配体"],
+  "difficulty": 4,
+  "year": 1995,
+  "discoverer": "Stephen L. Buchwald & John F. Hartwig",
+  "overview": "芳基卤与胺（一级/二级胺、酰胺、吲哚等）在钯催化下偶联生成芳胺，是构建 C–N 键的现代标准方法。",
+  "scheme_simple": "PhBr + 吗啉 →(Pd/配体) N-苯基吗啉",
+  "scheme_above": "Pd2(dba)3 + BrettPhos",
+  "scheme_below": "NaOtBu, 二氧六环, 100 ℃",
+  "scheme_image": "buchwald-hartwig",
+  "substrates": ["芳基/杂芳基卤（溴、氯、OTf）", "一级/二级胺、酰胺、吲哚、咔唑"],
+  "products": ["芳胺、二芳胺、N-芳基酰胺"],
+  "catalyst": "Pd2(dba)3 / Pd(OAc)2 + 大位阻膦配体",
+  "reagent": "胺",
+  "base": "NaOtBu / Cs2CO3 / K3PO4",
+  "solvent": ["二氧六环", "toluene", "THF"],
+  "temp": "80 ~ 110 ℃",
+  "time": "待核对",
+  "atmosphere": "惰性气体",
+  "mechanism_steps": [
+    "Pd(0) 对 Ar–X 氧化加成",
+    "胺与碱作用后与 Pd 配位/转金属化（形成 Pd–N 键）",
+    "还原消除，生成 C–N 键并再生 Pd(0)"
+  ],
+  "regio_selectivity": "偶联在芳基卤的连接碳上；杂芳环同样适用",
+  "stereo_selectivity": "一般不涉及；手性胺可保持构型",
+  "selectivity_note": "配体选择是关键：大位阻联芳基膦配体（BrettPhos、XPhos）让芳基氯也能反应",
+  "scope": "药物合成中 C–N 键的标准方法；可做分子内胺化成环（吲哚、喹啉等）",
+  "limitations": "需强碱，对碱敏感底物不适用；Pd 残留与配体成本；伯胺易双芳基化",
+  "examples": [
+    "溴苯 + 吗啉 → 4-苯基吗啉（产率待核对）",
+    "芳基卤 + 苯胺 → 二芳胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "伯胺容易「双芳基化」，想停在单取代需控制当量或用特殊配体",
+    "与 Ullmann（铜催化）混淆：Buchwald–Hartwig 用钯"
+  ],
+  "mnemonics": "钯 + 大位阻膦配体 + 强碱 = 芳胺；配体选对，氯代物也能反应。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

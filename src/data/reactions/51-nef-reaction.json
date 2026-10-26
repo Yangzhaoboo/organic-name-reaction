@@ -1,0 +1,50 @@
+{
+  "id": "nef-reaction",
+  "name_zh": "Nef 反应",
+  "name_en": "Nef Reaction",
+  "title": "Nef 反应",
+  "aliases_zh": ["内夫反应", "硝基烷烃水解成酮", "硝基变羰基"],
+  "aliases_en": ["Nef reaction", "Nef hydrolysis"],
+  "category": "氧化",
+  "tags": ["硝基烷烃", "强酸水解", "醛酮"],
+  "difficulty": 3,
+  "year": 1894,
+  "discoverer": "John Ulric Nef",
+  "overview": "一级或二级硝基烷烃的负离子在强酸中水解，生成醛或酮并放出一氧化二氮——把硝基「变成羰基」的方法。",
+  "scheme_simple": "R2C=N(O)O⁻ →(H3O+) R2C=O + N2O",
+  "scheme_above": "1) NaOH  2) H2SO4",
+  "scheme_below": "H2O, 0 ~ 25 ℃",
+  "scheme_image": "nef-reaction",
+  "substrates": ["一级/二级硝基烷烃", "Henry 反应的 β-硝基醇（可得 α-羟基酮）"],
+  "products": ["醛", "酮"],
+  "catalyst": "—",
+  "reagent": "强碱后强酸（经典）；也可用臭氧、KMnO4 等氧化法",
+  "base": "NaOH（成硝基负离子）",
+  "solvent": ["H2O", "MeOH"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（放出 N2O）",
+  "mechanism_steps": [
+    "碱夺取硝基烷烃 α-H，生成硝基负离子",
+    "质子化/互变异构为硝基化合物（aci 式）",
+    "强酸中质子化并水解，C=N 断裂",
+    "放出一氧化二氮，生成羰基化合物"
+  ],
+  "regio_selectivity": "羰基出现在原硝基所在碳上",
+  "stereo_selectivity": "一般不涉及；可保留相邻手性中心",
+  "selectivity_note": "是 Henry 反应的「反向」：Henry 把硝基装上去，Nef 把硝基换成氧",
+  "scope": "由硝基烷烃制备醛酮；与 Henry 反应串联可得 α-羟基羰基",
+  "limitations": "条件剧烈（强碱 + 强酸）；三级硝基烷烃不反应；易发生副反应（如硝基烯烃聚合）",
+  "examples": [
+    "2-硝基丙烷 → 丙酮（产率待核对）",
+    "Henry 产物（β-硝基醇）→ α-羟基酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Henry 反应混淆：Henry 是「加硝基」，Nef 是「把硝基换成羰基」",
+    "忘记放出的 N2O 气体"
+  ],
+  "mnemonics": "Nef：硝基「换成」羰基，放出笑气。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.10 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

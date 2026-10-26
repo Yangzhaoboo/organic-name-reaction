@@ -1,0 +1,50 @@
+{
+  "id": "schmidt-rearrangement",
+  "name_zh": "Schmidt 重排",
+  "name_en": "Schmidt Rearrangement",
+  "title": "Schmidt 重排",
+  "aliases_zh": ["施密特重排", "叠氮酸重排", "羧酸变胺"],
+  "aliases_en": ["Schmidt reaction", "Schmidt rearrangement"],
+  "category": "重排",
+  "tags": ["叠氮酸", "羧酸", "酮", "酰胺"],
+  "difficulty": 3,
+  "year": 1924,
+  "discoverer": "Karl Friedrich Schmidt",
+  "overview": "羧酸或酮在叠氮酸（HN3）与强酸作用下重排：羧酸给出少一个碳的胺，酮给出同等碳数的酰胺。",
+  "scheme_simple": "PhCOOH + HN3 →(H2SO4) PhNH2 + CO2 + N2",
+  "scheme_above": "HN3, H2SO4",
+  "scheme_below": "CHCl3, 40 ~ 50 ℃",
+  "scheme_image": "schmidt-rearrangement",
+  "substrates": ["羧酸", "酮", "醛（得腈或甲酰胺）"],
+  "products": ["伯胺（羧酸底物）", "酰胺（酮底物）"],
+  "catalyst": "—",
+  "reagent": "叠氮酸 HN3（或 NaN3 + 强酸现场生成）",
+  "base": "—（强酸条件）",
+  "solvent": ["CHCl3", "H2SO4"],
+  "temp": "40 ~ 50 ℃",
+  "time": "待核对",
+  "atmosphere": "通风（HN3 剧毒易爆）",
+  "mechanism_steps": [
+    "羧酸与 HN3 在强酸中生成酰基叠氮（或质子化叠氮物种）",
+    "失去 N2，烷基迁移到氮上，生成异氰酸酯",
+    "水解，放出 CO2，得到伯胺",
+    "（酮底物：生成腈鎓离子后水解成酰胺）"
+  ],
+  "regio_selectivity": "迁移基团带着构型转移；环酮可发生扩环得到内酰胺",
+  "stereo_selectivity": "迁移碳构型保持",
+  "selectivity_note": "底物决定产物：羧酸 → 少一个碳的胺；酮 → 同碳数的酰胺；这是最容易被考的一点",
+  "scope": "制伯胺、内酰胺（环酮扩环）；工业上合成己内酰胺的替代路线之一",
+  "limitations": "HN3 剧毒、易爆，操作危险；强酸条件对敏感底物不友好",
+  "examples": [
+    "苯甲酸 + HN3 → 苯胺（产率待核对）",
+    "环己酮 + HN3 → 己内酰胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Curtius 混淆：Schmidt 直接「羧酸 + HN3」，不先分离酰基叠氮",
+    "忘记酮底物给的是酰胺、不是胺"
+  ],
+  "mnemonics": "羧酸 → 少一碳的胺；酮 → 同碳数的酰胺。同一个 HN3，两种结果。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 5.5 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

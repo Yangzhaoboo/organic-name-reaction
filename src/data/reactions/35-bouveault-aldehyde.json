@@ -1,0 +1,50 @@
+{
+  "id": "bouveault-aldehyde",
+  "name_zh": "Bouveault 醛合成",
+  "name_en": "Bouveault Aldehyde Synthesis",
+  "title": "Bouveault 醛合成",
+  "aliases_zh": ["布沃醛合成", "格氏试剂与甲酸酯", "一锅法增碳成醛"],
+  "aliases_en": ["Bouveault aldehyde synthesis"],
+  "category": "C–杂键构建",
+  "tags": ["格氏试剂", "原甲酸酯", "醛", "增碳"],
+  "difficulty": 3,
+  "year": 1904,
+  "discoverer": "Louis Bouveault",
+  "overview": "卤代烃先做成格氏试剂，再与甲酸酯（或原甲酸酯）反应，水解后得到比原料多一个碳的醛。",
+  "scheme_simple": "R–Br →(Mg, 然后 HC(OEt)3) R–CHO",
+  "scheme_above": "Mg; HC(OEt)3",
+  "scheme_below": "Et2O; then H3O+",
+  "scheme_image": "bouveault-aldehyde",
+  "substrates": ["伯卤代烃（仲卤亦可）"],
+  "products": ["醛（比卤代烃多一个碳）"],
+  "catalyst": "—",
+  "reagent": "甲酸乙酯 / 原甲酸三乙酯",
+  "base": "—",
+  "solvent": ["Et2O", "THF"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "严格无水（格氏条件）",
+  "mechanism_steps": [
+    "卤代烃与镁生成格氏试剂",
+    "格氏试剂进攻甲酸酯的羰基，形成四面体中间体",
+    "消除一分子醇盐，得到醛（以缩醛/半缩醛形式存在）",
+    "酸性水解，释放醛"
+  ],
+  "regio_selectivity": "新碳接在原来卤素的位置，链长加一",
+  "stereo_selectivity": "一般不涉及；手性底物需注意格氏条件可能引起消旋",
+  "selectivity_note": "关键是让醛「停在」醛：用原甲酸酯可形成缩醛保护，避免格氏试剂继续加成成醇",
+  "scope": "把卤代烃转化为同系醛；也用于制备芳香醛",
+  "limitations": "必须严格无水；底物含活泼氢时需保护；产率受缩醛水解是否完全影响",
+  "examples": [
+    "1-溴己烷 → 庚醛（产率待核对）",
+    "溴苯 → 苯甲醛（用 HC(OEt)3 路线，产率待核对）"
+  ],
+  "pitfalls": [
+    "直接用甲酸酯时容易「加两次」得到醇，需靠原甲酸酯形成缩醛停在醛",
+    "忘记最后的水解步骤"
+  ],
+  "mnemonics": "格氏 + 甲酸酯 → 醛；用原甲酸酯把醛「锁」成缩醛，就不会过加成。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.4 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ma-oxidation",
+  "name_zh": "麻生明氧化",
+  "name_en": "Ma Aerobic Oxidation",
+  "title": "麻生明氧化",
+  "aliases_zh": ["TEMPO 氧化", "铁/TEMPO 催化氧化", "氧气氧化醇"],
+  "aliases_en": ["Ma oxidation", "TEMPO oxidation", "aerobic alcohol oxidation"],
+  "category": "氧化",
+  "tags": ["TEMPO", "氧气", "无金属", "绿色氧化"],
+  "difficulty": 3,
+  "year": 2011,
+  "discoverer": "麻生明（Ming-Yu Ngai 时期的合作工作待核对）",
+  "overview": "在 TEMPO 与铁盐（Fe(NO₃)₃）或铜盐协同催化下，用氧气把伯醇氧化成醛、乃至直接氧化成羧酸——条件温和、氧化剂是空气。",
+  "scheme_simple": "PhC≡CCH2OH →(Fe(NO3)3/TEMPO, O2) PhC≡CCHO",
+  "scheme_above": "Fe(NO3)3, TEMPO (cat.)",
+  "scheme_below": "O2, NaCl, 25 ℃",
+  "scheme_image": "ma-oxidation",
+  "substrates": ["烯丙醇、炔丙醇、苄醇、脂肪伯醇"],
+  "products": ["醛", "羧酸（延长反应时间/调条件）"],
+  "catalyst": "TEMPO（或 4-OH-TEMPO）+ Fe(NO₃)₃ / Cu 盐",
+  "reagent": "O2（空气）",
+  "base": "—",
+  "solvent": ["MeCN", "H2O", "toluene"],
+  "temp": "室温",
+  "time": "待核对",
+  "atmosphere": "氧气/空气（常压）",
+  "mechanism_steps": [
+    "TEMPO 被金属盐氧化为氧铵离子（TEMPO⁺）",
+    "醇与 TEMPO⁺ 反应生成烷氧基胺，随后消除得醛，TEMPO 被还原为羟胺",
+    "金属盐 / 氧气再氧化 TEMPO，循环",
+    "长时间反应时醛经水合继续氧化成羧酸"
+  ],
+  "regio_selectivity": "只氧化羟基碳；烯烃、炔键保留",
+  "stereo_selectivity": "一般不涉及；温和条件对 α 手性中心友好",
+  "selectivity_note": "与 Anelli 氧化（TEMPO/NaOCl/KBr 两相）相比，用 O2/空气更经济环保；把 NaCl 换成 KCl 可让伯醇直接走向羧酸",
+  "scope": "大规模/工业合成更安全廉价：可用 4-OH-TEMPO 降低成本；可对复杂天然产物做后期修饰",
+  "limitations": "催化体系需筛选；TEMPO 用量与金属残留需控制；对某些底物选择性不足",
+  "examples": [
+    "炔丙醇 / 烯丙醇 → 相应醛（产率待核对）",
+    "月桂醛 → 月桂酸（用 KCl 体系，产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Anelli 氧化混淆：Anelli 用次氯酸钠当氧化剂，麻生明体系用氧气",
+    "以为只会得到醛：条件稍改（NaCl→KCl）就一路氧化成羧酸"
+  ],
+  "mnemonics": "TEMPO 当「搬运工」：把氧从空气搬到醇上，金属盐负责让 TEMPO 循环。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.7 节"],
+  "status": "partial",
+  "todo_fields": ["time", "year/discoverer（待核对）", "examples（产率）"]
+}

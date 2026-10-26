@@ -1,0 +1,50 @@
+{
+  "id": "robinson-annulation",
+  "name_zh": "罗宾逊环化",
+  "name_en": "Robinson Annulation",
+  "title": "Robinson 环化",
+  "aliases_zh": ["罗宾逊成环反应", "Robinson 环化反应", "罗宾逊环化"],
+  "aliases_en": ["Robinson annulation", "Robinson annelation"],
+  "category": "C–C 单键",
+  "tags": ["Michael 加成", "羟醛缩合", "环己烯酮", "串联反应"],
+  "difficulty": 4,
+  "year": 1935,
+  "discoverer": "Robert Robinson",
+  "overview": "烯酮先对活泼亚甲基化合物做 Michael 加成，产物再在分子内做羟醛缩合，一步接一步生成环己烯酮——经典串联环化。",
+  "scheme_simple": "环己酮 + MVK → 双环 α,β-不饱和酮（八氢萘酮）",
+  "scheme_above": "NaOEt (cat.)",
+  "scheme_below": "EtOH, Δ",
+  "scheme_image": "robinson-annulation",
+  "substrates": ["活泼亚甲基酮（如环己酮）", "α,β-不饱和酮（MVK）"],
+  "products": ["双环 α,β-不饱和环己烯酮"],
+  "catalyst": "—",
+  "reagent": "甲基乙烯基酮（MVK）",
+  "base": "NaOEt / 吡咯烷 / KOH",
+  "solvent": ["EtOH", "THF"],
+  "temp": "室温 ~ 回流",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取环己酮 α-H，生成烯醇负离子",
+    "对 MVK 做 1,4-加成（Michael 加成），得到 1,5-二羰基化合物",
+    "分子内羟醛加成，闭环成六元环",
+    "脱水，形成 α,β-不饱和环己烯酮"
+  ],
+  "regio_selectivity": "Michael 加成发生在 β 位，环化发生在同一分子的另一个羰基上",
+  "stereo_selectivity": "可得顺/反稠环体系，取决于底物与条件；天然产物中常控制为反式稠合",
+  "selectivity_note": "本质是 Michael + 分子内 Aldol 的串联，不要当成单独一步",
+  "scope": "甾体、萜类等环状骨架构建的常用策略",
+  "limitations": "底物需同时具备「活泼亚甲基」与「可环化的羰基」；易发生双 Michael 加成等副反应",
+  "examples": [
+    "环己酮 + MVK → 9-甲基-Δ1-八氢萘酮（产率待核对）",
+    "2-甲基环己酮 → Wieland–Miescher 酮类似物（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘记脱水这一步，产物应该写成烯酮而不是 β-羟基酮",
+    "与单纯的 Michael 加成混淆：Robinson 多了一步分子内羟醛"
+  ],
+  "mnemonics": "Michael 打一枪 → 分子内羟醛一关环 → 脱水，三步一气呵成。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.3 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

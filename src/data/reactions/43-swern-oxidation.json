@@ -1,0 +1,50 @@
+{
+  "id": "swern-oxidation",
+  "name_zh": "Swern 氧化",
+  "name_en": "Swern Oxidation",
+  "title": "Swern 氧化",
+  "aliases_zh": ["斯文氧化", "DMSO 氧化", "草酰氯活化 DMSO"],
+  "aliases_en": ["Swern oxidation", "Moffatt-Swern oxidation"],
+  "category": "氧化",
+  "tags": ["DMSO", "草酰氯", "低温", "无金属"],
+  "difficulty": 3,
+  "year": 1978,
+  "discoverer": "Daniel Swern（与 Kanji Omura）",
+  "overview": "醇与草酰氯活化的 DMSO 在低温反应，再用三乙胺处理，把一级醇氧化成醛、二级醇氧化成酮；条件温和、官能团耐受性好。",
+  "scheme_simple": "PhCH2OH →(DMSO, (COCl)2, Et3N) PhCHO",
+  "scheme_above": "(COCl)2, DMSO, Et3N",
+  "scheme_below": "CH2Cl2, -78 ℃",
+  "scheme_image": "swern-oxidation",
+  "substrates": ["一级醇 → 醛", "二级醇 → 酮"],
+  "products": ["醛", "酮"],
+  "catalyst": "—",
+  "reagent": "草酰氯（或 TFAA）+ DMSO",
+  "base": "Et3N / DIPEA",
+  "solvent": ["CH2Cl2"],
+  "temp": "-78 ℃（活化与加醇）；0 ℃（碱处理）",
+  "time": "待核对",
+  "atmosphere": "无水无氧（低温）",
+  "mechanism_steps": [
+    "草酰氯活化 DMSO，生成活泼的氯代锍盐",
+    "醇进攻锍盐，生成烷氧基锍盐",
+    "碱夺取 α-H，形成硫叶立德，随后发生消除",
+    "生成羰基化合物与二甲硫醚（副产物有臭味）"
+  ],
+  "regio_selectivity": "只氧化羟基所在碳，不饱和键通常不受影响",
+  "stereo_selectivity": "手性 α 位基本不消旋（低温、无强碱长时间作用）",
+  "selectivity_note": "第一个不用金属氧化剂的经典方法；副产物二甲硫醚气味难闻，需在通风橱操作",
+  "scope": "敏感天然产物、多官能团分子的氧化；可放大但要控制低温",
+  "limitations": "需 -78 ℃，操作繁琐；副产物有臭味；草酰氯遇水剧烈反应",
+  "examples": [
+    "苄醇 → 苯甲醛（产率待核对）",
+    "手性二级醇 → 对应酮（构型保持，产率待核对）"
+  ],
+  "pitfalls": [
+    "把课件中「6.4」标题误当 Sarett：该节实际讲的是 Swern（DMSO + 草酰氯 + 低温）",
+    "温度控制不好会过度氧化或消旋"
+  ],
+  "mnemonics": "草酰氯先「叫醒」DMSO，再把醇变醛/酮；全程低温、无金属。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.4 节（标题写作 Sarett，实为 Swern）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

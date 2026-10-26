@@ -1,0 +1,49 @@
+{
+  "id": "negishi-coupling",
+  "name_zh": "根岸偶联",
+  "name_en": "Negishi Coupling",
+  "title": "Negishi 偶联",
+  "aliases_zh": ["根岸反应", "Negishi 交叉偶联", "有机锌偶联"],
+  "aliases_en": ["Negishi coupling", "Negishi cross-coupling"],
+  "category": "偶联",
+  "tags": ["钯催化", "有机锌", "交叉偶联", "C–C 键"],
+  "difficulty": 3,
+  "year": 1977,
+  "discoverer": "Ei-ichi Negishi（根岸 英一，2010 年诺贝尔化学奖）",
+  "overview": "有机锌试剂与芳基/烯基/烷基卤在钯或镍催化下交叉偶联，底物适用范围极广（sp³ 也能参与）。",
+  "scheme_simple": "PhBr + PhZnBr →(Pd) Ph–Ph",
+  "scheme_above": "Pd(PPh3)4 (cat.)",
+  "scheme_below": "THF, 25 ~ 60 ℃",
+  "scheme_image": "negishi-coupling",
+  "substrates": ["芳基/烯基/烷基卤", "有机锌试剂（RZnX）"],
+  "products": ["联芳烃、烯烃、烷基化产物"],
+  "catalyst": "Pd(PPh3)4 / Pd(OAc)2 / Ni 催化剂",
+  "reagent": "有机锌试剂",
+  "base": "—（无需额外加碱）",
+  "solvent": ["THF", "NMP", "toluene"],
+  "temp": "25 ~ 60 ℃",
+  "time": "待核对",
+  "atmosphere": "无水无氧（有机锌对水氧敏感）",
+  "mechanism_steps": [
+    "Pd(0) 对 R–X 氧化加成",
+    "与有机锌试剂转金属化（锌卤化物离去）",
+    "还原消除，生成 R–R' 并再生 Pd(0)"
+  ],
+  "regio_selectivity": "偶联在卤代物的连接碳上；烷基卤也能参与（不像 Suzuki 主要限芳基）",
+  "stereo_selectivity": "烯基锌试剂通常构型保持",
+  "selectivity_note": "有机锌制备简单（RMgX + ZnCl2 或 RLi + ZnCl2），比有机锡安全",
+  "scope": "sp³–sp³ 偶联（Suzuki 较难）；天然产物与药物合成中常见",
+  "limitations": "有机锌对水/氧敏感，需无水操作；锌试剂碱性可能影响敏感底物",
+  "examples": [
+    "溴苯 + 苯基溴化锌 → 联苯（产率待核对）",
+    "烷基碘 + 烷基锌 → 烷烃偶联（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为所有偶联都需要加碱：Negishi 一般不需要",
+    "忽略锌试剂对水敏感，别在有水体系里做"
+  ],
+  "mnemonics": "Negishi = 钯 + 锌；能连 sp³，这是它比 Suzuki 更「万能」的地方。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

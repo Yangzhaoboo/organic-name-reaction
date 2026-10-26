@@ -1,0 +1,54 @@
+{
+  "id": "wittig-reaction",
+  "name_zh": "维蒂希反应",
+  "name_en": "Wittig Reaction",
+  "title": "Wittig 反应",
+  "aliases_zh": ["维蒂希反应", "磷叶立德反应", "魏悌希反应"],
+  "aliases_en": ["Wittig", "Wittig olefination", "phosphorane"],
+  "category": "C=C 构建",
+  "tags": ["醛", "酮", "磷叶立德", "烯烃", "构型可控"],
+  "difficulty": 2,
+  "year": 1954,
+  "discoverer": "Georg Wittig（1979 年诺贝尔化学奖）",
+  "overview": "醛/酮与磷叶立德反应，把羰基氧替换为 CR2，生成烯烃；是将羰基变烯烃的首选方法。",
+  "scheme_simple": "Ph3P=CHCO2Et + PhCHO → PhCH=CHCO2Et + Ph3PO",
+  "scheme_above": "THF",
+  "scheme_below": "-78 ℃ ~ rt",
+  "scheme_image": "wittig-reaction",
+  "substrates": ["醛", "酮"],
+  "products": ["烯烃", "三苯基氧膦（当量副产物）"],
+  "catalyst": "—",
+  "reagent": "磷叶立德 Ph3P=CR2（Wittig 试剂）",
+  "base": "n-BuLi / NaH / KOtBu（制备叶立德用）",
+  "solvent": ["THF", "Et2O", "DMSO"],
+  "temp": "-78 ℃ ~ 室温",
+  "time": "待核对",
+  "atmosphere": "叶立德制备需无水无氧",
+  "mechanism_steps": [
+    "强碱夺取鏻盐的 α-H，生成磷叶立德",
+    "叶立德碳负离子进攻羰基碳，形成氧负离子中间体（甜菜碱）",
+    "氧负离子进攻磷，形成氧磷杂环丁烷（oxaphosphetane）四元环",
+    "顺式消除，放出三苯基氧膦并生成烯烃"
+  ],
+  "regio_selectivity": "羰基碳专一加成；与 α,β-不饱和羰基不按 1,4-加成进行",
+  "stereo_selectivity": "非稳定叶立德（R = 烷基）以 Z 为主；稳定叶立德（带 CO2R、CN 等吸电子基）以 E 为主",
+  "selectivity_note": "顺反比例受溶剂极性、温度、叶立德稳定性影响，低温、非质子溶剂有利于 Z",
+  "scope": "醛、酮通用；可耐受 –OH（需保护或成盐情况视条件）、酯、醚、卤素、炔基",
+  "limitations": "对酯、酰胺的羰基基本不反应；产生化学计量的 Ph3PO，极性大、不易除净；对位阻很大的酮反应慢",
+  "examples": [
+    "苯甲醛 + 亚甲基三苯基磷烷 → 苯乙烯（产率待核对）",
+    "苯甲醛 + Ph3P=CHCO2Et → 肉桂酸乙酯（E 为主，产率待核对）"
+  ],
+  "pitfalls": [
+    "稳定叶立德与非稳定叶立德的构型相反，最容易记反",
+    "醛比酮反应快，交叉竞争时优先与醛反应",
+    "产物是 E/Z 混合物时，必须标出构型，不能只写「烯烃」"
+  ],
+  "mnemonics": "稳定得 E（E 与 EWG 都是 E）；不稳定得 Z。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 3.1 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

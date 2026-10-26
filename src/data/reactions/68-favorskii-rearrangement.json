@@ -1,0 +1,49 @@
+{
+  "id": "favorskii-rearrangement",
+  "name_zh": "Favorskii 重排",
+  "name_en": "Favorskii Rearrangement",
+  "title": "Favorskii 重排",
+  "aliases_zh": ["法沃斯基重排", "α-卤代酮重排", "缩环反应"],
+  "aliases_en": ["Favorskii rearrangement"],
+  "category": "重排",
+  "tags": ["α-卤代酮", "强碱", "缩环", "羧酸"],
+  "difficulty": 3,
+  "year": 1894,
+  "discoverer": "Alexei Yevgrafovich Favorskii",
+  "overview": "α-卤代酮在碱作用下经环丙酮中间体重排，生成羧酸或酯；环状底物常伴随缩环（六元→五元）。",
+  "scheme_simple": "2-氯环己酮 →(NaOH) 环戊烷甲酸",
+  "scheme_above": "NaOH (excess)",
+  "scheme_below": "H2O, 0 ~ 25 ℃",
+  "scheme_image": "favorskii-rearrangement",
+  "substrates": ["α-卤代酮（尤其是环状）"],
+  "products": ["羧酸", "酯（醇解时）", "缩环产物"],
+  "catalyst": "—",
+  "reagent": "NaOH / NaOMe（强碱，过量）",
+  "base": "NaOH",
+  "solvent": ["H2O", "MeOH"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取 α'-H，形成烯醇负离子并分子内取代卤素，生成环丙酮中间体",
+    "氢氧离子（或醇盐）进攻环丙酮羰基",
+    "环丙酮开环，一根 C–C 键断裂并重排成羧酸（酯）"
+  ],
+  "regio_selectivity": "开环方向决定产物：通常断开取代基较多的一侧，得到较稳定的碳负离子",
+  "stereo_selectivity": "可发生构型变化；环状底物缩环后立体化学由中间体决定",
+  "selectivity_note": "环状 α-卤代酮是经典考点：六元环缩成五元环羧酸；无 α'-H 的底物走不同路径（如卤素被取代）",
+  "scope": "合成缩环羧酸、环戊烷衍生物；甾体、萜类骨架调整",
+  "limitations": "需要 α'-H；强碱条件；副反应多（消除、取代）",
+  "examples": [
+    "2-氯环己酮 → 环戊烷甲酸（产率待核对）",
+    "α-溴代苯丙酮 → 苯乙酸类产物（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘了中间体是环丙酮：直接写「卤素被羟基取代」是错的",
+    "环大小记错：六元环 α-卤代酮缩成五元环羧酸"
+  ],
+  "mnemonics": "α-卤代酮 + 碱 → 环丙酮 → 开环，环缩一环变羧酸。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

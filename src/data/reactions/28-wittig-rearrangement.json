@@ -1,0 +1,50 @@
+{
+  "id": "wittig-rearrangement",
+  "name_zh": "Wittig 重排",
+  "name_en": "Wittig Rearrangement",
+  "title": "Wittig 重排",
+  "aliases_zh": ["维蒂希重排", "[1,2]-Wittig 重排", "醚的重排"],
+  "aliases_en": ["Wittig rearrangement", "[1,2]-Wittig rearrangement"],
+  "category": "重排",
+  "tags": ["醚", "碳负离子", "羟基", "立体选择"],
+  "difficulty": 3,
+  "year": 1942,
+  "discoverer": "Georg Wittig",
+  "overview": "醚的 α-碳被强碱去质子后，烷基带着电子对迁移到碳上，生成醇——由碱引发的阴离子型 [1,2] 重排。",
+  "scheme_simple": "PhCH2OCH2Ph →(n-BuLi) PhCH(OH)CH2Ph",
+  "scheme_above": "n-BuLi",
+  "scheme_below": "THF, -78 ℃ → rt",
+  "scheme_image": "wittig-rearrangement",
+  "substrates": ["含 α-H 的醚（苄醚、烯丙醚）"],
+  "products": ["醇（仲醇/叔醇）"],
+  "catalyst": "—",
+  "reagent": "强碱（n-BuLi、t-BuOK）",
+  "base": "n-BuLi",
+  "solvent": ["THF", "Et2O"],
+  "temp": "-78 ℃ → 室温",
+  "time": "待核对",
+  "atmosphere": "无水无氧",
+  "mechanism_steps": [
+    "强碱夺取醚 α-位的氢，生成 α-烷氧基碳负离子",
+    "碳负离子进攻相邻的醚碳，形成三元环状中间体",
+    "C–O 键断裂，烷基迁移到碳负离子中心",
+    "得到醇（或醇盐）"
+  ],
+  "regio_selectivity": "迁移基团带着自身构型转移，属 [1,2]-迁移",
+  "stereo_selectivity": "手性中心可发生手性转移（构型保持或翻转取决于迁移方式）",
+  "selectivity_note": "与 Claisen 重排的区别：Wittig 由碱引发、经碳负离子；Claisen 是协同的 [3,3]-σ 迁移",
+  "scope": "制备难以用常规方法得到的醇；[2,3]-Wittig 可用于构建手性中心",
+  "limitations": "需强碱、低温；底物必须有 α-H；产率受副反应（消除）影响",
+  "examples": [
+    "二苄醚 → 1,2-二苯基乙醇（产率待核对）",
+    "烯丙基苄醚的 [2,3]-Wittig 重排（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Claisen 重排混淆：Wittig 重排是碱性条件下的阴离子重排，不是加热的协同重排",
+    "把产物写成醚：重排后得到的是醇"
+  ],
+  "mnemonics": "醚 → 拔 α-H → 烷基搬家 → 变醇；碱引发的是 Wittig，加热的是 Claisen。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "barton-mccombie",
+  "name_zh": "Barton–McCombie 脱氧",
+  "name_en": "Barton–McCombie Deoxygenation",
+  "title": "Barton–McCombie 脱氧",
+  "aliases_zh": ["巴顿-麦康比脱氧", "脱羟基反应", "黄原酸酯还原"],
+  "aliases_en": ["Barton-McCombie", "deoxygenation", "radical deoxygenation"],
+  "category": "还原",
+  "tags": ["脱氧", "自由基", "黄原酸酯", "三丁基锡氢"],
+  "difficulty": 3,
+  "year": 1975,
+  "discoverer": "Derek Barton & Stuart W. McCombie",
+  "overview": "醇先转化为硫代羰基衍生物（如黄原酸酯），再用 Bu₃SnH 做自由基还原，把 C–O 换成 C–H——把羟基脱去最有效的方法。",
+  "scheme_simple": "PhCH2OH →(1) CS2/MeI (2) Bu3SnH) PhCH3",
+  "scheme_above": "1) NaH, CS2, MeI  2) Bu3SnH, AIBN",
+  "scheme_below": "toluene, Δ",
+  "scheme_image": "barton-mccombie",
+  "substrates": ["一级醇（最好）", "二级醇", "三级醇（较慢）"],
+  "products": ["脱氧产物（C–H 取代 C–OH）"],
+  "catalyst": "AIBN（自由基引发剂）",
+  "reagent": "Bu₃SnH + 黄原酸酯（或硫代羰基咪唑）",
+  "base": "NaH（制黄原酸酯）",
+  "solvent": ["toluene", "THF"],
+  "temp": "回流",
+  "time": "待核对",
+  "atmosphere": "惰性气体（自由基反应排氧）",
+  "mechanism_steps": [
+    "醇与 CS₂/MeI（或硫代羰基咪唑）反应，生成黄原酸酯",
+    "AIBN 引发 Bu₃Sn· 自由基，夺取黄原酸酯的 C=S 硫，生成烷氧基自由基",
+    "烷氧基自由基发生 β-断裂，放出 COS/CS₂ 等，生成烷基自由基",
+    "烷基自由基从 Bu₃SnH 夺取氢，得到脱氧产物"
+  ],
+  "regio_selectivity": "脱氧发生在原来带羟基的碳上",
+  "stereo_selectivity": "自由基中间体可发生构型翻转/消旋，α-手性中心可能受影响",
+  "selectivity_note": "活性顺序：一级 > 二级 > 三级醇；对复杂分子中的仲醇也能用",
+  "scope": "天然产物中去掉多余的羟基（如糖、大环内酯）；是「脱氧」的通用方法",
+  "limitations": "有机锡剧毒、难除净（可用 TMS₃SiH 等替代）；需两步；三级醇反应慢",
+  "examples": [
+    "苄醇 → 甲苯（产率待核对）",
+    "糖类仲醇 → 脱氧产物（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为一步完成：必须先做黄原酸酯（或硫代咪唑酯）",
+    "忽略有机锡毒性，废液处理需专门流程"
+  ],
+  "mnemonics": "先把 –OH 换成「黄原酸酯」这个「好摘的帽子」，自由基一摘就走。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.8 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

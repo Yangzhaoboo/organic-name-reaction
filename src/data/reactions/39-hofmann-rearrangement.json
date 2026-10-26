@@ -1,0 +1,50 @@
+{
+  "id": "hofmann-rearrangement",
+  "name_zh": "Hofmann 重排",
+  "name_en": "Hofmann Rearrangement",
+  "title": "Hofmann 重排",
+  "aliases_zh": ["霍夫曼降解", "霍夫曼降级反应", "酰胺变胺"],
+  "aliases_en": ["Hofmann rearrangement", "Hofmann degradation"],
+  "category": "重排",
+  "tags": ["一级酰胺", "次卤酸盐", "伯胺", "脱羧"],
+  "difficulty": 2,
+  "year": 1881,
+  "discoverer": "August Wilhelm von Hofmann",
+  "overview": "一级酰胺在碱与溴（或氯）作用下，经异氰酸酯中间体生成少一个碳的伯胺；邻氨基苯甲酸的工业制法即用此反应。",
+  "scheme_simple": "PhCONH2 + Br2/NaOH → PhNH2",
+  "scheme_above": "Br2, NaOH",
+  "scheme_below": "H2O, 0 ~ 25 ℃",
+  "scheme_image": "hofmann-rearrangement",
+  "substrates": ["一级酰胺"],
+  "products": ["伯胺（少一个碳）"],
+  "catalyst": "—",
+  "reagent": "Br2 / Cl2（生成次溴酸钠）",
+  "base": "NaOH（过量）",
+  "solvent": ["H2O"],
+  "temp": "0 ~ 25 ℃（可加热）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "酰胺的氮被溴化，生成 N-溴代酰胺",
+    "碱夺取氮上氢，重排：烷基迁移到氮上，溴离子离去",
+    "生成异氰酸酯",
+    "水解（放出 CO2），得到伯胺"
+  ],
+  "regio_selectivity": "迁移基团带着构型转移（手性碳构型保持）",
+  "stereo_selectivity": "手性一级酰胺可得到构型保持的伯胺",
+  "selectivity_note": "也可用于环状酰胺的扩环/缩环；与 Curtius 的区别只在于「如何生成异氰酸酯」",
+  "scope": "制伯胺、邻氨基苯甲酸（靛蓝/染料中间体）；天然产物中降碳",
+  "limitations": "需要强碱与卤素，对氧化/卤代敏感底物不适用；副产物多（如 N-卤代胺）",
+  "examples": [
+    "苯甲酰胺 → 苯胺（产率待核对）",
+    "邻苯二甲酰亚胺 → 邻氨基苯甲酸（工业路线，产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Hoffman 消除（季铵碱热消除）混淆：这是酰胺的重排，不是消除",
+    "忘记碳数减一，以及 CO2 的生成"
+  ],
+  "mnemonics": "一级酰胺 + 溴碱 → 少一个碳的伯胺；中间体还是异氰酸酯。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 5.4 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

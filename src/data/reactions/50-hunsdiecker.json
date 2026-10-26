@@ -1,0 +1,50 @@
+{
+  "id": "hunsdiecker",
+  "name_zh": "Hunsdiecker 反应",
+  "name_en": "Hunsdiecker Reaction",
+  "title": "Hunsdiecker 反应",
+  "aliases_zh": ["汉斯狄克反应", "羧酸银脱羧卤化", "减碳卤化"],
+  "aliases_en": ["Hunsdiecker reaction", "Barton decarboxylation"],
+  "category": "C–杂键构建",
+  "tags": ["羧酸银盐", "脱羧", "卤代烃", "自由基"],
+  "difficulty": 3,
+  "year": 1942,
+  "discoverer": "Heinz & Cläre Hunsdiecker（Borodin 早期工作）",
+  "overview": "羧酸的银盐在惰性溶剂中与溴（或氯、碘）反应，脱羧生成少一个碳的卤代烃——从羧酸制备卤代烃的经典方法。",
+  "scheme_simple": "RCOOAg + Br2 → R–Br + CO2 + AgBr",
+  "scheme_above": "Ag2O, then Br2",
+  "scheme_below": "CCl4, reflux",
+  "scheme_image": "hunsdiecker",
+  "substrates": ["脂肪族羧酸", "脂环族羧酸", "部分芳香/杂环羧酸"],
+  "products": ["卤代烃（少一个碳）"],
+  "catalyst": "—（改进法可用催化量银盐 + tBuOCl）",
+  "reagent": "溴 / 氯 / 碘；Ag₂O（制银盐）",
+  "base": "—",
+  "solvent": ["CCl4"],
+  "temp": "回流",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "羧酸与 Ag₂O 生成羧酸银盐",
+    "银盐与 Br₂ 反应，生成酰基次溴酸酯",
+    "均裂产生酰氧自由基，脱羧放出 CO₂，生成烷基自由基",
+    "烷基自由基夺取溴，得到卤代烃"
+  ],
+  "regio_selectivity": "卤素进入原羧基所在的位置，链长减一",
+  "stereo_selectivity": "自由基中间体可能导致消旋",
+  "selectivity_note": "适合从「偶数碳羧酸」制备「奇数碳卤代烃」；Barton 改良（酯的脱羧卤化）避免了银盐",
+  "scope": "长链卤代烃制备、同位素标记；与 Kochi/Hunsdiecker 改良法配合使用更广",
+  "limitations": "需化学计量银盐（贵）；单质卤活性过高易副反应；银盐制备需避光",
+  "examples": [
+    "己酸银 + Br2 → 1-溴戊烷（产率待核对）",
+    "硬脂酸银 + Br2 → 1-溴十七烷（产率待核对）"
+  ],
+  "pitfalls": [
+    "碳数记错：产物比羧酸少一个碳",
+    "与 Kochi 反应（羧酸 + Pb(OAc)4 + LiCl）混淆"
+  ],
+  "mnemonics": "羧酸银 + 卤素 → 「减一个碳」的卤代烃。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.9 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

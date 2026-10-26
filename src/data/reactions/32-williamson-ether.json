@@ -1,0 +1,49 @@
+{
+  "id": "williamson-ether",
+  "name_zh": "Williamson 醚合成",
+  "name_en": "Williamson Ether Synthesis",
+  "title": "Williamson 醚合成",
+  "aliases_zh": ["威廉姆逊醚合成", "威廉森成醚", "醇钠与卤代烃"],
+  "aliases_en": ["Williamson ether synthesis", "Williamson synthesis"],
+  "category": "C–杂键构建",
+  "tags": ["醚", "醇盐", "SN2", "卤代烃"],
+  "difficulty": 1,
+  "year": 1850,
+  "discoverer": "Alexander William Williamson",
+  "overview": "醇钠（或酚钠）与卤代烃发生 SN2 取代，生成醚——最经典的成醚方法，也可用于分子内成醚制环氧化物。",
+  "scheme_simple": "PhCH2Br + PhOH →(K2CO3) PhCH2OPh",
+  "scheme_above": "K2CO3 / NaOH",
+  "scheme_below": "acetone, Δ",
+  "scheme_image": "williamson-ether",
+  "substrates": ["伯卤代烃（最佳）", "仲卤代烃（可用）", "醇/酚（先成盐）"],
+  "products": ["对称或不对称醚", "环氧化合物（分子内）"],
+  "catalyst": "—",
+  "reagent": "醇钠/酚钠",
+  "base": "NaOH / K2CO3 / NaH",
+  "solvent": ["丙酮", "EtOH", "THF", "DMF"],
+  "temp": "室温 ~ 回流",
+  "time": "待核对",
+  "atmosphere": "无水（醇盐对水敏感）",
+  "mechanism_steps": [
+    "醇或酚与碱生成醇盐（亲核体）",
+    "醇盐对卤代烃做 SN2 取代，卤素离去",
+    "得到醚"
+  ],
+  "regio_selectivity": "亲核进攻发生在卤代烃的碳上；分子内反应可成环氧",
+  "stereo_selectivity": "SN2 导致构型完全翻转",
+  "selectivity_note": "必须用伯卤代烃：仲/叔卤代烃会以 E2 消除为主，得不到醚",
+  "scope": "芳基醚、苄醚、冠醚、环氧化物的合成；甲基化可用硫酸二甲酯替代",
+  "limitations": "叔卤代烃易消除；强碱条件下底物可能发生副反应；酚需足够酸性成盐",
+  "examples": [
+    "苄溴 + 苯酚/K2CO3 → 苄基苯基醚（产率待核对）",
+    "邻卤代醇 + NaOH → 环氧化物（产率待核对）"
+  ],
+  "pitfalls": [
+    "用叔卤代烃做 Williamson：几乎全消除，得不到醚",
+    "忘了它是 SN2，因此手性卤代烃会构型翻转"
+  ],
+  "mnemonics": "醇盐当亲核体，只挑伯卤代烃；SN2 → 构型翻转。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.1 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

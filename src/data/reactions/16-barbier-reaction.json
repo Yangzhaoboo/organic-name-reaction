@@ -1,0 +1,49 @@
+{
+  "id": "barbier-reaction",
+  "name_zh": "巴比耶反应",
+  "name_en": "Barbier Reaction",
+  "title": "Barbier 反应",
+  "aliases_zh": ["巴比耶反应", "Barbier 烯丙基化", "一锅法格氏型反应"],
+  "aliases_en": ["Barbier reaction", "Barbier allylation"],
+  "category": "C–C 单键",
+  "tags": ["金属", "卤代烃", "羰基加成", "一锅法"],
+  "difficulty": 3,
+  "year": 1899,
+  "discoverer": "Philippe Barbier",
+  "overview": "卤代烃与金属（Mg、Zn、In、Sm 等）在羰基化合物存在下「一锅」生成有机金属试剂并直接加成，得到仲醇或叔醇。",
+  "scheme_simple": "烯丙基溴 + PhCHO →(Zn) PhCH(OH)CH2CH=CH2",
+  "scheme_above": "Zn（或 In、Sm、Sn）",
+  "scheme_below": "THF / H2O, 0 ~ 25 ℃",
+  "scheme_image": "barbier-reaction",
+  "substrates": ["卤代烃（烯丙基卤最常用）", "醛", "酮"],
+  "products": ["仲醇", "叔醇"],
+  "catalyst": "—（可用 In/Sm 盐促进）",
+  "reagent": "金属 Zn / In / Sm / Mg",
+  "base": "—",
+  "solvent": ["THF", "H2O（部分体系）"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "In/Sm 可在空气中使用；Mg 需无水",
+  "mechanism_steps": [
+    "金属对卤代烃发生氧化加成，生成有机金属物种",
+    "有机金属试剂直接进攻体系中的羰基碳",
+    "水解得到醇"
+  ],
+  "regio_selectivity": "与环氧化物反应时进攻位阻较小的碳",
+  "stereo_selectivity": "烯丙基化可经环状过渡态得到高非对映选择性",
+  "selectivity_note": "与格氏反应的区别：Barbier 是一锅法、条件宽松，可在水相进行；格氏需先制备试剂且严格无水",
+  "scope": "水相/无溶剂烯丙基化；镧系金属（SmI2）促进的 Kagan–Molander 偶联也属此类",
+  "limitations": "收率通常低于格氏反应，卤代烃多限于活泼的烯丙基/苄基卤",
+  "examples": [
+    "烯丙基溴 + 苯甲醛 → 1-苯基-3-丁烯-1-醇（产率待核对）",
+    "烯丙基溴 + 苯乙酮 → 2-苯基-4-戊烯-2-醇（产率待核对）"
+  ],
+  "pitfalls": [
+    "与格氏反应混淆：Barbier 不预先制备试剂，反应体系里同时有金属、卤代烃和羰基",
+    "以为必须无水：In、Sm、Zn 体系常可在水相进行"
+  ],
+  "mnemonics": "Barbier = 「一锅版格氏」，金属、卤代烃、醛一起下锅。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.6 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

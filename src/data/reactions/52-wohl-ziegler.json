@@ -1,0 +1,50 @@
+{
+  "id": "wohl-ziegler",
+  "name_zh": "Wohl–Ziegler 反应",
+  "name_en": "Wohl–Ziegler Reaction",
+  "title": "Wohl–Ziegler 反应",
+  "aliases_zh": ["沃尔-齐格勒溴化", "NBS 烯丙位溴化", "苄位溴化"],
+  "aliases_en": ["Wohl-Ziegler", "NBS bromination", "allylic bromination"],
+  "category": "C–杂键构建",
+  "tags": ["NBS", "自由基", "烯丙位", "苄位"],
+  "difficulty": 2,
+  "year": 1919,
+  "discoverer": "Alfred Wohl & Karl Ziegler",
+  "overview": "在自由基引发剂存在下，用 N-溴代丁二酰亚胺（NBS）对烯丙位或苄位 C–H 进行溴化；因浓度低，双键加成副反应少。",
+  "scheme_simple": "环己烯 + NBS → 3-溴环己烯",
+  "scheme_above": "NBS, AIBN (cat.)",
+  "scheme_below": "CCl4, Δ",
+  "scheme_image": "wohl-ziegler",
+  "substrates": ["烯丙位有 C–H 的烯烃", "苄位化合物", "环状烯烃"],
+  "products": ["烯丙基溴", "苄基溴"],
+  "catalyst": "AIBN / 过氧化物（自由基引发剂）",
+  "reagent": "NBS（N-溴代丁二酰亚胺）",
+  "base": "—",
+  "solvent": ["CCl4", "benzene", "MeCN"],
+  "temp": "回流（约 77 ℃ for CCl4）",
+  "time": "待核对",
+  "atmosphere": "无氧（排空气）",
+  "mechanism_steps": [
+    "引发剂产生自由基，夺取 NBS 上的溴",
+    "溴自由基夺取烯丙位/苄位 H，生成共振稳定的烯丙基自由基",
+    "自由基再与 NBS 反应，夺取溴，生成溴代产物",
+    "副产物丁二酰亚胺浮在液面，可判断反应终点"
+  ],
+  "regio_selectivity": "溴化发生在烯丙位/苄位；烯丙基自由基可重排，可能得到异构体混合物",
+  "stereo_selectivity": "通常失去原有立体化学（自由基平面化）",
+  "selectivity_note": "NBS 在 CCl₄ 中溶解度低，维持 Br₂ 浓度极低，从而抑制双键加成（这是 NBS 的巧妙之处）",
+  "scope": "烯丙基/苄基溴的制备；萜类、甾体的官能团化",
+  "limitations": "CCl₄ 有毒；易得烯丙位重排的混合物；对酸碱/氧化敏感底物需注意",
+  "examples": [
+    "环己烯 → 3-溴环己烯（产率待核对）",
+    "甲苯 → 苄基溴（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为 NBS 是「加成溴」的试剂：主反应是烯丙位取代（自由基）",
+    "忽略重排：共轭烯丙基体系常给异构体混合物"
+  ],
+  "mnemonics": "NBS 把溴「慢慢放」，专抓烯丙位/苄位的氢。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.11 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

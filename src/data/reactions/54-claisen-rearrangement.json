@@ -1,0 +1,50 @@
+{
+  "id": "claisen-rearrangement",
+  "name_zh": "Claisen 重排",
+  "name_en": "Claisen Rearrangement",
+  "title": "Claisen 重排",
+  "aliases_zh": ["克莱森重排", "[3,3]-σ 迁移", "烯丙基苯基醚重排"],
+  "aliases_en": ["Claisen rearrangement", "[3,3]-sigmatropic rearrangement"],
+  "category": "重排",
+  "tags": ["烯丙基醚", "σ 迁移", "协同反应", "邻烯丙基酚"],
+  "difficulty": 3,
+  "year": 1912,
+  "discoverer": "Rainer Ludwig Claisen",
+  "overview": "烯丙基烯醇醚或烯丙基芳醚加热发生 [3,3]-σ 迁移，烯丙基转移到邻位，产物是邻烯丙基酚或 γ,δ-不饱和羰基化合物。",
+  "scheme_simple": "PhOCH2CH=CH2 →(Δ) 邻烯丙基苯酚",
+  "scheme_above": "Δ (200 ℃)",
+  "scheme_below": "N,N-二甲基苯胺 / 无溶剂",
+  "scheme_image": "claisen-rearrangement",
+  "substrates": ["烯丙基芳基醚", "烯丙基乙烯基醚（脂肪族 Claisen）"],
+  "products": ["邻烯丙基酚", "γ,δ-不饱和羰基化合物"],
+  "catalyst": "—（热反应，无催化剂）",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["N,N-二甲基苯胺", "无溶剂", "二苯醚"],
+  "temp": "160 ~ 220 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "烯丙基醚在加热下形成六元环状过渡态（椅式）",
+    "C–O 键断裂、新 C–C 键形成同步发生，属 [3,3]-σ 迁移",
+    "得到邻位烯丙基化的酚（或烯醇，互变异构为羰基）"
+  ],
+  "regio_selectivity": "芳醚：烯丙基进入邻位；若两个邻位都被占据则进对位（经两次迁移）",
+  "stereo_selectivity": "椅式过渡态决定立体化学：手性烯丙基可发生手性转移",
+  "selectivity_note": "与 Wittig 重排的区别：Claisen 是热的协同 [3,3]-σ 迁移，不经碳负离子",
+  "scope": "构建邻烯丙基酚、γ,δ-不饱和羰基；天然产物合成常用（如芳香萜类）",
+  "limitations": "需较高温度；底物需有烯丙基；产物易继续发生副反应（Claisen→Cope 串联）",
+  "examples": [
+    "烯丙基苯基醚 → 邻烯丙基苯酚（产率待核对）",
+    "烯丙基乙烯基醚 → 4-戊烯醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Claisen 缩合混淆：缩合是酯+酯的碳负离子反应，重排是 [3,3]-σ 迁移",
+    "与 Wittig 重排混淆：Wittig 需强碱、经碳负离子；Claisen 只需加热",
+    "邻位被占时要记得还能经两次迁移进对位"
+  ],
+  "mnemonics": "加热不加碱，六元环过渡态「3,3 一换位」，烯丙基跳到邻位。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（周环/重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

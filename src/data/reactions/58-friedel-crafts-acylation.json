@@ -1,0 +1,50 @@
+{
+  "id": "friedel-crafts-acylation",
+  "name_zh": "傅-克酰基化",
+  "name_en": "Friedel–Crafts Acylation",
+  "title": "Friedel–Crafts 酰基化",
+  "aliases_zh": ["傅克酰基化", "付克酰化", "芳香酮合成"],
+  "aliases_en": ["Friedel-Crafts acylation", "FC acylation"],
+  "category": "C–C 单键",
+  "tags": ["芳环", "酰氯", "Lewis 酸", "芳香酮"],
+  "difficulty": 2,
+  "year": 1877,
+  "discoverer": "Charles Friedel & James Crafts",
+  "overview": "芳环在 Lewis 酸（AlCl3）催化下与酰卤或酸酐反应，生成芳香酮；与烷基化不同，酰基化不重排、通常只上一次。",
+  "scheme_simple": "PhH + CH3COCl →(AlCl3) PhCOCH3 + HCl",
+  "scheme_above": "AlCl3 (>1 eq)",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "friedel-crafts-acylation",
+  "substrates": ["芳环（苯、甲苯、苯甲醚等）", "酰氯 / 酸酐"],
+  "products": ["芳香酮"],
+  "catalyst": "AlCl3 / FeCl3 / BF3 / ZnCl2",
+  "reagent": "酰氯 RCOCl 或酸酐",
+  "base": "—",
+  "solvent": ["CH2Cl2", "CS2", "过量芳烃"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无水（Lewis 酸遇水失活）",
+  "mechanism_steps": [
+    "酰氯与 AlCl3 形成酰基正离子（酰鎓离子）",
+    "芳环 π 电子进攻酰基正离子，形成 σ-络合物",
+    "去质子恢复芳香性，得到芳香酮与 AlCl3 的络合物",
+    "水解后处理，释放产物"
+  ],
+  "regio_selectivity": "按芳环定位规则：给电子基导向邻/对位；强钝化环不反应",
+  "stereo_selectivity": "不涉及（酰基是平面结构）",
+  "selectivity_note": "酰基是吸电子基，产物被钝化，因此**不会多酰基化**；这是它与烷基化最大的区别",
+  "scope": "制芳香酮（苯乙酮、二苯甲酮）；分子内酰基化成环（如四氢萘酮）",
+  "limitations": "需 >1 当量 AlCl3（产物与 AlCl3 络合）；强钝化芳环不反应；酰氯遇水分解",
+  "examples": [
+    "苯 + 乙酰氯 → 苯乙酮（产率待核对）",
+    "苯 + 苯甲酰氯 → 二苯甲酮（产率待核对）"
+  ],
+  "pitfalls": [
+    "与烷基化混淆：酰基化不重排、只上一次，这是最常考的区别",
+    "忘记 AlCl3 要过量（产物会与催化剂络合）"
+  ],
+  "mnemonics": "酰基是「吸电子」的，产物不再活泼 → 不重排、不多取代。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.1 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "horner-wadsworth-emmons",
+  "name_zh": "霍纳-沃兹沃思-埃蒙斯反应",
+  "name_en": "Horner–Wadsworth–Emmons Reaction",
+  "title": "HWE 反应",
+  "aliases_zh": ["HWE 反应", "霍纳反应", "Wittig-Horner 反应", "埃蒙斯反应"],
+  "aliases_en": ["HWE", "Horner-Wadsworth-Emmons", "Wittig-Horner", "HWE olefination"],
+  "category": "C=C 构建",
+  "tags": ["膦酸酯", "醛", "酮", "烯烃", "E 选择性"],
+  "difficulty": 2,
+  "year": 1961,
+  "discoverer": "Horner（1958）、Wadsworth & Emmons（1961）（待核对）",
+  "overview": "用膦酸酯碳负离子代替磷叶立德与醛酮反应生成烯烃，副产物是水溶性磷酸盐，容易洗掉。",
+  "scheme_simple": "(EtO)2P(O)CH2CO2Et + PhCHO → PhCH=CHCO2Et + (EtO)2P(O)OH",
+  "scheme_above": "NaH",
+  "scheme_below": "THF, -78 ℃ ~ rt",
+  "scheme_image": "horner-wadsworth-emmons",
+  "substrates": ["醛", "酮"],
+  "products": ["烯烃（多为 E 构型）", "磷酸二酯/磷酸盐（水溶性副产物）"],
+  "catalyst": "—",
+  "reagent": "膦酸酯碳负离子 (EtO)2P(O)CR–",
+  "base": "NaH / n-BuLi（强碱）；稳定膦酸酯可用 K2CO3 等弱碱",
+  "solvent": ["THF", "DMSO", "toluene"],
+  "temp": "-78 ℃ ~ 室温",
+  "time": "待核对",
+  "atmosphere": "无水（强碱条件）",
+  "mechanism_steps": [
+    "碱夺取膦酸酯 α-H，生成碳负离子",
+    "碳负离子进攻羰基碳，形成氧负离子中间体",
+    "形成氧磷杂环丁烷中间体",
+    "消除磷酸酯离去基团，生成烯烃"
+  ],
+  "regio_selectivity": "羰基碳专一加成",
+  "stereo_selectivity": "常规条件以 E 为主；Still–Gennari 改良（三氟乙基膦酸酯 + KHMDS）可得 Z 为主",
+  "selectivity_note": "弱碱条件下（如 K2CO3）常得到更高的 E 选择性，且操作更安全",
+  "scope": "比 Wittig 适用范围更宽，可用弱碱、官能团容忍度更好，适合大量合成",
+  "limitations": "膦酸酯本身需制备（Arbuzov 反应：亚磷酸三酯 + 卤代酸酯）；强碱条件对某些底物不友好",
+  "examples": [
+    "苯甲醛 + (EtO)2P(O)CH2CO2Et → 肉桂酸乙酯（E，产率待核对）",
+    "Still–Gennari 条件 → Z-α,β-不饱和酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Wittig 混淆：HWE 的副产物是磷酸盐（水溶），不是 Ph3PO",
+    "以为一定得 E：Still–Gennari 改良可以反转为 Z",
+    "膦酸酯不是磷叶立德，亲核性较弱，需要看碱性匹配"
+  ],
+  "mnemonics": "把 Ph3P= 换成 (EtO)2P(O)–，副产物变水溶，后处理省事。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 3.3 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "year/discoverer（待核对）", "examples（产率）"]
+}

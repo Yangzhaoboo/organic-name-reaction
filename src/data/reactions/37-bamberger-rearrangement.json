@@ -1,0 +1,50 @@
+{
+  "id": "bamberger-rearrangement",
+  "name_zh": "Bamberger 重排",
+  "name_en": "Bamberger Rearrangement",
+  "title": "Bamberger 重排",
+  "aliases_zh": ["班伯格重排", "N-芳基羟胺重排", "对氨基苯酚合成"],
+  "aliases_en": ["Bamberger rearrangement"],
+  "category": "重排",
+  "tags": ["N-芳基羟胺", "强酸", "对氨基苯酚"],
+  "difficulty": 2,
+  "year": 1894,
+  "discoverer": "Eugen Bamberger",
+  "overview": "N-芳基羟胺在强酸水溶液中重排，羟基迁移到芳环对位，得到对氨基苯酚——工业上合成对乙酰氨基酚的关键一步。",
+  "scheme_simple": "PhNHOH →(H2SO4/H2O) p-HOC6H4NH2",
+  "scheme_above": "稀 H2SO4",
+  "scheme_below": "H2O, 0 ~ 25 ℃",
+  "scheme_image": "bamberger-rearrangement",
+  "substrates": ["N-芳基羟胺（由硝基化合物还原制得）"],
+  "products": ["对氨基苯酚（少量邻位产物）"],
+  "catalyst": "—",
+  "reagent": "强酸水溶液",
+  "base": "—",
+  "solvent": ["H2O", "稀硫酸"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "羟胺氧被质子化，脱水生成氮宾/硝鎓离子",
+    "水进攻氮，形成苯胺的羟基化中间体",
+    "芳环发生亲电重排，羟基进入对位",
+    "去质子，得到对氨基苯酚"
+  ],
+  "regio_selectivity": "羟基主要进入对位（邻位为副产物）",
+  "stereo_selectivity": "一般不涉及",
+  "selectivity_note": "对位被占据时，邻位或其他位置可能有产物，需注意底物取代基",
+  "scope": "对氨基苯酚类化合物的制备（医药、染料中间体）",
+  "limitations": "底物（N-芳基羟胺）需先由硝基化合物还原制备；强酸条件对敏感底物不友好",
+  "examples": [
+    "N-苯基羟胺 → 对氨基苯酚（产率待核对）",
+    "工业路线：硝基苯 → 苯基羟胺 → 对氨基苯酚（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为和 Beckmann 一样是「迁移到氮上」：Bamberger 是羟基迁到芳环上",
+    "忽略底物来源：N-芳基羟胺需要先还原硝基化合物"
+  ],
+  "mnemonics": "羟胺在酸里「把 OH 甩到对位」→ 对氨基苯酚。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 5.1 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

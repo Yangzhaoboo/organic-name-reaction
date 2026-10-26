@@ -1,0 +1,49 @@
+{
+  "id": "tebbe-olefination",
+  "name_zh": "Tebbe 试剂烯化",
+  "name_en": "Tebbe Olefination",
+  "title": "Tebbe 试剂烯化",
+  "aliases_zh": ["Tebbe 反应", "羰基变烯烃", "钛卡宾试剂"],
+  "aliases_en": ["Tebbe reagent", "Tebbe olefination"],
+  "category": "C=C 构建",
+  "tags": ["钛卡宾", "羰基", "烯烃", "酯/酰胺"],
+  "difficulty": 4,
+  "year": 1978,
+  "discoverer": "F. N. Tebbe",
+  "overview": "Tebbe 试剂（Cp2TiCH2ClAlMe2）把羰基变成 CH2，连 Wittig 反应不了的酯、内酯、酰胺羰基也能转化，且不易引起 α-位差向异构化。",
+  "scheme_simple": "PhCHO →(Tebbe 试剂) PhCH=CH2",
+  "scheme_above": "Tebbe 试剂",
+  "scheme_below": "toluene, -40 ℃ → 25 ℃",
+  "scheme_image": "tebbe-olefination",
+  "substrates": ["醛", "酮", "酯", "内酯", "酰胺", "硫酯"],
+  "products": ["末端烯烃（亚甲基化产物）", "烯醇醚（酯的转化产物）"],
+  "catalyst": "—",
+  "reagent": "Tebbe 试剂（Cp2TiCH2ClAlMe2）",
+  "base": "—（常加吡啶等碱促进）",
+  "solvent": ["toluene", "THF"],
+  "temp": "-40 ℃ → 室温",
+  "time": "待核对",
+  "atmosphere": "严格无水无氧、惰性气体（试剂自燃）",
+  "mechanism_steps": [
+    "Tebbe 试剂与羰基配位，形成钛氧杂四元环（钛杂环丁烷）",
+    "交换为钛卡宾（Schrock 卡宾）与羰基的加合物",
+    "消除钛氧物种，生成烯烃"
+  ],
+  "regio_selectivity": "羰基氧被 CH2 替换，位置固定",
+  "stereo_selectivity": "α-手性中心基本不消旋（碱性弱、Lewis 酸性强）",
+  "selectivity_note": "Wittig 反应对酯/酰胺羰基无效；Tebbe 可以。缺点是试剂昂贵、自燃、需严格无水",
+  "scope": "复杂天然产物中把酯/内酯转化为烯醇醚；对酸敏底物友好",
+  "limitations": "试剂昂贵且引火；需严格无水无氧；对某些官能团（如自由羟基）不兼容；Nysted 试剂是更温和的替代",
+  "examples": [
+    "苯甲醛 → 苯乙烯（产率待核对）",
+    "内酯 → 环状烯醇醚（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为能替代 Wittig 处理所有底物：Tebbe 只把羰基变 CH2，不能引入带取代基的烯烃",
+    "忽略安全：Tebbe 试剂在空气中自燃，必须惰性气体操作"
+  ],
+  "mnemonics": "Wittig 搞不定的酯、酰胺羰基，交给 Tebbe；它只做「变成 CH2」这一件事。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 3.6 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

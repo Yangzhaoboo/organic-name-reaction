@@ -1,0 +1,49 @@
+{
+  "id": "prins-reaction",
+  "name_zh": "Prins 反应",
+  "name_en": "Prins Reaction",
+  "title": "Prins 反应",
+  "aliases_zh": ["普林斯反应", "烯烃与甲醛加成", "1,3-二氧六环合成"],
+  "aliases_en": ["Prins reaction", "Prins cyclization"],
+  "category": "C–C 单键",
+  "tags": ["烯烃", "甲醛", "酸催化", "1,3-二醇"],
+  "difficulty": 3,
+  "year": 1919,
+  "discoverer": "Hendrik Jacobus Prins",
+  "overview": "烯烃与甲醛在酸催化下加成：可得到 1,3-二醇、烯丙醇或 1,3-二氧六环（视条件），是构建含氧六元环的方法。",
+  "scheme_simple": "异丁烯 + 甲醛 →(H+) 3-甲基-3-丁烯-1-醇",
+  "scheme_above": "H2SO4 (cat.)",
+  "scheme_below": "H2O / AcOH, 25 ~ 80 ℃",
+  "scheme_image": "prins-reaction",
+  "substrates": ["烯烃（富电子更好）", "甲醛 / 多聚甲醛"],
+  "products": ["1,3-二醇", "烯丙醇", "1,3-二氧六环"],
+  "catalyst": "H2SO4 / HCl / Lewis 酸",
+  "reagent": "甲醛（或三聚甲醛）",
+  "base": "—",
+  "solvent": ["H2O", "AcOH", "CH2Cl2"],
+  "temp": "25 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "烯烃被质子化或与甲醛形成 π-络合物，生成碳正离子",
+    "甲醛的氧进攻碳正离子，形成氧鎓中间体",
+    "水或第二分子甲醛捕获，得到 1,3-二醇或二氧六环"
+  ],
+  "regio_selectivity": "甲醛加成在取代较多的碳上（经最稳定碳正离子）；区域选择由烯烃结构决定",
+  "stereo_selectivity": "生成 1,3-二氧六环时可得到顺/反异构，取决于环化方式",
+  "selectivity_note": "产物分布由条件决定：强酸+水偏二醇，无水偏二氧六环，弱酸偏烯丙醇",
+  "scope": "合成 1,3-二醇、含氧六元环；萜类与天然产物合成中常见",
+  "limitations": "易发生烯烃聚合、碳正离子重排；甲醛有毒、易聚",
+  "examples": [
+    "异丁烯 + 甲醛 → 3-甲基-3-丁烯-1-醇（产率待核对）",
+    "苯乙烯 + 甲醛 → 4-苯基-1,3-二氧六环（产率待核对）"
+  ],
+  "pitfalls": [
+    "把产物写死成一种：Prins 产物随条件变化（二醇/烯丙醇/二氧六环）",
+    "忽略碳正离子重排"
+  ],
+  "mnemonics": "烯烃 + 甲醛 + 酸：一步接一个氧，水多给二醇，无水给六元环。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（C–C 构建）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

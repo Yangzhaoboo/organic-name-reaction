@@ -1,0 +1,50 @@
+{
+  "id": "stobbe-condensation",
+  "name_zh": "Stobbe 缩合",
+  "name_en": "Stobbe Condensation",
+  "title": "Stobbe 缩合",
+  "aliases_zh": ["施托贝缩合", "丁二酸二酯与醛缩合", "亚甲基丁二酸单酯"],
+  "aliases_en": ["Stobbe condensation"],
+  "category": "C=C 构建",
+  "tags": ["丁二酸二酯", "醛酮", "半酯", "强碱"],
+  "difficulty": 3,
+  "year": 1893,
+  "discoverer": "Hans Stobbe",
+  "overview": "醛或酮与丁二酸二酯在强碱（NaOEt、t-BuOK）下缩合，水解内酯化后得到 α-亚甲基丁二酸（衣康酸型）单酯。",
+  "scheme_simple": "PhCHO + EtO2CCH2CH2CO2Et →(NaOEt) 半酯（亚甲基丁二酸单酯）",
+  "scheme_above": "NaOEt / t-BuOK",
+  "scheme_below": "t-BuOH, Δ",
+  "scheme_image": "stobbe-condensation",
+  "substrates": ["醛", "酮", "丁二酸二酯（琥珀酸二酯）"],
+  "products": ["α-亚甲基丁二酸单酯（半酯）"],
+  "catalyst": "—",
+  "reagent": "丁二酸二酯",
+  "base": "NaOEt / t-BuOK（需强碱）",
+  "solvent": ["t-BuOH", "EtOH", "THF"],
+  "temp": "0 ~ 80 ℃",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "碱夺取丁二酸二酯的 α-H，生成碳负离子",
+    "进攻醛/酮的羰基，形成 β-羟基中间体",
+    "内酯化并开环，脱去一分子醇，得到半酯（只有一个酯被水解）",
+    "酸化，得到游离羧酸的单酯"
+  ],
+  "regio_selectivity": "缩合在醛/酮羰基碳与丁二酸酯 α-碳之间",
+  "stereo_selectivity": "产物常为 E 构型；可进一步环化为萘酮、茚酮",
+  "selectivity_note": "特点：只水解一个酯基（另一个保留），因此产物是「半酯」，便于后续转化",
+  "scope": "合成萘、茚、菲等稠环骨架（经后续环化）；制备 α-亚甲基酸衍生物",
+  "limitations": "需强碱、无水；产物易继续反应；对位阻大的酮收率低",
+  "examples": [
+    "苯甲醛 + 丁二酸二乙酯 → 半酯（产率待核对）",
+    "半酯环化 → α-萘酮衍生物（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Knoevenagel 混淆：Stobbe 用丁二酸二酯并只保留一个酯（半酯）",
+    "忘记酸化：产物以羧酸盐形式存在"
+  ],
+  "mnemonics": "丁二酸二酯 + 醛，强碱一缩：只水解一个酯 → 半酯。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（C=C 构建）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

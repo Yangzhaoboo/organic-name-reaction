@@ -1,0 +1,49 @@
+{
+  "id": "dess-martin",
+  "name_zh": "Dess–Martin 氧化",
+  "name_en": "Dess–Martin Oxidation",
+  "title": "Dess–Martin 氧化",
+  "aliases_zh": ["戴斯-马丁氧化", "DMP 氧化", "高价碘氧化"],
+  "aliases_en": ["Dess-Martin oxidation", "DMP oxidation", "Dess-Martin periodinane"],
+  "category": "氧化",
+  "tags": ["高价碘", "DMP", "醛酮", "温和"],
+  "difficulty": 2,
+  "year": 1983,
+  "discoverer": "Daniel B. Dess & J. C. Martin",
+  "overview": "Dess–Martin 高价碘试剂（DMP）把一级醇氧化成醛、二级醇氧化成酮；条件温和、后处理简单，只需碳酸氢钠洗去副产物。",
+  "scheme_simple": "PhCH2OH →(DMP) PhCHO",
+  "scheme_above": "DMP (1.1 eq)",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "dess-martin",
+  "substrates": ["一级醇 → 醛", "二级醇 → 酮"],
+  "products": ["醛", "酮"],
+  "catalyst": "—",
+  "reagent": "Dess–Martin 高价碘试剂",
+  "base": "—（可加少量水或吡啶活化）",
+  "solvent": ["CH2Cl2", "CHCl3"],
+  "temp": "0 ~ 25 ℃",
+  "time": "0.5 ~ 2 h（待核对）",
+  "atmosphere": "无特殊要求（试剂对湿气略敏感）",
+  "mechanism_steps": [
+    "醇与高价碘配体交换，生成烷氧基碘鎓中间体",
+    "发生消除（类似 E2），C–H 与 I–O 断裂",
+    "生成羰基化合物，碘被还原为碘(III)副产物"
+  ],
+  "regio_selectivity": "只氧化羟基碳；双键、芳环通常不受影响",
+  "stereo_selectivity": "手性 α 位基本不消旋；适合敏感底物",
+  "selectivity_note": "相比 Swern 不需要 -78 ℃；相比 PCC 不需要大量硅胶后处理，副产物水溶性好",
+  "scope": "多官能团天然产物、糖类、肽类中间体的氧化；可在空气中使用",
+  "limitations": "试剂较贵、含碘；有轻微爆炸风险（干燥状态受热）；大规模使用成本高",
+  "examples": [
+    "苄醇 → 苯甲醛（产率待核对）",
+    "糖类一级醇 → 醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 PCC/PDC 混淆：DMP 是高价碘，不是铬试剂",
+    "以为必须无水无氧：DMP 相对宽容，但仍建议避免大量水"
+  ],
+  "mnemonics": "DMP = 高价碘：温和、后处理简单，怕 -78 ℃ 的操作就用它。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 6.5 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

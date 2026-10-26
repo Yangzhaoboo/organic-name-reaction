@@ -1,0 +1,49 @@
+{
+  "id": "baylis-hillman",
+  "name_zh": "Baylis–Hillman 反应",
+  "name_en": "Baylis–Hillman Reaction",
+  "title": "Baylis–Hillman 反应",
+  "aliases_zh": ["Baylis-Hillman 反应", "MBH 反应", "莫里塔-贝利斯-希尔曼反应"],
+  "aliases_en": ["Baylis-Hillman", "MBH reaction", "Morita-Baylis-Hillman"],
+  "category": "C–C 单键",
+  "tags": ["α,β-不饱和羰基", "DABCO", "烯丙醇", "亲核催化"],
+  "difficulty": 3,
+  "year": 1972,
+  "discoverer": "Anthony B. Baylis & Melville E. D. Hillman",
+  "overview": "活泼烯烃（丙烯酸酯、烯酮）在 DABCO 等亲核催化剂作用下，α 位与醛加成，生成含烯烃的烯丙醇（MBH 加合物）。",
+  "scheme_simple": "CH2=CHCO2Me + PhCHO →(DABCO) CH2=C(CO2Me)CH(OH)Ph",
+  "scheme_above": "DABCO (cat.)",
+  "scheme_below": "MeOH / 无溶剂, 25 ℃",
+  "scheme_image": "baylis-hillman",
+  "substrates": ["丙烯酸酯、丙烯腈、甲基乙烯基酮", "醛（脂肪/芳香）"],
+  "products": ["α-亚甲基-β-羟基羰基化合物（MBH 加合物）"],
+  "catalyst": "DABCO / DMAP / 膦（亲核催化）",
+  "reagent": "活化烯烃",
+  "base": "DABCO（兼作亲核催化剂）",
+  "solvent": ["MeOH", "THF", "无溶剂"],
+  "temp": "室温（反应慢，常需数天）",
+  "time": "待核对（常 1–7 天）",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "亲核催化剂（DABCO）对活化烯烃 β 位做 1,4-加成，生成烯醇负离子",
+    "烯醇负离子进攻醛，形成新的 C–C 键",
+    "质子转移，催化剂消除，得到 MBH 加合物"
+  ],
+  "regio_selectivity": "新键接在烯烃 α 位与醛羰基碳之间",
+  "stereo_selectivity": "可得 E/Z 异构；手性膦/胺催化可实现不对称版本",
+  "selectivity_note": "反应速率慢是主要缺点，加压、微波或改用更活泼的烯烃可加速",
+  "scope": "产物含烯烃与羟基两个官能团，是多官能团砌块；可用于不对称 MBH",
+  "limitations": "速率慢、常需数天；底物限于活泼烯烃；易发生聚合副反应",
+  "examples": [
+    "丙烯酸甲酯 + 苯甲醛 → 2-[羟基(苯基)甲基]丙烯酸甲酯（产率待核对）",
+    "甲基乙烯基酮 + 苯甲醛 → MBH 加合物（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为催化剂是普通碱：DABCO 在这里是「亲核催化剂」，先加成再消除",
+    "副产物常是聚合或双加成产物，收率不高是常态"
+  ],
+  "mnemonics": "亲核催化剂先打 β 位 → 再去打醛 → 消掉催化剂，得到「烯烃 + 醇」。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.7 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

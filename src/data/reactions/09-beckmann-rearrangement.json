@@ -1,0 +1,53 @@
+{
+  "id": "beckmann-rearrangement",
+  "name_zh": "贝克曼重排",
+  "name_en": "Beckmann Rearrangement",
+  "title": "Beckmann 重排",
+  "aliases_zh": ["贝克曼重排", "贝克曼重排反应"],
+  "aliases_en": ["Beckmann rearrangement", "oxime rearrangement"],
+  "category": "重排",
+  "tags": ["肟", "酰胺", "内酰胺", "酸催化"],
+  "difficulty": 2,
+  "year": 1886,
+  "discoverer": "Ernst Otto Beckmann",
+  "overview": "肟在酸催化下重排为酰胺；环酮肟得到内酰胺（环己酮肟 → 己内酰胺，尼龙 6 单体）。",
+  "scheme_simple": "环己酮肟 →(H2SO4) 己内酰胺",
+  "scheme_above": "conc. H2SO4",
+  "scheme_below": "100 ~ 120 ℃",
+  "scheme_image": "beckmann-rearrangement",
+  "substrates": ["酮肟", "醛肟（生成 N-取代酰胺）"],
+  "products": ["酰胺", "内酰胺（环肟）"],
+  "catalyst": "浓 H2SO4 / PPA / SOCl2 / 三聚氯氰",
+  "reagent": "—",
+  "solvent": ["过量强酸", "部分体系用惰性溶剂"],
+  "temp": "100 ~ 120 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（强酸条件）",
+  "mechanism_steps": [
+    "肟羟基被质子化，成为好的离去基团",
+    "与羟基处于反式的基团迁移到氮上，同时水分子离去",
+    "水进攻生成的碳正离子（腈鎓离子）",
+    "互变异构，得到酰胺"
+  ],
+  "regio_selectivity": "迁移能力大致为：芳基 > 叔烷基 > 仲烷基 > 伯烷基（顺序待核对）",
+  "stereo_selectivity": "立体专一：迁移的必须是与 –OH 反式的基团；迁移碳的构型保持",
+  "selectivity_note": "不对称酮肟存在 E/Z 异构，会决定迁移哪个基团，因此产物的区域选择性由肟构型决定",
+  "scope": "环酮 → 内酰胺（工业制己内酰胺）；也可用于合成 N-取代酰胺",
+  "limitations": "强酸条件，底物不耐酸则不适用；某些肟在酸中易水解回酮",
+  "examples": [
+    "环己酮肟 → 己内酰胺（产率待核对）",
+    "苯乙酮肟 → 乙酰苯胺（产率待核对）"
+  ],
+  "pitfalls": [
+    "迁移的必须是反式基团，写机理时容易和羟基同侧",
+    "与 Hofmann / Curtius 重排混淆：那些是「少一个碳的胺」，Beckmann 得到酰胺（碳数不变）",
+    "不要漏掉之后的互变异构"
+  ],
+  "mnemonics": "肟 → 酰胺，反式基团迁移，碳数不变。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 5.2 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "迁移能力顺序（待核对）", "examples（产率）"]
+}

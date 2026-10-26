@@ -1,0 +1,50 @@
+{
+  "id": "vilsmeier-haack",
+  "name_zh": "Vilsmeier–Haack 反应",
+  "name_en": "Vilsmeier–Haack Reaction",
+  "title": "Vilsmeier–Haack 反应",
+  "aliases_zh": ["维尔斯迈尔-哈克反应", "甲酰化反应", "POCl3/DMF 甲酰化"],
+  "aliases_en": ["Vilsmeier-Haack", "formylation", "Vilsmeier reagent"],
+  "category": "C–C 单键",
+  "tags": ["甲酰化", "POCl3", "DMF", "芳香醛"],
+  "difficulty": 2,
+  "year": 1927,
+  "discoverer": "Albrecht Vilsmeier & Anton Haack",
+  "overview": "富电子芳环（或活泼烯烃）与 Vilsmeier 试剂（POCl3 + DMF 现场生成）反应，在环上引入甲酰基（–CHO），得到芳香醛。",
+  "scheme_simple": "苯甲醚 + POCl3/DMF → 对甲氧基苯甲醛",
+  "scheme_above": "POCl3, DMF",
+  "scheme_below": "0 ~ 25 ℃，然后 H2O",
+  "scheme_image": "vilsmeier-haack",
+  "substrates": ["富电子芳环（酚醚、苯胺、吡咯、吲哚）", "活泼烯烃"],
+  "products": ["芳香醛（甲酰化产物）"],
+  "catalyst": "—（POCl3 为试剂兼脱水剂）",
+  "reagent": "Vilsmeier 试剂（氯代亚胺鎓离子）",
+  "base": "—（后处理可加碱水解）",
+  "solvent": ["DMF（兼溶剂）", "CH2Cl2"],
+  "temp": "0 ~ 25 ℃（有时加热）",
+  "time": "待核对",
+  "atmosphere": "无水（POCl3 遇水分解）",
+  "mechanism_steps": [
+    "DMF 与 POCl3 反应，生成 Vilsmeier 试剂（氯代亚胺鎓离子）",
+    "富电子芳环亲电进攻该离子，形成σ-络合物",
+    "失去质子（有时再失去 Cl），得到亚胺鎓中间体",
+    "水解，释放甲酰基（–CHO）"
+  ],
+  "regio_selectivity": "亲电取代，进入给电子基的邻/对位；吡咯、吲哚优先进 α 位",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "只能甲酰化「足够富电子」的环：苯、硝基苯几乎不反应；这是判断底物能否用的关键",
+  "scope": "合成芳香醛、杂环醛（吲哚-3-甲醛等）；也可用于氯代（Vilsmeier 型氯化）",
+  "limitations": "POCl3 剧毒、遇水放热；强钝化环不反应；后处理需小心",
+  "examples": [
+    "苯甲醚 → 对甲氧基苯甲醛（产率待核对）",
+    "吲哚 → 吲哚-3-甲醛（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘记最后一步水解：中间体是亚胺盐，必须水解才得到醛",
+    "拿去甲酰化苯或硝基苯：电子不够富，反应不了"
+  ],
+  "mnemonics": "POCl3 + DMF 先造「亲电碳」，再往富电子环上装 –CHO，最后水解。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（甲酰化）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cope-rearrangement",
+  "name_zh": "Cope 重排",
+  "name_en": "Cope Rearrangement",
+  "title": "Cope 重排",
+  "aliases_zh": ["科普重排", "1,5-二烯重排", "[3,3]-σ 迁移"],
+  "aliases_en": ["Cope rearrangement", "[3,3]-sigmatropic rearrangement"],
+  "category": "重排",
+  "tags": ["1,5-二烯", "σ 迁移", "协同反应"],
+  "difficulty": 3,
+  "year": 1940,
+  "discoverer": "Arthur C. Cope",
+  "overview": "1,5-二烯加热发生 [3,3]-σ 迁移，双键位置重排；若是同一条链（无取代差异），则是「简并重排」，可用同位素标记观察。",
+  "scheme_simple": "3-甲基-1,5-己二烯 →(Δ) 1,5-庚二烯",
+  "scheme_above": "Δ (200 ~ 300 ℃)",
+  "scheme_below": "无溶剂 / 气相",
+  "scheme_image": "cope-rearrangement",
+  "substrates": ["1,5-二烯（两端有烯丙位）"],
+  "products": ["位置异构的 1,5-二烯"],
+  "catalyst": "—（热反应）",
+  "reagent": "—",
+  "base": "—",
+  "solvent": ["无溶剂", "气相", "高沸点溶剂"],
+  "temp": "200 ~ 300 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "两条烯丙基片段以椅式六元环过渡态接近",
+    "σ 键迁移，同时 π 键重排（协同、无中间体）",
+    "得到新的 1,5-二烯"
+  ],
+  "regio_selectivity": "迁移后双键位置按 [3,3] 规律移动，取代基随之「换位」",
+  "stereo_selectivity": "椅式过渡态通常更有利，决定产物的相对构型",
+  "selectivity_note": "与 Claisen 重排同属 [3,3]-σ 迁移，区别只在于原子：Claisen 有一个氧参与（C–O 键断裂），Cope 全碳",
+  "scope": "构建 1,5-二烯、环状体系（如 divinylcyclopropane → cycloheptadiene 重排）",
+  "limitations": "需要较高温度；简并重排无法直接观察产物变化",
+  "examples": [
+    "3-甲基-1,5-己二烯 → 1,5-庚二烯（产率待核对）",
+    "二乙烯基环丙烷 → 1,3-环庚二烯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Claisen 混淆：Cope 是纯碳骨架的 [3,3]，Claisen 有氧",
+    "忘记「简并重排」：同一条链重排前后结构一样，必须用标记才能看出来"
+  ],
+  "mnemonics": "Cope = 没有氧的 Claisen：两条烯丙基一换位。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（周环/重排）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

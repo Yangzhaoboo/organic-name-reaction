@@ -1,0 +1,55 @@
+{
+  "id": "friedel-crafts-alkylation",
+  "name_zh": "傅-克烷基化",
+  "name_en": "Friedel–Crafts Alkylation",
+  "title": "Friedel–Crafts 烷基化",
+  "aliases_zh": ["傅克反应", "付克烷基化", "傅-克烷基化反应", "Friedel-Crafts烷基化"],
+  "aliases_en": ["Friedel-Crafts", "FC alkylation", "Friedel–Crafts alkylation"],
+  "category": "C–C 单键",
+  "tags": ["芳环", "卤代烷", "烷基化", "Lewis 酸", "碳正离子"],
+  "difficulty": 2,
+  "year": 1877,
+  "discoverer": "Charles Friedel & James Crafts",
+  "overview": "芳环 C–H 在 Lewis 酸催化下被烷基取代，是构建「芳环—烷基」C–C 键最经典的方法。",
+  "scheme_simple": "ArH + R–X →(AlCl3) Ar–R + HX",
+  "scheme_above": "AlCl3 (excess)",
+  "scheme_below": "CH2Cl2, 0 ~ 25 ℃",
+  "scheme_image": "friedel-crafts-alkylation",
+  "substrates": ["苯", "甲苯", "烷基苯", "卤代烷 R–X", "烯烃或醇（可替代卤代烷）"],
+  "products": ["烷基芳烃"],
+  "catalyst": "AlCl3 / FeCl3 / BF3",
+  "reagent": "卤代烷 R–X",
+  "base": "—",
+  "solvent": ["CH2Cl2", "CS2", "过量芳烃作溶剂"],
+  "temp": "0 ~ 25 ℃（视底物）",
+  "time": "待核对",
+  "atmosphere": "无水（Lewis 酸遇水失活）",
+  "mechanism_steps": [
+    "卤代烷与 AlCl3 络合，解离出碳正离子或强极化络合物",
+    "芳环 π 电子进攻碳正离子，形成 σ-络合物（Wheland 中间体）",
+    "失去质子，恢复芳香性，得到烷基芳烃",
+    "产物与 AlCl3 络合，需水解后处理才能释放"
+  ],
+  "regio_selectivity": "苯环已有取代基时按定位效应：给电子基导向邻/对位，强吸电子基基本不反应",
+  "stereo_selectivity": "经碳正离子中间体，手性卤代烷易外消旋化",
+  "selectivity_note": "仲、叔卤代烷极易发生碳正离子重排；产物比原料更活泼，容易多烷基化",
+  "scope": "活泼到中等活泼的芳环（苯、烷基苯、烷氧基苯等），耐酸底物",
+  "limitations": "强钝化芳环不反应；官能团容忍度差；易多烷基化；碳正离子重排导致得不到目标直链烷基",
+  "examples": [
+    "苯 + 叔丁基氯 → 叔丁基苯（产率待核对）",
+    "甲苯 + 溴乙烷 → 乙苯 + 邻/对乙基甲苯（产率待核对）",
+    "苯 + 1-氯丙烷 → 主要得异丙基苯（重排）"
+  ],
+  "pitfalls": [
+    "会重排：正丙基氯得到的是异丙基苯，不是正丙基苯",
+    "会多烷基化：烷基是给电子基，产物比原料更活泼",
+    "与傅-克酰基化混淆：酰基化不重排、单取代（但要 >1 当量 AlCl3）"
+  ],
+  "mnemonics": "烷基化「会重排、会多取代」；想要直链烷基就先用酰基化，再还原。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "March's Advanced Organic Chemistry（章节待核对）"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）", "references（页码）"]
+}

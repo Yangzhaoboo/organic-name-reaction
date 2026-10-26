@@ -1,0 +1,50 @@
+{
+  "id": "sandmeyer-reaction",
+  "name_zh": "Sandmeyer 反应",
+  "name_en": "Sandmeyer Reaction",
+  "title": "Sandmeyer 反应",
+  "aliases_zh": ["桑德迈尔反应", "重氮盐卤代", "重氮基被卤素取代"],
+  "aliases_en": ["Sandmeyer reaction", "Gattermann reaction"],
+  "category": "C–杂键构建",
+  "tags": ["重氮盐", "芳基卤", "铜盐", "苯胺转化"],
+  "difficulty": 2,
+  "year": 1884,
+  "discoverer": "Tobias Sandmeyer（Gattermann 用铜粉）",
+  "overview": "芳香重氮盐在铜盐（CuCl、CuBr、CuCN）催化下被卤素或氰基取代，是「苯胺 → 芳基卤」的标准路线。",
+  "scheme_simple": "PhN2+Cl− →(CuCl) PhCl + N2",
+  "scheme_above": "NaNO2, HCl（先成重氮盐）",
+  "scheme_below": "CuCl, 0 ~ 25 ℃",
+  "scheme_image": "sandmeyer-reaction",
+  "substrates": ["芳香一级胺（经重氮化）"],
+  "products": ["芳基氯/溴/碘", "芳基腈（用 CuCN）"],
+  "catalyst": "CuCl / CuBr / CuCN（铜催化/计量）",
+  "reagent": "NaNO2 + HX（重氮化）",
+  "base": "—（酸性条件）",
+  "solvent": ["H2O / 稀酸"],
+  "temp": "0 ~ 25 ℃（重氮盐需低温）",
+  "time": "待核对",
+  "atmosphere": "重氮盐避光、低温，防止分解",
+  "mechanism_steps": [
+    "胺在亚硝酸钠/酸中生成重氮盐（ArN2+）",
+    "铜(I) 单电子转移给重氮盐，放出 N2，生成芳基自由基",
+    "芳基自由基夺取卤素（或与 Cu(II) 交换），得到芳基卤",
+    "芳香自由基机理（非简单的 SN2）"
+  ],
+  "regio_selectivity": "卤素取代原来氨基的位置，位置固定",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "与 Balz–Schiemann（制氟）、Gattermann（用铜粉）、Rosenmund–von Braun（用 CuCN 制腈）是同一家族",
+  "scope": "从苯胺制备芳基卤、芳基腈；染料、药物中间体",
+  "limitations": "重氮盐不稳定（可能爆炸），需低温现制；铜盐污染；强酸条件",
+  "examples": [
+    "苯胺 → 苯重氮盐 → 氯苯（产率待核对）",
+    "苯胺 → 苯重氮盐 → 苯甲腈（CuCN，产率待核对）"
+  ],
+  "pitfalls": [
+    "把重氮盐写成稳定中间体：必须低温现制现用",
+    "与 Balz–Schiemann 混淆：一个制 Cl/Br/CN，一个制 F"
+  ],
+  "mnemonics": "先重氮化，再用铜盐「换头」：NH2 → Cl/Br/CN。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

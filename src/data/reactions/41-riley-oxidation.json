@@ -1,0 +1,49 @@
+{
+  "id": "riley-oxidation",
+  "name_zh": "Riley 氧化",
+  "name_en": "Riley Oxidation",
+  "title": "Riley 氧化",
+  "aliases_zh": ["二氧化硒氧化", "SeO2 氧化", "烯丙位氧化"],
+  "aliases_en": ["Riley oxidation", "SeO2 oxidation"],
+  "category": "氧化",
+  "tags": ["SeO2", "烯丙位", "苄位", "烯丙醇"],
+  "difficulty": 2,
+  "year": 1932,
+  "discoverer": "Harry Lister Riley",
+  "overview": "二氧化硒选择性氧化烯丙位或苄位的 C–H，得到烯丙醇（或苄醇）；自身被还原为红色硒单质，容易过滤除去。",
+  "scheme_simple": "环己烯 →(SeO2) 2-环己烯-1-醇",
+  "scheme_above": "SeO2 (cat.) / TBHP",
+  "scheme_below": "CH2Cl2, 25 ℃",
+  "scheme_image": "riley-oxidation",
+  "substrates": ["烯丙位有 C–H 的烯烃", "苄位化合物", "羰基 α 位"],
+  "products": ["烯丙醇", "苄醇", "α-羟基羰基"],
+  "catalyst": "SeO2（可催化量 + TBHP 等助氧化剂）",
+  "reagent": "SeO2",
+  "base": "—",
+  "solvent": ["CH2Cl2", "EtOH", "AcOH"],
+  "temp": "0 ~ 40 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（硒化合物有毒）",
+  "mechanism_steps": [
+    "SeO2 与烯烃发生烯反应（ene reaction），生成烯丙基硒酸酯",
+    "发生 [2,3]-σ 迁移，氧转移到烯丙位",
+    "水解，得到烯丙醇并释放 Se(0)"
+  ],
+  "regio_selectivity": "优先氧化取代较多一侧的烯丙位 C–H（电子效应）",
+  "stereo_selectivity": "可得 E/Z 混合的烯丙醇；手性版本存在但少见",
+  "selectivity_note": "选择性顺序：烯丙位 > 苄位 > 羰基 α 位；CH2 比 CH3 更易被氧化，但 CH3 氧化后常继续成醛/酸",
+  "scope": "合成烯丙醇、α,β-不饱和醛酮（进一步氧化）；天然产物（长春碱、树脂毒素）合成中见其应用",
+  "limitations": "SeO2 剧毒；常需过量；对空气/湿度敏感；副产物硒单质需处理",
+  "examples": [
+    "环己烯 → 2-环己烯-1-醇（产率待核对）",
+    "香叶基化合物 → 烯丙位氧化产物（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为氧化双键本身：Riley 氧化的是烯丙位 C–H，不是环氧化",
+    "忽略取代基对区域选择的影响"
+  ],
+  "mnemonics": "SeO2 专挑「双键旁边那个 C–H」→ 烯丙醇，硒变红粉沉淀。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.5 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

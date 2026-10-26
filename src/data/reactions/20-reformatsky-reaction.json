@@ -1,0 +1,49 @@
+{
+  "id": "reformatsky-reaction",
+  "name_zh": "雷福尔马茨基反应",
+  "name_en": "Reformatsky Reaction",
+  "title": "Reformatsky 反应",
+  "aliases_zh": ["Reformatsky 反应", "雷福尔马茨基反应", "有机锌试剂羟醛型反应"],
+  "aliases_en": ["Reformatsky reaction", "Reformatskii reaction"],
+  "category": "C–C 单键",
+  "tags": ["有机锌", "α-卤代酸酯", "β-羟基酸酯", "醛酮"],
+  "difficulty": 3,
+  "year": 1887,
+  "discoverer": "Sergei Reformatsky",
+  "overview": "醛或酮与 α-卤代酸酯在锌存在下反应，生成 β-羟基酸酯——温和的「锌版羟醛」，官能团容忍度比格氏好。",
+  "scheme_simple": "PhCHO + BrCH2CO2Et →(Zn) PhCH(OH)CH2CO2Et",
+  "scheme_above": "Zn",
+  "scheme_below": "THF / 苯, 回流",
+  "scheme_image": "reformatsky-reaction",
+  "substrates": ["α-卤代酸酯（溴代/碘代）", "醛", "酮"],
+  "products": ["β-羟基酸酯"],
+  "catalyst": "—（可用 TMSCl 活化锌）",
+  "reagent": "α-卤代酸酯",
+  "base": "—",
+  "solvent": ["THF", "苯", "乙醚"],
+  "temp": "回流（约 60–100 ℃）",
+  "time": "待核对",
+  "atmosphere": "无水（锌试剂对水敏感，但容忍度高于格氏）",
+  "mechanism_steps": [
+    "锌插入 C–X 键，生成有机锌烯醇盐（Reformatsky 试剂）",
+    "烯醇盐进攻羰基碳",
+    "酸性水解得到 β-羟基酸酯"
+  ],
+  "regio_selectivity": "加成在羰基碳上；酯基不参与反应",
+  "stereo_selectivity": "可得 syn/anti 混合物，取决于烯醇盐几何构型",
+  "selectivity_note": "有机锌亲核性比格氏弱，因此不会进攻酯基，产物停留在 β-羟基酸酯",
+  "scope": "适合含酯基、卤素等敏感官能团的底物；Honda 改良版本可扩展到亚胺（得 β-氨基酸酯）",
+  "limitations": "反应较慢、常需回流；对位阻大的酮收率低",
+  "examples": [
+    "苯甲醛 + 溴乙酸乙酯 → 3-羟基-3-苯基丙酸乙酯（产率待核对）",
+    "环己酮 + 溴乙酸乙酯 → 相应 β-羟基酸酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为能像格氏那样进攻酯基：Reformatsky 的有机锌亲核性弱，正因如此才停在 β-羟基酸酯",
+    "忘记锌需要活化/无水条件"
+  ],
+  "mnemonics": "锌比镁「温吞」：只打醛酮，不打酯基。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.10 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

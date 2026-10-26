@@ -1,0 +1,49 @@
+{
+  "id": "borch-reduction",
+  "name_zh": "Borch 还原胺化",
+  "name_en": "Borch Reductive Amination",
+  "title": "Borch 还原胺化",
+  "aliases_zh": ["Borch 还原胺化反应", "还原胺化", "硼氢化氰钠还原胺化"],
+  "aliases_en": ["Borch reduction", "reductive amination", "NaBH3CN"],
+  "category": "C–杂键构建",
+  "tags": ["还原胺化", "亚胺离子", "NaBH3CN", "胺"],
+  "difficulty": 3,
+  "year": 1969,
+  "discoverer": "Richard F. Borch",
+  "overview": "醛/酮与胺先形成亚胺离子，再用氰基硼氢化钠在弱酸性条件下选择性还原，得到一级、二级或三级胺——条件温和、选择性强。",
+  "scheme_simple": "PhCHO + MeNH2 →(NaBH3CN) PhCH2NHMe",
+  "scheme_above": "NaBH3CN",
+  "scheme_below": "MeOH, pH 5–6",
+  "scheme_image": "borch-reduction",
+  "substrates": ["醛", "酮", "一级/二级胺"],
+  "products": ["二级胺", "三级胺", "一级胺（用 NH4OAc）"],
+  "catalyst": "—",
+  "reagent": "氰基硼氢化钠（NaBH3CN）或三乙酰氧基硼氢化钠",
+  "base": "—（弱酸性条件，pH 5–6）",
+  "solvent": ["MeOH", "THF", "CH2Cl2"],
+  "temp": "25 ~ 50 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "胺与羰基缩合，脱水生成亚胺离子（关键中间体）",
+    "NaBH3CN 选择性还原亚胺离子（不还原羰基）",
+    "得到胺"
+  ],
+  "regio_selectivity": "还原发生在亚胺碳上，羰基被「借道」还原",
+  "stereo_selectivity": "可生成新手性中心；用 R-(+)-α-甲基苄胺等手性胺可做非对映选择性合成",
+  "selectivity_note": "NaBH3CN 只在弱酸性（亚胺离子浓度最大）时有效，pH 5–6 是关键；pH 太低亚胺离子被质子化，太高则还原剂失效",
+  "scope": "药物合成中构建 C–N 键的常用方法；也可用 NH4OAc 做还原胺化制一级胺",
+  "limitations": "需控制 pH；酮位阻大时反应慢；NaBH3CN 有毒（改用 NaBH(OAc)3 更安全）",
+  "examples": [
+    "苯甲醛 + 甲胺 → N-甲基苄胺（产率待核对）",
+    "环己酮 + 吗啉 → N-环己基吗啉（产率待核对）"
+  ],
+  "pitfalls": [
+    "以为可以直接用 NaBH4：NaBH4 太强，会把羰基也还原掉",
+    "忽略 pH：pH 不对时还原效率极低"
+  ],
+  "mnemonics": "先「搭桥」成亚胺，再用温和还原剂只拆桥——NaBH3CN 认亚胺不认羰基。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 4.2 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "clemmensen-reduction",
+  "name_zh": "Clemmensen 还原",
+  "name_en": "Clemmensen Reduction",
+  "title": "Clemmensen 还原",
+  "aliases_zh": ["克莱门森还原", "锌汞齐还原", "羰基还原成亚甲基"],
+  "aliases_en": ["Clemmensen reduction"],
+  "category": "还原",
+  "tags": ["锌汞齐", "浓盐酸", "羰基", "酸性条件"],
+  "difficulty": 2,
+  "year": 1913,
+  "discoverer": "Erik Christian Clemmensen",
+  "overview": "醛或酮在锌汞齐与浓盐酸中回流，羰基被还原为亚甲基（C=O → CH2）；适用于耐酸底物。",
+  "scheme_simple": "PhCOCH3 →(Zn(Hg)/HCl) PhCH2CH3",
+  "scheme_above": "Zn(Hg), conc. HCl",
+  "scheme_below": "reflux",
+  "scheme_image": "clemmensen-reduction",
+  "substrates": ["芳香酮（最常用）", "脂肪酮（耐酸的）"],
+  "products": ["亚甲基化合物（C=O → CH2）"],
+  "catalyst": "—",
+  "reagent": "Zn-Hg  amalgam + 浓 HCl",
+  "base": "—（强酸条件）",
+  "solvent": ["H2O / 浓盐酸", "toluene（共沸除水）"],
+  "temp": "回流（约 100 ℃）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（放出 H2）",
+  "mechanism_steps": [
+    "锌在酸表面产生电子/氢物种，羰基被还原",
+    "经锌-氧配合物与电子转移，逐步把 C=O 变成 CH2",
+    "（机理细节仍有争议：碳负离子/锌卡宾型物种）"
+  ],
+  "regio_selectivity": "只还原羰基，双键通常也被还原（条件剧烈）",
+  "stereo_selectivity": "不涉及",
+  "selectivity_note": "与 Wolff–Kishner 互补：Clemmensen 用强酸，适合耐酸底物；Wolff–Kishner 用强碱，适合耐碱底物",
+  "scope": "芳基酮 → 烷基芳烃（如 Friedel–Crafts 酰化产物脱氧）",
+  "limitations": "锌汞齐剧毒（汞污染）；强酸破坏敏感基团；对脂肪酮收率低",
+  "examples": [
+    "苯乙酮 → 乙苯（产率待核对）",
+    "二苯甲酮 → 二苯甲烷（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Wolff–Kishner 选错：底物耐酸就 Clemmensen，耐碱就 Wolff–Kishner",
+    "忽略汞污染的处理成本"
+  ],
+  "mnemonics": "锌汞齐 + 浓盐酸 = 把 C=O「扒成」CH2；怕碱不怕酸用它。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（还原）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

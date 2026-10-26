@@ -1,0 +1,50 @@
+{
+  "id": "stetter-reaction",
+  "name_zh": "Stetter 反应",
+  "name_en": "Stetter Reaction",
+  "title": "Stetter 反应",
+  "aliases_zh": ["施泰特反应", "1,4-二羰基化合物合成", "NHC 催化共轭加成"],
+  "aliases_en": ["Stetter reaction", "NHC-catalyzed conjugate addition"],
+  "category": "C–C 单键",
+  "tags": ["NHC", "极性反转", "1,4-二羰基", "共轭加成"],
+  "difficulty": 4,
+  "year": 1976,
+  "discoverer": "Hermann Stetter",
+  "overview": "在氰化物或 NHC 催化下，醛的羰基碳（极性反转后变亲核）对 α,β-不饱和羰基做 1,4-加成，生成 1,4-二羰基化合物。",
+  "scheme_simple": "PhCHO + CH2=CHCOCH3 →(NHC) PhC(O)CH2CH2COCH3",
+  "scheme_above": "NHC (cat.) + 碱",
+  "scheme_below": "THF, 25 ~ 60 ℃",
+  "scheme_image": "stetter-reaction",
+  "substrates": ["芳香醛 / 脂肪醛", "α,β-不饱和酮、酯、腈"],
+  "products": ["1,4-二羰基化合物"],
+  "catalyst": "噻唑鎓盐（NHC 前体）/ KCN",
+  "reagent": "醛（提供亲核酰基等价物）",
+  "base": "DBU / K2CO3（生成卡宾）",
+  "solvent": ["THF", "toluene", "CH2Cl2"],
+  "temp": "25 ~ 60 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱使 NHC 前体失质子，生成氮杂环卡宾",
+    "卡宾加成到醛羰基碳，形成 Breslow 中间体（极性反转）",
+    "中间体对烯酮 β 位做 1,4-加成",
+    "质子转移并消除卡宾，得到 1,4-二羰基化合物"
+  ],
+  "regio_selectivity": "加成专一在烯酮 β 位；分子内版本可成五、六元环",
+  "stereo_selectivity": "手性 NHC 可实现高对映选择性；分子内 Stetter 常用作关键关环步",
+  "selectivity_note": "与安息香缩合同源：都是 Breslow 中间体，区别在于接受体是醛还是烯酮",
+  "scope": "构建 1,4-二羰基（Robinson 环化前体）；分子内 Stetter 是合成环酮的利器",
+  "limitations": "需手性 NHC 才能做不对称；对位阻大的烯酮反应慢；易发生安息香副反应",
+  "examples": [
+    "苯甲醛 + 丁烯酮 → 1-苯基-1,4-戊二酮（产率待核对）",
+    "分子内 Stetter → 环戊酮衍生物（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Michael 加成混淆：Stetter 的亲核体是「醛的极性反转产物」，不是碳负离子",
+    "与安息香缩合混淆：Stetter 的接受体是烯酮，得到 1,4-二羰基"
+  ],
+  "mnemonics": "安息香打「醛」，Stetter 打「烯酮」——同一个 Breslow 中间体，两个去向。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.9 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sharpless-AD",
+  "name_zh": "Sharpless 双羟基化",
+  "name_en": "Sharpless Asymmetric Dihydroxylation",
+  "title": "Sharpless 双羟基化",
+  "aliases_zh": ["Sharpless AD", "不对称双羟基化", "AD-mix 反应"],
+  "aliases_en": ["Sharpless asymmetric dihydroxylation", "AD-mix", "Sharpless AD"],
+  "category": "氧化",
+  "tags": ["锇催化", "手性二醇", "金鸡纳碱", "诺贝尔奖"],
+  "difficulty": 4,
+  "year": 1988,
+  "discoverer": "K. Barry Sharpless（2001 年诺贝尔化学奖）",
+  "overview": "烯烃在催化量 OsO4 与金鸡纳碱衍生配体（AD-mix α/β）作用下双羟基化，以高对映选择性得到邻二醇。",
+  "scheme_simple": "苯乙烯 →(AD-mix β) (R)-1-苯基-1,2-乙二醇",
+  "scheme_above": "AD-mix β（OsO4 cat. + 配体 + K3Fe(CN)6）",
+  "scheme_below": "t-BuOH/H2O, 0 ℃",
+  "scheme_image": "sharpless-ad",
+  "substrates": ["烯烃（芳基、烷基、烯丙基均可）"],
+  "products": ["邻二醇（高 ee）"],
+  "catalyst": "OsO4（催化量）+ 手性配体（(DHQD)2PHAL / (DHQ)2PHAL）",
+  "reagent": "K3Fe(CN)6（再氧化剂）、K2CO3",
+  "base": "K2CO3",
+  "solvent": ["t-BuOH/H2O"],
+  "temp": "0 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求（OsO4 剧毒，需通风）",
+  "mechanism_steps": [
+    "OsO4 与烯烃发生 [3+2] 环加成，形成锇酸酯",
+    "手性配体控制从哪一面接近，决定对映选择性",
+    "水解（或还原）释放邻二醇，Os(VI) 被铁氰化钾再氧化回 Os(VIII)",
+    "催化剂循环"
+  ],
+  "regio_selectivity": "两个 OH 加到原双键的两个碳上，位置固定",
+  "stereo_selectivity": "顺式双羟基化；AD-mix α 与 β 给相反的对映体，ee 通常 > 90%",
+  "selectivity_note": "与 Upjohn 双羟基化（无手性控制）的区别只在于是否加手性配体",
+  "scope": "合成手性邻二醇（药物、糖类类似物、天然产物）",
+  "limitations": "OsO4 极毒且贵（催化量仍要做好防护）；末端烯烃选择性较低；放大困难",
+  "examples": [
+    "苯乙烯 → (R)-1-苯基-1,2-乙二醇（AD-mix β，产率/ee 待核对）",
+    "反式-二苯乙烯 → 内消旋二醇（产率待核对）"
+  ],
+  "pitfalls": [
+    "把 AD-mix α 与 β 记反：一个给 R，一个给 S",
+    "忽略再氧化剂：没有 K3Fe(CN)6，Os 会被还原消耗掉"
+  ],
+  "mnemonics": "OsO4 递「两个 OH」到同一面；α/β 两个 mix 决定拿哪个对映体。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章（氧化）"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

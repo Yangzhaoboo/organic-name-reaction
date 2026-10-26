@@ -1,0 +1,50 @@
+{
+  "id": "suzuki-coupling",
+  "name_zh": "铃木偶联",
+  "name_en": "Suzuki Coupling",
+  "title": "Suzuki 偶联",
+  "aliases_zh": ["铃木反应", "Suzuki-Miyaura 偶联", "硼酸偶联"],
+  "aliases_en": ["Suzuki coupling", "Suzuki-Miyaura coupling"],
+  "category": "偶联",
+  "tags": ["钯催化", "芳基硼酸", "联芳烃", "交叉偶联"],
+  "difficulty": 3,
+  "year": 1979,
+  "discoverer": "Akira Suzuki（2010 年诺贝尔化学奖）",
+  "overview": "芳基/烯基卤（或三氟甲磺酸酯）与芳基/烯基硼酸在钯催化、碱存在下交叉偶联，是构建联芳烃最常用的方法。",
+  "scheme_simple": "PhBr + PhB(OH)2 →(Pd) Ph–Ph",
+  "scheme_above": "Pd(PPh3)4 (cat.)",
+  "scheme_below": "Na2CO3, 二氧六环/H2O, 80 ℃",
+  "scheme_image": "suzuki-coupling",
+  "substrates": ["芳基/烯基卤（溴、碘、氯、OTf）", "芳基/烯基硼酸或硼酸酯"],
+  "products": ["联芳烃 / 共轭二烯"],
+  "catalyst": "Pd(PPh3)4 / Pd(OAc)2 + 配体 / Pd/C",
+  "reagent": "硼酸（ArB(OH)2）或硼酸频哪醇酯",
+  "base": "Na2CO3 / K3PO4 / KF",
+  "solvent": ["二氧六环/H2O", "THF", "DMF"],
+  "temp": "60 ~ 100 ℃",
+  "time": "2 ~ 12 h（待核对）",
+  "atmosphere": "多数需惰性气体（部分体系可在空气中进行）",
+  "mechanism_steps": [
+    "Pd(0) 对 Ar–X 氧化加成，生成 Ar–Pd(II)–X",
+    "碱作用下与硼酸发生配体交换，形成 Ar–Pd–Ar' 中间体",
+    "还原消除，放出 Pd(0)，生成联芳烃",
+    "（硼酸被碱活化，加速转金属化）"
+  ],
+  "regio_selectivity": "偶联发生在 C–X 与硼酸的连接碳之间；官能团容忍度高",
+  "stereo_selectivity": "烯基体系通常构型保持（retention）",
+  "selectivity_note": "硼酸无毒、稳定、易得，副产物为无机硼酸盐，是它优于 Stille 的重要原因",
+  "scope": "药物、材料（OLED、液晶）中联芳键的通用方法；可做双偶联构建多芳环",
+  "limitations": "卤代物活性：I > Br ≫ Cl（氯代物需更强配体）；硼酸有时会发生自偶联副反应",
+  "examples": [
+    "溴苯 + 苯硼酸 → 联苯（产率待核对）",
+    "芳基硼酸 + 芳基溴 → 联芳烃药物中间体（产率待核对）"
+  ],
+  "pitfalls": [
+    "忘记加碱：碱负责活化硼酸，没有碱反应很慢",
+    "把 Suzuki 与 Stille 混淆：Suzuki 用硼酸（无毒），Stille 用有机锡（有毒）"
+  ],
+  "mnemonics": "钯催化 + 硼酸 + 碱 = 联芳烃；副产物是硼酸盐，干净。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

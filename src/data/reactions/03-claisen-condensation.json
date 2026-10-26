@@ -1,0 +1,54 @@
+{
+  "id": "claisen-condensation",
+  "name_zh": "克莱森缩合",
+  "name_en": "Claisen Condensation",
+  "title": "Claisen 缩合",
+  "aliases_zh": ["酯缩合", "克莱森酯缩合", "Claisen 缩合"],
+  "aliases_en": ["Claisen condensation", "Claisen ester condensation"],
+  "category": "C–C 单键",
+  "tags": ["酯", "强碱", "β-酮酸酯", "烯醇负离子"],
+  "difficulty": 3,
+  "year": 1887,
+  "discoverer": "Ludwig Claisen",
+  "overview": "两分子含 α-H 的酯在强碱作用下缩合，脱去一分子醇，生成 β-酮酸酯。",
+  "scheme_simple": "2 CH3CO2Et →(NaOEt) CH3COCH2CO2Et + EtOH",
+  "scheme_above": "NaOEt (1 equiv)",
+  "scheme_below": "EtOH, Δ",
+  "scheme_image": "claisen-condensation",
+  "substrates": ["含 α-H 的酯", "交叉缩合时一方需无 α-H（如甲酸乙酯、碳酸二乙酯）"],
+  "products": ["β-酮酸酯"],
+  "catalyst": "—",
+  "reagent": "另一分子酯（亲电体）",
+  "base": "NaOEt（按化学计量）",
+  "solvent": ["EtOH", "THF"],
+  "temp": "待核对（常加热回流）",
+  "time": "待核对",
+  "atmosphere": "无水",
+  "mechanism_steps": [
+    "碱夺取酯的 α-H，生成烯醇负离子",
+    "烯醇负离子进攻另一分子酯的羰基碳",
+    "消除烷氧基，得到 β-酮酸酯",
+    "β-二羰基化合物酸性较强，被碱去质子成烯醇盐，推动平衡"
+  ],
+  "regio_selectivity": "交叉缩合要实用，需让其中一方无 α-H，否则得到多种产物",
+  "stereo_selectivity": "一般不涉及立体选择性",
+  "selectivity_note": "产物以烯醇盐形式存在，必须酸化后处理才能得到游离 β-酮酸酯",
+  "scope": "同酯自缩合；交叉缩合；分子内版本为 Dieckmann 缩合（成环）",
+  "limitations": "交叉缩合副产物多、分离困难；需要 ≥1 当量强碱；底物需有 α-H",
+  "examples": [
+    "乙酸乙酯 → 乙酰乙酸乙酯（产率待核对）",
+    "己二酸二乙酯 → Dieckmann 缩合成五元环 β-酮酸酯（产率待核对）"
+  ],
+  "pitfalls": [
+    "碱只用催化量不行，至少要 1 当量（产物要成盐才推动平衡）",
+    "后处理必须酸化，否则拿到的是钠盐",
+    "与羟醛缩合混淆：Claisen 的亲电体是酯，离去基团是烷氧基"
+  ],
+  "mnemonics": "酯 + 酯 → β-酮酸酯，碱要够一当量，最后记得酸化。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 2.4 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["temp", "time", "examples（产率）"]
+}

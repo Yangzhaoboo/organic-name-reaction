@@ -1,0 +1,54 @@
+{
+  "id": "michael-addition",
+  "name_zh": "迈克尔加成",
+  "name_en": "Michael Addition",
+  "title": "Michael 加成",
+  "aliases_zh": ["共轭加成", "1,4-加成", "迈克尔反应", "Michael 加成"],
+  "aliases_en": ["Michael addition", "conjugate addition", "1,4-addition"],
+  "category": "C–C 单键",
+  "tags": ["α,β-不饱和羰基", "碳负离子", "1,5-二羰基", "共轭加成"],
+  "difficulty": 2,
+  "year": 1887,
+  "discoverer": "Arthur Michael",
+  "overview": "碳负离子（Michael 供体）加成到 α,β-不饱和羰基（受体）的 β 位，生成 1,5-二羰基化合物。",
+  "scheme_simple": "CH2(CO2Et)2 + CH2=CHCOCH3 → (NaOEt) EtO2C–CH(CH2CH2COCH3)–CO2Et",
+  "scheme_above": "NaOEt (cat.)",
+  "scheme_below": "EtOH, 25 ℃",
+  "scheme_image": "michael-addition",
+  "substrates": ["活泼亚甲基化合物（丙二酸酯、β-酮酸酯）", "α,β-不饱和酮/酯/腈"],
+  "products": ["1,5-二羰基化合物"],
+  "catalyst": "—",
+  "reagent": "Michael 供体（碳负离子前体）",
+  "base": "NaOEt / 哌啶（催化量即可）",
+  "solvent": ["EtOH", "THF"],
+  "temp": "0 ~ 25 ℃",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取供体的 α-H，生成碳负离子",
+    "碳负离子进攻受体的 β 位（1,4-加成），电子转移到羰基氧",
+    "烯醇负离子质子化，得到烯醇",
+    "互变异构为酮式，得 1,5-二羰基化合物"
+  ],
+  "regio_selectivity": "加成专一发生在 β 位（1,4-加成），α 位不发生",
+  "stereo_selectivity": "β 位取代后形成新的立体中心，可得一对对映/非对映体",
+  "selectivity_note": "碱性条件下加成可逆，属热力学控制，可通过条件调控",
+  "scope": "供体还可用胺、硫醇、膦等杂原子亲核体；与羟醛缩合串联即为 Robinson 环化",
+  "limitations": "供体 pKa 偏高时需要更强的碱；位阻大的受体反应慢",
+  "examples": [
+    "丙二酸二乙酯 + 丁烯酮 → 加成产物（产率待核对）",
+    "甲基乙烯基酮 + 环己酮 → Robinson 环化前体（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 1,2-加成（羰基加成）区分：Michael 加成打的是 β 位",
+    "供体酸性不够时反应几乎不进行，别硬套条件",
+    "串联反应（Michael + Aldol = Robinson）容易漏写第二步"
+  ],
+  "mnemonics": "供体打 β 位 → 1,5-二羰基；接着分子内羟醛就是 Robinson 环化。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 2.3 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

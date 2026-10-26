@@ -1,0 +1,50 @@
+{
+  "id": "heck-reaction",
+  "name_zh": "Heck 反应",
+  "name_en": "Heck Reaction",
+  "title": "Heck 反应",
+  "aliases_zh": ["Heck 偶联", "Mizoroki-Heck 反应", "钯催化芳基化"],
+  "aliases_en": ["Heck reaction", "Mizoroki-Heck coupling"],
+  "category": "偶联",
+  "tags": ["钯催化", "芳基卤", "烯烃", "C–C 键"],
+  "difficulty": 3,
+  "year": 1972,
+  "discoverer": "Richard F. Heck（2010 年诺贝尔化学奖）",
+  "overview": "芳基/烯基卤在钯催化下对烯烃做取代（而非加成），生成取代烯烃；不需要有机金属试剂，是最「干净」的偶联之一。",
+  "scheme_simple": "PhI + CH2=CHCO2Me →(Pd) PhCH=CHCO2Me",
+  "scheme_above": "Pd(OAc)2, PPh3",
+  "scheme_below": "Et3N, DMF, 100 ℃",
+  "scheme_image": "heck-reaction",
+  "substrates": ["芳基/烯基卤（碘、溴、OTf）", "缺电子烯烃（丙烯酸酯、苯乙烯、丙烯腈）"],
+  "products": ["取代烯烃（芳基化产物）"],
+  "catalyst": "Pd(OAc)2 / Pd(PPh3)4 / Pd/C",
+  "reagent": "烯烃",
+  "base": "Et3N / NaOAc / K2CO3（中和 HX）",
+  "solvent": ["DMF", "MeCN", "NMP"],
+  "temp": "80 ~ 120 ℃",
+  "time": "待核对",
+  "atmosphere": "惰性气体（多数体系）",
+  "mechanism_steps": [
+    "Pd(0) 对 Ar–X 氧化加成，生成 Ar–Pd(II)–X",
+    "烯烃与钯配位，发生迁移插入（syn-插入）",
+    "β-H 消除，放出产物并生成 Pd–H",
+    "碱中和 HX，Pd(0) 再生"
+  ],
+  "regio_selectivity": "芳基优先加到烯烃取代较少的一端（β 位），得到取代较多的双键",
+  "stereo_selectivity": "通常以 E 构型为主；分子内 Heck 可控制环化立体化学",
+  "selectivity_note": "β-H 消除的方向决定双键位置；无 β-H 的烯烃（如叔丁基乙烯）不能发生 Heck",
+  "scope": "药物工业常用（如萘普生、rilpivirine 中间体）；分子内 Heck 可成环",
+  "limitations": "需要缺电子烯烃或富电子芳环配合；邻位取代芳卤反应慢；Pd 成本与残留问题",
+  "examples": [
+    "碘苯 + 丙烯酸甲酯 → 肉桂酸甲酯（产率待核对）",
+    "芳基溴 + 苯乙烯 → 二苯乙烯（产率待核对）"
+  ],
+  "pitfalls": [
+    "与 Suzuki 混淆：Heck 不需要有机金属试剂，且烯烃是「被取代」不是「被加成」",
+    "烯烃没有 β-H 时不能发生（无法 β-H 消除）"
+  ],
+  "mnemonics": "Heck：钯先「咬」芳基，再插进烯烃，最后 β-H 掉出来。",
+  "references": ["邢其毅《基础有机化学》第 4 版（页码待核对）", "课件《有机合成化学》第二章 2.13 节"],
+  "status": "partial",
+  "todo_fields": ["time", "examples（产率）"]
+}

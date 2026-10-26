@@ -1,0 +1,54 @@
+{
+  "id": "aldol-condensation",
+  "name_zh": "羟醛缩合",
+  "name_en": "Aldol Condensation",
+  "title": "Aldol 缩合",
+  "aliases_zh": ["羟醛缩合反应", "醛醇缩合", "醇醛缩合", "Claisen-Schmidt 反应"],
+  "aliases_en": ["Aldol", "Aldol addition", "Aldol condensation", "Claisen-Schmidt"],
+  "category": "C–C 单键",
+  "tags": ["醛", "酮", "α-H", "烯醇负离子", "β-羟基羰基"],
+  "difficulty": 2,
+  "year": 1872,
+  "discoverer": "Charles-Adolphe Wurtz（待核对）",
+  "overview": "含 α-H 的醛/酮生成烯醇负离子，进攻另一分子羰基，得到 β-羟基羰基化合物；加热脱水得 α,β-不饱和羰基。",
+  "scheme_simple": "2 CH3CHO →(稀 NaOH) CH3CH(OH)CH2CHO",
+  "scheme_above": "稀 NaOH",
+  "scheme_below": "H2O, 0 ~ 5 ℃",
+  "scheme_image": "aldol-condensation",
+  "substrates": ["含 α-H 的醛", "含 α-H 的酮"],
+  "products": ["β-羟基羰基化合物", "α,β-不饱和羰基化合物（脱水后）"],
+  "catalyst": "碱（NaOH、NaOEt）或酸",
+  "reagent": "另一分子羰基化合物",
+  "base": "稀 NaOH",
+  "solvent": ["H2O", "EtOH"],
+  "temp": "0 ~ 5 ℃（加成）；加热（脱水）",
+  "time": "待核对",
+  "atmosphere": "无特殊要求",
+  "mechanism_steps": [
+    "碱夺取 α-H，生成烯醇负离子（亲核体）",
+    "烯醇负离子进攻另一分子羰基碳，形成醇盐",
+    "质子化，得到 β-羟基羰基化合物（羟醛加成产物）",
+    "加热脱水，生成 α,β-不饱和羰基化合物（缩合产物）"
+  ],
+  "regio_selectivity": "不对称酮可生成两种烯醇负离子：动力学控制得取代少的烯醇，热力学控制得取代多的烯醇",
+  "stereo_selectivity": "交叉羟醛可得 syn/anti 非对映异构体；脱水后由 E/Z 决定构型",
+  "selectivity_note": "Claisen–Schmidt 型（芳香醛 + 有 α-H 的醛/酮）通常选择性得反式（E）产物",
+  "scope": "分子间缩合、分子内缩合（成环）均可；是生物体内构建 C–C 键的核心反应之一",
+  "limitations": "自身缩合与交叉缩合竞争；产物仍含 α-H 可继续缩合；碱量、温度需控制",
+  "examples": [
+    "乙醛自身缩合 → 3-羟基丁醛（产率待核对）",
+    "苯甲醛 + 苯乙酮 → 查尔酮（Claisen–Schmidt，产率待核对）"
+  ],
+  "pitfalls": [
+    "无 α-H 的醛（甲醛、苯甲醛）只能当亲电体，不能自缩合",
+    "加成与脱水是两个条件，不要写成一步",
+    "交叉缩合要用「一方无 α-H」的策略才能得单一产物"
+  ],
+  "mnemonics": "碱拔 α-H → 打另一分子羰基；升温就脱水变共轭。",
+  "references": [
+    "邢其毅《基础有机化学》第 4 版（页码待核对）",
+    "课件《有机合成化学》第二章 2.2 节"
+  ],
+  "status": "partial",
+  "todo_fields": ["time", "year/discoverer（待核对）", "examples（产率）"]
+}
